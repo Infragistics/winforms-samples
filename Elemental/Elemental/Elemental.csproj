@@ -1,0 +1,163 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="bin\Debug\netcoreapp3.0\**" />
+    <Compile Remove="obj\Debug\netcoreapp3.1\**" />
+    <EmbeddedResource Remove="bin\Debug\netcoreapp3.0\**" />
+    <EmbeddedResource Remove="obj\Debug\netcoreapp3.1\**" />
+    <None Remove="bin\Debug\netcoreapp3.0\**" />
+    <None Remove="obj\Debug\netcoreapp3.1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Images\DropDownButton.png" />
+    <None Remove="Assets\Images\DropDownButtonHot.png" />
+    <None Remove="Assets\Images\Hoodies\AbstractFoliage.png" />
+    <None Remove="Assets\Images\Hoodies\BigWavesSurfing.png" />
+    <None Remove="Assets\Images\Hoodies\BlackDragon.png" />
+    <None Remove="Assets\Images\Hoodies\FastRider.png" />
+    <None Remove="Assets\Images\Hoodies\RockAndRoll.png" />
+    <None Remove="Assets\Images\Hoodies\RockStar.png" />
+    <None Remove="Assets\Images\Hoodies\SkullsAndFlourishes.png" />
+    <None Remove="Assets\Images\Hoodies\TattooLove.png" />
+    <None Remove="Assets\Images\ScrollButton.png" />
+    <None Remove="Assets\Images\ScrollButtonHot.png" />
+    <None Remove="Assets\Images\ScrollButtonPressed.png" />
+    <None Remove="Data\ZipCodes.xml" />
+    <None Remove="Data\ZipCodes.xsd" />
+    <None Remove="Images\UltraCarousel.png" />
+    <None Remove="Images\UltraDataChart.png" />
+    <None Remove="Images\UltraPivotGrid.png" />
+    <None Remove="Resources\SamplesBrowser\Elemental_118x88.png" />
+    <None Remove="Resources\SamplesBrowser\Elemental_148x113.png" />
+    <None Remove="Resources\SamplesBrowser\Elemental_208x158.png" />
+    <None Remove="Resources\SamplesBrowser\Elemental_248x124.png" />
+    <None Remove="Resources\SamplesBrowser\Elemental_268x202.png" />
+    <None Remove="Resources\SamplesBrowser\Elemental_310x155.png" />
+    <None Remove="Resources\SamplesBrowser\Elemental_434x217.png" />
+    <None Remove="Resources\SamplesBrowser\Elemental_558x279.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.0\Elemental.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\netcoreapp3.0\Elemental.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Elemental.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Images\DropDownButton.png" />
+    <EmbeddedResource Include="Assets\Images\DropDownButtonHot.png" />
+    <EmbeddedResource Include="Assets\Images\Hoodies\AbstractFoliage.png" />
+    <EmbeddedResource Include="Assets\Images\Hoodies\BigWavesSurfing.png" />
+    <EmbeddedResource Include="Assets\Images\Hoodies\BlackDragon.png" />
+    <EmbeddedResource Include="Assets\Images\Hoodies\FastRider.png" />
+    <EmbeddedResource Include="Assets\Images\Hoodies\RockAndRoll.png" />
+    <EmbeddedResource Include="Assets\Images\Hoodies\RockStar.png" />
+    <EmbeddedResource Include="Assets\Images\Hoodies\SkullsAndFlourishes.png" />
+    <EmbeddedResource Include="Assets\Images\Hoodies\TattooLove.png" />
+    <EmbeddedResource Include="Assets\Images\ScrollButton.png" />
+    <EmbeddedResource Include="Assets\Images\ScrollButtonHot.png" />
+    <EmbeddedResource Include="Assets\Images\ScrollButtonPressed.png" />
+    <EmbeddedResource Include="Data\ZipCodes.xml" />
+    <EmbeddedResource Include="Data\ZipCodes.xsd" />
+    <EmbeddedResource Include="Images\UltraCarousel.png" />
+    <EmbeddedResource Include="Images\UltraDataChart.png" />
+    <EmbeddedResource Include="Images\UltraPivotGrid.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\Elemental_118x88.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\Elemental_148x113.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\Elemental_208x158.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\Elemental_248x124.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\Elemental_268x202.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\Elemental_310x155.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\Elemental_434x217.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\Elemental_558x279.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Infragistics.WinForms" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Carousel" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Charts" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.DataSource" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.DataVisualization" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Editors" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Misc" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Olap.Core" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Olap.DataProvider" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Olap.DataSource" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Olap.DataSource.Flat" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Olap.DataSource.Mdx" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Olap.DataSource.Xmla" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.PivotGrid" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Portable.Core" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Shared" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Tree" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.WinGrid" Version="20.1.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Assets\strings.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>strings.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Assets\strings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>strings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp3.1\ja\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.Assets.strings.ja.resources" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.Assets.strings.resources" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.csproj.CopyComplete" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.dll" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.exe" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.frmMain.ja.resources" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.frmMain.resources" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.genruntimeconfig.cache" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.pdb" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.Properties.Resources.resources" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.Resources.SamplesBrowser.SamplesBrowser.ja.resources" />
+    <None Include="obj\Debug\netcoreapp3.0\Elemental.Resources.SamplesBrowser.SamplesBrowser.resources" />
+    <None Include="obj\Debug\netcoreapp3.0\ja\Elemental.resources.dll" />
+    <None Include="obj\Elemental.csproj.nuget.g.props" />
+    <None Include="obj\Elemental.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+</Project>

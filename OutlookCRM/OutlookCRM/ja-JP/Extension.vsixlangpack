@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VsixLanguagePack Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema-lp/2010">
+  <LocalizedName>WinForms Outlook CRM</LocalizedName>
+  <LocalizedDescription xml:space="preserve">Infragistics WinForms コントロールを使用した Outlook にインスパイアされたアプリケーションのプロジェクト テンプレートです。
+  最小限の互換性のある Infragistics バージョン: 14.1</LocalizedDescription>
+  <License>..\License.ja.rtf</License>
+  <MoreInfoUrl>http://jp.infragistics.com</MoreInfoUrl>
+</VsixLanguagePack>

@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelPixelFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 78</value>
+  </data>
+  <data name="labelPixelFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="labelFormat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 78</value>
+  </data>
+  <data name="labelFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 23</value>
+  </data>
+  <data name="labelFormat.Text" xml:space="preserve">
+    <value>ピクセル形式:</value>
+  </data>
+  <data name="labelResolution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 55</value>
+  </data>
+  <data name="labelResolution.Text" xml:space="preserve">
+    <value>解像度:</value>
+  </data>
+  <data name="labelDPI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 55</value>
+  </data>
+  <data name="labelDPI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="labelSize.Text" xml:space="preserve">
+    <value>サイズ:</value>
+  </data>
+  <data name="linkLabelSize.Text" xml:space="preserve">
+    <value>ピクセル</value>
+  </data>
+  <data name="linkLabelSize.ToolTip" xml:space="preserve">
+    <value>画像のサイズを設定</value>
+  </data>
+  <data name="ultraGroupBox1.Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="pnlImageAttributes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 215</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>イメージのキャプチャ</value>
+  </data>
+  <data name="pnlMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>486, 301</value>
+  </data>
+  <data name="ultraStatusPanel1.ToolTipText" xml:space="preserve">
+    <value>現在選択されているツール</value>
+  </data>
+  <data name="ultraStatusPanel2.ToolTipText" xml:space="preserve">
+    <value>ピクセル位置</value>
+  </data>
+  <data name="ultraStatusPanel3.ToolTipText" xml:space="preserve">
+    <value>画像の次元</value>
+  </data>
+  <data name="ultraStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>486, 26</value>
+  </data>
+  <data name="_frmImageEditor_Toolbars_Dock_Area_Right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 153</value>
+  </data>
+  <data name="_frmImageEditor_Toolbars_Dock_Area_Right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 327</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Infragistics ペイント</value>
+  </data>
+  <data name="contextualTabGroup1.Caption" xml:space="preserve">
+    <value>テキスト ツール</value>
+  </data>
+  <data name="ribbonTab1.Caption" xml:space="preserve">
+    <value>ホーム</value>
+  </data>
+  <data name="ribbonGroup1.Caption" xml:space="preserve">
+    <value>クリップボード</value>
+  </data>
+  <data name="ribbonGroup2.Caption" xml:space="preserve">
+    <value>ツール</value>
+  </data>
+  <data name="ribbonGroup3.Caption" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="ribbonGroup4.Caption" xml:space="preserve">
+    <value>ブラシ</value>
+  </data>
+  <data name="ribbonGroup5.Caption" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="ribbonTab2.Caption" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="ribbonGroup6.Caption" xml:space="preserve">
+    <value>反転/回転</value>
+  </data>
+  <data name="ribbonGroup7.Caption" xml:space="preserve">
+    <value>移動</value>
+  </data>
+  <data name="ribbonGroup8.Caption" xml:space="preserve">
+    <value>ズーム</value>
+  </data>
+  <data name="ribbonTab3.Caption" xml:space="preserve">
+    <value>テキスト</value>
+  </data>
+  <data name="ribbonGroup9.Caption" xml:space="preserve">
+    <value>表示/非表示</value>
+  </data>
+  <data name="ribbonGroup10.Caption" xml:space="preserve">
+    <value>フォント</value>
+  </data>
+  <data name="ultraTaskPaneToolbar1.Text" xml:space="preserve">
+    <value>タスク</value>
+  </data>
+  <data name="ultraTaskPaneToolbar2.Text" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="taskPaneTool4.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>色を選択</value>
+  </data>
+  <data name="taskPaneTool4.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>マウス ポインターの下の色を選択</value>
+  </data>
+  <data name="buttonTool29.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>切り取り</value>
+  </data>
+  <data name="buttonTool29.SharedPropsInternal.Category" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="buttonTool29.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>現在の選択をクリップボードに切り取り</value>
+  </data>
+  <data name="buttonTool30.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="buttonTool30.SharedPropsInternal.Category" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="buttonTool30.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>現在の選択をキーボードにコピー</value>
+  </data>
+  <data name="buttonTool31.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>貼り付け</value>
+  </data>
+  <data name="buttonTool31.SharedPropsInternal.Category" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="buttonTool31.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>画像へクリップボードのコンテンツを貼り付け</value>
+  </data>
+  <data name="buttonTool32.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>元に戻す</value>
+  </data>
+  <data name="buttonTool32.SharedPropsInternal.Category" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="buttonTool32.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>元に戻せません</value>
+  </data>
+  <data name="buttonTool33.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>やり直し</value>
+  </data>
+  <data name="buttonTool33.SharedPropsInternal.Category" xml:space="preserve">
+    <value>編集</value>
+  </data>
+  <data name="buttonTool33.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>やり直せません</value>
+  </data>
+  <data name="taskPaneTool5.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>画像の属性</value>
+  </data>
+  <data name="buttonTool34.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>左回転</value>
+  </data>
+  <data name="buttonTool34.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="buttonTool34.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>画像を 90°左回転</value>
+  </data>
+  <data name="buttonTool35.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>右回転</value>
+  </data>
+  <data name="buttonTool35.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="buttonTool35.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>画像を 90°右回転</value>
+  </data>
+  <data name="buttonTool36.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>ズームイン</value>
+  </data>
+  <data name="buttonTool36.SharedPropsInternal.Category" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="buttonTool36.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>ズームイン</value>
+  </data>
+  <data name="buttonTool37.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>ズームアウト</value>
+  </data>
+  <data name="buttonTool37.SharedPropsInternal.Category" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="buttonTool37.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>ズームアウト</value>
+  </data>
+  <data name="buttonTool38.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>ズームしてフィット</value>
+  </data>
+  <data name="buttonTool38.SharedPropsInternal.Category" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="buttonTool38.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>画像を利用可能なサイズにズーム</value>
+  </data>
+  <data name="stateButtonTool26.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>ブラシ (小)</value>
+  </data>
+  <data name="stateButtonTool26.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>ブラシ (小)</value>
+  </data>
+  <data name="stateButtonTool27.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>ブラシ (中)</value>
+  </data>
+  <data name="stateButtonTool27.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>ブラシ (中)</value>
+  </data>
+  <data name="stateButtonTool28.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>ブラシ (大)</value>
+  </data>
+  <data name="stateButtonTool28.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>ブラシ (大)</value>
+  </data>
+  <data name="stateButtonTool29.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>矩形を選択</value>
+  </data>
+  <data name="stateButtonTool29.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>画像の矩形エリアを選択</value>
+  </data>
+  <data name="stateButtonTool30.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="stateButtonTool30.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>点の消去</value>
+  </data>
+  <data name="stateButtonTool31.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>色の消去</value>
+  </data>
+  <data name="stateButtonTool31.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>現在選択されている色に基づいた点の消去</value>
+  </data>
+  <data name="stateButtonTool32.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>色の選択</value>
+  </data>
+  <data name="stateButtonTool32.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>色の選択</value>
+  </data>
+  <data name="stateButtonTool33.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>点を描画</value>
+  </data>
+  <data name="stateButtonTool33.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>点または連続する点を描画</value>
+  </data>
+  <data name="stateButtonTool34.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>エアブラシを描画</value>
+  </data>
+  <data name="stateButtonTool34.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>エアーブラシ効果で描画</value>
+  </data>
+  <data name="stateButtonTool35.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>塗りつぶし</value>
+  </data>
+  <data name="stateButtonTool35.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>現在選択されている色ですべての近接する同じ色のピクセルを塗りつぶし</value>
+  </data>
+  <data name="stateButtonTool36.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>線を描画</value>
+  </data>
+  <data name="stateButtonTool36.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>線を描画</value>
+  </data>
+  <data name="stateButtonTool37.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>弧を描画</value>
+  </data>
+  <data name="stateButtonTool37.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>弧を描画</value>
+  </data>
+  <data name="stateButtonTool38.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>描画のブラシ</value>
+  </data>
+  <data name="stateButtonTool38.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>現在選択されているブラシの太さで描画</value>
+  </data>
+  <data name="stateButtonTool39.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>楕円の輪郭を描画</value>
+  </data>
+  <data name="stateButtonTool39.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>楕円の輪郭を描画</value>
+  </data>
+  <data name="stateButtonTool40.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>塗りつぶしの楕円を描画</value>
+  </data>
+  <data name="stateButtonTool40.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>塗りつぶしの楕円を描画</value>
+  </data>
+  <data name="stateButtonTool41.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>塗りつぶしの楕円を輪郭と共に描画</value>
+  </data>
+  <data name="stateButtonTool41.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>塗りつぶしの楕円を輪郭と共に描画</value>
+  </data>
+  <data name="stateButtonTool42.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>矩形の輪郭を描画</value>
+  </data>
+  <data name="stateButtonTool42.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>矩形の輪郭を描画</value>
+  </data>
+  <data name="stateButtonTool43.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>塗りつぶしの矩形を描画</value>
+  </data>
+  <data name="stateButtonTool43.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>塗りつぶしの矩形を描画</value>
+  </data>
+  <data name="stateButtonTool44.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>塗りつぶしの矩形を輪郭と共に描画</value>
+  </data>
+  <data name="stateButtonTool44.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>塗りつぶしの矩形を輪郭と共に描画</value>
+  </data>
+  <data name="buttonTool39.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>色の反転</value>
+  </data>
+  <data name="buttonTool39.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="buttonTool39.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>色の反転</value>
+  </data>
+  <data name="popupMenuTool3.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>グラデーションのスタイル</value>
+  </data>
+  <data name="popupMenuTool3.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>塗りつぶしの矩形または楕円に GradientStyle を選択</value>
+  </data>
+  <data name="stateButtonTool55.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="stateButtonTool56.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>垂直</value>
+  </data>
+  <data name="stateButtonTool57.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>水平</value>
+  </data>
+  <data name="stateButtonTool58.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>右上対角線状</value>
+  </data>
+  <data name="stateButtonTool59.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>左上対角線状</value>
+  </data>
+  <data name="stateButtonTool60.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>横状 - 中央浮き出し</value>
+  </data>
+  <data name="stateButtonTool61.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>縦状 - 中央浮き出し</value>
+  </data>
+  <data name="stateButtonTool62.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>円状</value>
+  </data>
+  <data name="stateButtonTool63.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>四角形状</value>
+  </data>
+  <data name="stateButtonTool64.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>楕円状</value>
+  </data>
+  <data name="stateButtonTool65.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>画像グリッドを表示</value>
+  </data>
+  <data name="stateButtonTool65.SharedPropsInternal.Category" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="stateButtonTool65.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>画像グリッドを表示</value>
+  </data>
+  <data name="popupMenuTool4.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>ファイル(&amp;F)</value>
+  </data>
+  <data name="popupMenuTool4.SharedPropsInternal.Category" xml:space="preserve">
+    <value>メニュー</value>
+  </data>
+  <data name="buttonTool40.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>開く(&amp;O)...</value>
+  </data>
+  <data name="buttonTool40.SharedPropsInternal.Category" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="buttonTool41.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>新規(&amp;N)...</value>
+  </data>
+  <data name="buttonTool41.SharedPropsInternal.Category" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="buttonTool42.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>名前を付けて保存(&amp;A)...</value>
+  </data>
+  <data name="buttonTool43.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>IG ペイントを終了(&amp;X)</value>
+  </data>
+  <data name="buttonTool43.SharedPropsInternal.Category" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="popupMenuTool5.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>ヘルプ(&amp;H)</value>
+  </data>
+  <data name="popupMenuTool5.SharedPropsInternal.Category" xml:space="preserve">
+    <value>メニュー</value>
+  </data>
+  <data name="buttonTool45.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>画像サイズ(&amp;I)...</value>
+  </data>
+  <data name="buttonTool45.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="buttonTool45.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>画像のサイズを設定</value>
+  </data>
+  <data name="buttonTool46.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>イメージのキャプチャ</value>
+  </data>
+  <data name="buttonTool46.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="buttonTool46.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>スクリーンから画像のキャプチャ</value>
+  </data>
+  <data name="popupMenuTool6.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>編集(&amp;E)</value>
+  </data>
+  <data name="popupMenuTool6.SharedPropsInternal.Category" xml:space="preserve">
+    <value>メニュー</value>
+  </data>
+  <data name="popupMenuTool7.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>表示(&amp;V)</value>
+  </data>
+  <data name="popupMenuTool7.SharedPropsInternal.Category" xml:space="preserve">
+    <value>メニュー</value>
+  </data>
+  <data name="stateButtonTool67.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>ステータス バー</value>
+  </data>
+  <data name="stateButtonTool67.SharedPropsInternal.Category" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="buttonTool53.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="buttonTool53.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>垂直に画像を反転</value>
+  </data>
+  <data name="popupMenuTool8.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>画像(&amp;I)</value>
+  </data>
+  <data name="popupMenuTool8.SharedPropsInternal.Category" xml:space="preserve">
+    <value>メニュー</value>
+  </data>
+  <data name="buttonTool62.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="buttonTool62.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>水平に画像を反転</value>
+  </data>
+  <data name="popupMenuTool11.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>画像の移動(&amp;M)</value>
+  </data>
+  <data name="popupMenuTool11.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="buttonTool67.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>上へ移動</value>
+  </data>
+  <data name="buttonTool67.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像の移動</value>
+  </data>
+  <data name="buttonTool67.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>画像を上へ移動</value>
+  </data>
+  <data name="buttonTool68.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>下へ移動</value>
+  </data>
+  <data name="buttonTool68.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像の移動</value>
+  </data>
+  <data name="buttonTool68.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>画像を下へ移動</value>
+  </data>
+  <data name="buttonTool69.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>左へ移動</value>
+  </data>
+  <data name="buttonTool69.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像の移動</value>
+  </data>
+  <data name="buttonTool69.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>画像を左へ移動</value>
+  </data>
+  <data name="buttonTool70.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>右へ移動</value>
+  </data>
+  <data name="buttonTool70.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像の移動</value>
+  </data>
+  <data name="buttonTool70.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>画像を右へ移動</value>
+  </data>
+  <data name="popupColorPickerTool6.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="popupColorPickerTool6.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>前景色の設定</value>
+  </data>
+  <data name="popupColorPickerTool7.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="popupColorPickerTool7.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>背景色の設定</value>
+  </data>
+  <data name="popupMenuTool12.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>パレット(&amp;P)</value>
+  </data>
+  <data name="popupMenuTool12.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="popupMenuTool12.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>色パレットを選択</value>
+  </data>
+  <data name="stateButtonTool73.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>標準(&amp;S)</value>
+  </data>
+  <data name="stateButtonTool73.SharedPropsInternal.Category" xml:space="preserve">
+    <value>パレット</value>
+  </data>
+  <data name="stateButtonTool74.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>16 色</value>
+  </data>
+  <data name="stateButtonTool74.SharedPropsInternal.Category" xml:space="preserve">
+    <value>パレット</value>
+  </data>
+  <data name="stateButtonTool75.SharedPropsInternal.Category" xml:space="preserve">
+    <value>パレット</value>
+  </data>
+  <data name="stateButtonTool76.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>HSL 色</value>
+  </data>
+  <data name="stateButtonTool76.SharedPropsInternal.Category" xml:space="preserve">
+    <value>パレット</value>
+  </data>
+  <data name="stateButtonTool77.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>グレー スケール (&amp;G)</value>
+  </data>
+  <data name="stateButtonTool77.SharedPropsInternal.Category" xml:space="preserve">
+    <value>パレット</value>
+  </data>
+  <data name="buttonTool71.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>画像のクリア(&amp;C)</value>
+  </data>
+  <data name="buttonTool71.SharedPropsInternal.Category" xml:space="preserve">
+    <value>画像</value>
+  </data>
+  <data name="buttonTool71.SharedPropsInternal.ToolTipText" xml:space="preserve">
+    <value>画像のクリア</value>
+  </data>
+  <data name="popupMenuTool13.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>ツール (&amp;T)</value>
+  </data>
+  <data name="popupMenuTool13.SharedPropsInternal.Category" xml:space="preserve">
+    <value>メニュー</value>
+  </data>
+  <data name="popupMenuTool16.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>ブラシのサイズ</value>
+  </data>
+  <data name="popupMenuTool16.SharedPropsInternal.Category" xml:space="preserve">
+    <value>ツール</value>
+  </data>
+  <data name="buttonTool72.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>保存(&amp;S)</value>
+  </data>
+  <data name="fontListTool2.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>フォント:</value>
+  </data>
+  <data name="fontListTool2.SharedPropsInternal.Category" xml:space="preserve">
+    <value>テキスト</value>
+  </data>
+  <data name="stateButtonTool98.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>太字(&amp;B)</value>
+  </data>
+  <data name="stateButtonTool98.SharedPropsInternal.Category" xml:space="preserve">
+    <value>テキスト</value>
+  </data>
+  <data name="stateButtonTool99.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>斜体(&amp;I)</value>
+  </data>
+  <data name="stateButtonTool99.SharedPropsInternal.Category" xml:space="preserve">
+    <value>テキスト</value>
+  </data>
+  <data name="stateButtonTool100.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>下線</value>
+  </data>
+  <data name="stateButtonTool100.SharedPropsInternal.Category" xml:space="preserve">
+    <value>テキスト</value>
+  </data>
+  <data name="comboBoxTool2.SharedPropsInternal.Category" xml:space="preserve">
+    <value>テキスト</value>
+  </data>
+  <data name="stateButtonTool101.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>テキストを描画</value>
+  </data>
+  <data name="stateButtonTool101.SharedPropsInternal.Category" xml:space="preserve">
+    <value>ツール</value>
+  </data>
+  <data name="listToolItem1.Text" xml:space="preserve">
+    <value>あるファイル</value>
+  </data>
+  <data name="listTool2.SharedPropsInternal.Category" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="labelTool2.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>最近のドキュメント</value>
+  </data>
+  <data name="buttonTool73.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="buttonTool80.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>画像の属性</value>
+  </data>
+  <data name="lblPixels.Text" xml:space="preserve">
+    <value>ピクセル</value>
+  </data>
+  <data name="popupControlContainerTool2.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Infragistics ペイントについて</value>
+  </data>
+  <data name="popupMenuTool18.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>最近の画像ファイル</value>
+  </data>
+  <data name="ultraGroupBoxPreview.Text" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="labelSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 32</value>
+  </data>
+  <data name="labelSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="popupColorPickerTool6.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>第 1</value>
+  </data>
+  <data name="popupColorPickerTool7.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>第 2</value>
+  </data>
+  <data name="ribbonGroup11.Caption" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="buttonTool53.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>上下反転</value>
+  </data>
+  <data name="buttonTool62.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>左右反転</value>
+  </data>
+  <data name="popupColorPickerTool3.InstanceProps.Caption" xml:space="preserve">
+    <value>前景色</value>
+  </data>
+  <data name="taskPaneTool5.HeaderCaption" xml:space="preserve">
+    <value>画像</value>
+  </data>
+</root>

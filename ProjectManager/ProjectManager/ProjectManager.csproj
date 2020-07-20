@@ -1,0 +1,167 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>ProjectManager</RootNamespace>
+    <ApplicationIcon>Images\AppIcon - Theme 02.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="bin\Debug\netcoreapp3.0\**" />
+    <EmbeddedResource Remove="bin\Debug\netcoreapp3.0\**" />
+    <None Remove="bin\Debug\netcoreapp3.0\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Data.ProjManager.XML" />
+    <None Remove="Images\AppIcon - Theme 01.ico" />
+    <None Remove="Images\AppIcon - Theme 02.ico" />
+    <None Remove="Images\AppIcon - Theme 03.ico" />
+    <None Remove="Images\Font_BackColor.png" />
+    <None Remove="Images\Font_Bold.png" />
+    <None Remove="Images\Font_ForeColor.png" />
+    <None Remove="Images\Font_Italic.png" />
+    <None Remove="Images\Font_Underline.png" />
+    <None Remove="Images\Insert_Milestone.png" />
+    <None Remove="Images\Insert_Task.png" />
+    <None Remove="Images\Logo.ico" />
+    <None Remove="Images\Logo.PNG" />
+    <None Remove="Images\Properties_Notes.png" />
+    <None Remove="Images\Properties_TaskInformation.png" />
+    <None Remove="Images\Tasks_Delete.png" />
+    <None Remove="Images\Tasks_MoveBackward_Day.png" />
+    <None Remove="Images\Tasks_MoveBackward_Month.png" />
+    <None Remove="Images\Tasks_MoveBackward_Week.png" />
+    <None Remove="Images\Tasks_MoveForward_Day.png" />
+    <None Remove="Images\Tasks_MoveForward_Month.png" />
+    <None Remove="Images\Tasks_MoveForward_Week.png" />
+    <None Remove="Images\Tasks_MoveLeft.png" />
+    <None Remove="Images\Tasks_MoveRight.png" />
+    <None Remove="Images\Tasks_MoveTask.png" />
+    <None Remove="Images\Tasks_PercentComplete_0.png" />
+    <None Remove="Images\Tasks_PercentComplete_100.png" />
+    <None Remove="Images\Tasks_PercentComplete_25.png" />
+    <None Remove="Images\Tasks_PercentComplete_50.png" />
+    <None Remove="Images\Tasks_PercentComplete_75.png" />
+    <None Remove="Images\WinGanttView.PNG" />
+    <None Remove="Images\WinGanttViewPrintDocument.png" />
+    <None Remove="Images\WinToolbarsManager.png" />
+    <None Remove="Images\WinTouchProvider.png" />
+    <None Remove="ProjectManagerPackage.ico" />
+    <None Remove="ProjectManagerPrevImage.png" />
+    <None Remove="Readme_ProjectManager.html" />
+    <None Remove="Readme_ProjectManager.ja.html" />
+    <None Remove="Resources\SamplesBrowser\ProjectMngr_Large_248x124.png" />
+    <None Remove="Resources\SamplesBrowser\ProjectMngr_Large_310x155.png" />
+    <None Remove="Resources\SamplesBrowser\ProjectMngr_Large_434x217.png" />
+    <None Remove="Resources\SamplesBrowser\ProjectMngr_Large_558x279.png" />
+    <None Remove="Resources\SamplesBrowser\ProjectMngr_Med_118x88.png" />
+    <None Remove="Resources\SamplesBrowser\ProjectMngr_Med_148x113.png" />
+    <None Remove="Resources\SamplesBrowser\ProjectMngr_Med_208x158.png" />
+    <None Remove="Resources\SamplesBrowser\ProjectMngr_Med_268x202.png" />
+    <None Remove="StyleLibraries\Theme 01.isl" />
+    <None Remove="StyleLibraries\Theme 02.isl" />
+    <None Remove="StyleLibraries\Theme 03.isl" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data.ProjManager.XML" />
+    <EmbeddedResource Include="Images\AppIcon - Theme 01.ico" />
+    <EmbeddedResource Include="Images\AppIcon - Theme 02.ico" />
+    <EmbeddedResource Include="Images\AppIcon - Theme 03.ico" />
+    <EmbeddedResource Include="Images\Font_BackColor.png" />
+    <EmbeddedResource Include="Images\Font_Bold.png" />
+    <EmbeddedResource Include="Images\Font_ForeColor.png" />
+    <EmbeddedResource Include="Images\Font_Italic.png" />
+    <EmbeddedResource Include="Images\Font_Underline.png" />
+    <EmbeddedResource Include="Images\Insert_Milestone.png" />
+    <EmbeddedResource Include="Images\Insert_Task.png" />
+    <EmbeddedResource Include="Images\Logo.ico" />
+    <EmbeddedResource Include="Images\Logo.PNG" />
+    <EmbeddedResource Include="Images\Properties_Notes.png" />
+    <EmbeddedResource Include="Images\Properties_TaskInformation.png" />
+    <EmbeddedResource Include="Images\Tasks_Delete.png" />
+    <EmbeddedResource Include="Images\Tasks_MoveBackward_Day.png" />
+    <EmbeddedResource Include="Images\Tasks_MoveBackward_Month.png" />
+    <EmbeddedResource Include="Images\Tasks_MoveBackward_Week.png" />
+    <EmbeddedResource Include="Images\Tasks_MoveForward_Day.png" />
+    <EmbeddedResource Include="Images\Tasks_MoveForward_Month.png" />
+    <EmbeddedResource Include="Images\Tasks_MoveForward_Week.png" />
+    <EmbeddedResource Include="Images\Tasks_MoveLeft.png" />
+    <EmbeddedResource Include="Images\Tasks_MoveRight.png" />
+    <EmbeddedResource Include="Images\Tasks_MoveTask.png" />
+    <EmbeddedResource Include="Images\Tasks_PercentComplete_0.png" />
+    <EmbeddedResource Include="Images\Tasks_PercentComplete_100.png" />
+    <EmbeddedResource Include="Images\Tasks_PercentComplete_25.png" />
+    <EmbeddedResource Include="Images\Tasks_PercentComplete_50.png" />
+    <EmbeddedResource Include="Images\Tasks_PercentComplete_75.png" />
+    <EmbeddedResource Include="Images\WinGanttView.PNG" />
+    <EmbeddedResource Include="Images\WinGanttViewPrintDocument.png" />
+    <EmbeddedResource Include="Images\WinToolbarsManager.png" />
+    <EmbeddedResource Include="Images\WinTouchProvider.png" />
+    <EmbeddedResource Include="ProjectManagerPackage.ico" />
+    <EmbeddedResource Include="ProjectManagerPrevImage.png" />
+    <Content Include="Readme_ProjectManager.html" />
+    <Content Include="Readme_ProjectManager.ja.html" />
+    <Content Include="Resources\SamplesBrowser\ProjectMngr_Large_248x124.png" />
+    <Content Include="Resources\SamplesBrowser\ProjectMngr_Large_310x155.png" />
+    <Content Include="Resources\SamplesBrowser\ProjectMngr_Large_434x217.png" />
+    <Content Include="Resources\SamplesBrowser\ProjectMngr_Large_558x279.png" />
+    <Content Include="Resources\SamplesBrowser\ProjectMngr_Med_118x88.png" />
+    <Content Include="Resources\SamplesBrowser\ProjectMngr_Med_148x113.png" />
+    <Content Include="Resources\SamplesBrowser\ProjectMngr_Med_208x158.png" />
+    <Content Include="Resources\SamplesBrowser\ProjectMngr_Med_268x202.png" />
+    <EmbeddedResource Include="StyleLibraries\Theme 01.isl" />
+    <EmbeddedResource Include="StyleLibraries\Theme 02.isl" />
+    <EmbeddedResource Include="StyleLibraries\Theme 03.isl" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Infragistics.WinForms.Editors" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.GanttView" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.ListView" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Misc" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.PrintPreviewDialog" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Schedule" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Shared" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.StatusBar" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.TabControl" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Toolbars" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.WinGrid" Version="20.1.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp3.1\ja\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\SamplesBrowser\SamplesBrowser.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SamplesBrowser.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\SamplesBrowser\SamplesBrowser.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SamplesBrowser.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

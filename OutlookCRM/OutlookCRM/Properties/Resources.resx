@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Edit_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Edit-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImportData" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ImportData.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_SalesByYear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-SalesByYear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Export_to_XPS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Export_to_XPS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Call" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Call.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_QuarterlyOrders" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-QuarterlyOrders.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Workplace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Workplace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Marketing_Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Marketing-Settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Suppliers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Suppliers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Sales_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Sales-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SendEmail_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\SendEmail-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Marketing_ResourceCenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Marketing-ResourceCenter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Call_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Call-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewCustomer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\NewCustomer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImportData_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ImportData-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewMeeting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\NewMeeting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Merge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Merge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_OrderDetails" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-OrderDetails.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReadingPane_Off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ReadingPane_Off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Marketing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Marketing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdvancedFind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\AdvancedFind.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RunWorkflow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\RunWorkflow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Deleted_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Deleted-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Shippers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Shippers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RunWorkflow_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\RunWorkflow-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Customers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Customers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewCustomer_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\NewCustomer-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_ProductSales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-ProductSales.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Marketing_Service_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Marketing-Service-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Marketing_Service" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Marketing-Service.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Duplicate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Duplicate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Merge_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Merge-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SendEmail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\SendEmail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Deleted" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Deleted.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReadingPane_Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ReadingPane_Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartDialog_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\StartDialog-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewMeeting_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\NewMeeting-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StartDialog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\StartDialog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AdvancedFind_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\AdvancedFind-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DetectDuplicated" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\DetectDuplicated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DetectDuplicated_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\DetectDuplicated-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_SalesByCategory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-SalesByCategory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Marketing_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Marketing-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Workplace_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Workplace-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RunReport_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\RunReport-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Duplicate_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Duplicate-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_SalesByQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-SalesByQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Export_to_PDF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Export_to_PDF.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Export_to_XLS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Export_to_XLS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrowExpanded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Arrow Expanded.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Marketing_Settings_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Marketing-Settings-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Marketing_ResourceCenter_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Marketing-ResourceCenter-Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RunReport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\RunReport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReadingPane_Bottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ReadingPane_Bottom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Orders" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Orders.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExplorerBar_Sales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ExplorerBar-Sales.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReadingPane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ReadingPane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ReadingPane_Selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\ReadingPane_Selected.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OrderDetailsDashboardDescription" xml:space="preserve">
+    <value>Select a different order detail to compare to past orders.</value>
+  </data>
+  <data name="OrdersDashboardDescription" xml:space="preserve">
+    <value>Select a different order to view how this order compares to all our other orders.</value>
+  </data>
+  <data name="ProductsDashboardDescription" xml:space="preserve">
+    <value>Select a different product to compare to other similar products.</value>
+  </data>
+  <data name="ShippersDashboardDescription" xml:space="preserve">
+    <value>Select a different shipper to view how well each shipper is perceived.</value>
+  </data>
+  <data name="CategoriesDashboardDescription" xml:space="preserve">
+    <value>Select a different category to see a graphical breakdown of the items that make up the specified category.</value>
+  </data>
+  <data name="CustomerDashboardDescription" xml:space="preserve">
+    <value>Select a different customer to view what products are most important to them.</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="CustomerDashboard" xml:space="preserve">
+    <value>Customer Dashboard</value>
+  </data>
+  <data name="CustomerOrders" xml:space="preserve">
+    <value>Customer Orders</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="OrderDetails" xml:space="preserve">
+    <value>Order Details</value>
+  </data>
+  <data name="Orders" xml:space="preserve">
+    <value>Orders</value>
+  </data>
+  <data name="ProductInformation" xml:space="preserve">
+    <value>Product Information</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="ShipperInformation" xml:space="preserve">
+    <value>Shipper Information</value>
+  </data>
+  <data name="Shippers" xml:space="preserve">
+    <value>Shippers</value>
+  </data>
+  <data name="UpToDate" xml:space="preserve">
+    <value>Up to date.</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Outlook Inspired showcase to demonstrate a similar user interface.</value>
+  </data>
+  <data name="Publisher" xml:space="preserve">
+    <value>Publisher</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Outlook Inspired</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>Updating</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="ExportInProgressMessage" xml:space="preserve">
+    <value>An export operation is currently in progress. A new export operation cannot begin until the current operation completes.</value>
+  </data>
+</root>
