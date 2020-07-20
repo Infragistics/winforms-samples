@@ -1,0 +1,131 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>Showcase.INGear</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Background.png" />
+    <None Remove="Images\Batteries.png" />
+    <None Remove="Images\Brakes.png" />
+    <None Remove="Images\Daily.png" />
+    <None Remove="Images\EngineBlocks.png" />
+    <None Remove="Images\FormIcon.ico" />
+    <None Remove="Images\Inventory.png" />
+    <None Remove="Images\Invoice_Batteries.png" />
+    <None Remove="Images\Invoice_Brakes.png" />
+    <None Remove="Images\Invoice_EngineBlocks.png" />
+    <None Remove="Images\Invoice_Pistons.png" />
+    <None Remove="Images\Invoice_Sparkplugs.png" />
+    <None Remove="Images\Invoice_Suspension.png" />
+    <None Remove="Images\Invoice_Tires.png" />
+    <None Remove="Images\Invoice_Transmissions.png" />
+    <None Remove="Images\Logo.png" />
+    <None Remove="Images\Monthly.png" />
+    <None Remove="Images\Pistons.png" />
+    <None Remove="Images\RadialCenter.png" />
+    <None Remove="Images\Schedule.png" />
+    <None Remove="Images\Sparkplugs.png" />
+    <None Remove="Images\Suspension.png" />
+    <None Remove="Images\Tires.png" />
+    <None Remove="Images\Transmissions.png" />
+    <None Remove="Images\Weekly.png" />
+    <None Remove="Resources\SamplesBrowser\IN Gear_118x88.png" />
+    <None Remove="Resources\SamplesBrowser\IN Gear_148x113.png" />
+    <None Remove="Resources\SamplesBrowser\IN Gear_208x158.png" />
+    <None Remove="Resources\SamplesBrowser\INGear_248x124.png" />
+    <None Remove="Resources\SamplesBrowser\INGear_268x202.png" />
+    <None Remove="Resources\SamplesBrowser\INGear_310x155.png" />
+    <None Remove="Resources\SamplesBrowser\INGear_434x217.png" />
+    <None Remove="Resources\SamplesBrowser\INGear_558x279.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\INGear.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\INGear.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\INGear.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Background.png" />
+    <EmbeddedResource Include="Images\Batteries.png" />
+    <EmbeddedResource Include="Images\Brakes.png" />
+    <EmbeddedResource Include="Images\Daily.png" />
+    <EmbeddedResource Include="Images\EngineBlocks.png" />
+    <EmbeddedResource Include="Images\FormIcon.ico" />
+    <EmbeddedResource Include="Images\Inventory.png" />
+    <EmbeddedResource Include="Images\Invoice_Batteries.png" />
+    <EmbeddedResource Include="Images\Invoice_Brakes.png" />
+    <EmbeddedResource Include="Images\Invoice_EngineBlocks.png" />
+    <EmbeddedResource Include="Images\Invoice_Pistons.png" />
+    <EmbeddedResource Include="Images\Invoice_Sparkplugs.png" />
+    <EmbeddedResource Include="Images\Invoice_Suspension.png" />
+    <EmbeddedResource Include="Images\Invoice_Tires.png" />
+    <EmbeddedResource Include="Images\Invoice_Transmissions.png" />
+    <EmbeddedResource Include="Images\Logo.png" />
+    <EmbeddedResource Include="Images\Monthly.png" />
+    <EmbeddedResource Include="Images\Pistons.png" />
+    <EmbeddedResource Include="Images\RadialCenter.png" />
+    <EmbeddedResource Include="Images\Schedule.png" />
+    <EmbeddedResource Include="Images\Sparkplugs.png" />
+    <EmbeddedResource Include="Images\Suspension.png" />
+    <EmbeddedResource Include="Images\Tires.png" />
+    <EmbeddedResource Include="Images\Transmissions.png" />
+    <EmbeddedResource Include="Images\Weekly.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\IN Gear_118x88.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\IN Gear_148x113.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\IN Gear_208x158.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\INGear_248x124.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\INGear_268x202.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\INGear_310x155.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\INGear_434x217.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\INGear_558x279.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Shared.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.Misc.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinEditors.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinGrid.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinRadialMenu.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinSchedule.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinStatusBar.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinTabControl.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinToolbars.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\INGear.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\INGear.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\INGear.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Shared.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.Misc.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinEditors.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinGrid.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinRadialMenu.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinSchedule.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinStatusBar.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinTabControl.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinToolbars.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\INGear.resources.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Infragistics.WinForms" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Editors" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Misc" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.RadialMenu" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Schedule" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.StatusBar" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.TabControl" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Toolbars" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.WinGrid" Version="20.1.12" />
+  </ItemGroup>
+
+</Project>

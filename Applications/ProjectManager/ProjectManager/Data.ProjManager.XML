@@ -1,0 +1,265 @@
+<?xml version="1.0" standalone="yes"?>
+<ProjectManager>
+  <xs:schema id="ProjectManager" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="ProjectManager" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Projects">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ProjectID" type="xs:string" minOccurs="0" />
+                <xs:element name="ProjectKey" type="xs:string" minOccurs="0" />
+                <xs:element name="ProjectName" type="xs:string" minOccurs="0" />
+                <xs:element name="ProjectStartTime" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Tasks">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TaskID" type="xs:string" minOccurs="0" />
+                <xs:element name="ProjectKey" type="xs:string" minOccurs="0" />
+                <xs:element name="TaskName" type="xs:string" minOccurs="0" />
+                <xs:element name="TaskStartTime" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="TaskDuration" type="xs:duration" minOccurs="0" />
+                <xs:element name="ParentTaskID" type="xs:string" minOccurs="0" />
+                <xs:element name="Constraint" type="xs:int" minOccurs="0" />
+                <xs:element name="TaskPercentComplete" type="xs:string" minOccurs="0" />
+                <xs:element name="AllProperties" type="xs:base64Binary" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Owners">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" type="xs:string" minOccurs="0" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="EmailAddress" type="xs:string" minOccurs="0" />
+                <xs:element name="Visible" type="xs:boolean" minOccurs="0" />
+                <xs:element name="AllProperties" type="xs:base64Binary" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1">
+        <xs:selector xpath=".//Owners" />
+        <xs:field xpath="Key" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Projects>
+    <ProjectID>381790b8-ec27-4a20-9a07-2cf10d3bd89d</ProjectID>
+    <ProjectKey>projectKey</ProjectKey>
+    <ProjectName>Project</ProjectName>
+    <ProjectStartTime>2014-01-17T00:00:00-05:00</ProjectStartTime>
+  </Projects>
+  <Tasks>
+    <TaskID>f0c9f4a4-ec25-49b3-b6de-a13b4e8c9925</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Description</TaskName>
+    <TaskStartTime>2014-01-17T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P10D</TaskDuration>
+    <Constraint>1</Constraint>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawgAAAACSWQSQ29uc3RyYWludERhdGVUaW1lCER1cmF0aW9uDkR1cmF0aW9uRm9ybWF0BE5hbWUPUGVyY2VudENvbXBsZXRlClByb2plY3RLZXkNU3RhcnREYXRlVGltZQMAAAABAAEAC1N5c3RlbS5HdWlkDQwICw0CAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAqT0yfAl7LNJtt6hO06MmSUAAAAAAAAAAACAIajbBwAAAwAAAAYEAAAAEFRhc2sgRGVzY3JpcHRpb24AAAAABgUAAAAKcHJvamVjdEtledtnNnfI4dAICw==</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>4ddd2307-cf07-4452-9db0-c3451661be47</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-01-17T00:00:00-05:00</TaskStartTime>
+    <TaskDuration>P2D</TaskDuration>
+    <ParentTaskID>f0c9f4a4-ec25-49b3-b6de-a13b4e8c9925</ParentTaskID>
+    <Constraint>6</Constraint>
+    <TaskPercentComplete>100</TaskPercentComplete>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawsAAAACSWQKQ29uc3RyYWludBJDb25zdHJhaW50RGF0ZVRpbWUIRHVyYXRpb24ORHVyYXRpb25Gb3JtYXQETmFtZQ9QZXJjZW50Q29tcGxldGUKUHJvamVjdEtleQlSZXNvdXJjZXMNU3RhcnREYXRlVGltZQxQYXJlbnRUYXNrSWQDAAAAAAEAAQQAAwtTeXN0ZW0uR3VpZAgNDAgLNUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAgAAAA0LU3lzdGVtLkd1aWQCAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAgcj3U0Hz1JEnbDDRRZhvkcGAAAAAMAFMy7h0AgAgNNUkgEAAAMAAAAGBAAAAAxUYXNrIENvbnRlbnQAAMhCBgUAAAAKcHJvamVjdEtleQkGAAAAAMAFMy7h0AgB+f////3///+k9MnwJeyzSbbeoTtOjJklBQYAAAA1SW5mcmFnaXN0aWNzLldpbi5VbHRyYVdpblNjaGVkdWxlLlJlc291cmNlc0NvbGxlY3Rpb24BAAAAATABAgAAAAYIAAAAC1BlcnNvbiBOYW1lCw==</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>06d9dbc3-b4e6-46fb-a319-d30e36ccc049</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-01-17T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P6D</TaskDuration>
+    <ParentTaskID>f0c9f4a4-ec25-49b3-b6de-a13b4e8c9925</ParentTaskID>
+    <Constraint>6</Constraint>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawoAAAACSWQKQ29uc3RyYWludBJDb25zdHJhaW50RGF0ZVRpbWUIRHVyYXRpb24ORHVyYXRpb25Gb3JtYXQETmFtZQpQcm9qZWN0S2V5CVJlc291cmNlcw1TdGFydERhdGVUaW1lDFBhcmVudFRhc2tJZAMAAAAAAQEEAAMLU3lzdGVtLkd1aWQIDQwINUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAgAAAA0LU3lzdGVtLkd1aWQCAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAsPb2QbmtPtGoxnTDjbMwEkGAAAAAAAAAAAAAAAAgHr+tgQAAAMAAAAGBAAAAAxUYXNrIENvbnRlbnQGBQAAAApwcm9qZWN0S2V5CQYAAADbZzZ3yOHQCAH5/////f///6T0yfAl7LNJtt6hO06MmSUFBgAAADVJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuUmVzb3VyY2VzQ29sbGVjdGlvbgEAAAABMAECAAAABggAAAALUGVyc29uIE5hbWUL</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>54c31b4d-4e3d-4766-b918-8ddd6dfa76c9</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-01-22T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P5D</TaskDuration>
+    <ParentTaskID>f0c9f4a4-ec25-49b3-b6de-a13b4e8c9925</ParentTaskID>
+    <Constraint>6</Constraint>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawoAAAACSWQKQ29uc3RyYWludBJDb25zdHJhaW50RGF0ZVRpbWUIRHVyYXRpb24ORHVyYXRpb25Gb3JtYXQETmFtZQpQcm9qZWN0S2V5CVJlc291cmNlcw1TdGFydERhdGVUaW1lDFBhcmVudFRhc2tJZAMAAAAAAQEEAAMLU3lzdGVtLkd1aWQIDQwINUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAgAAAA0LU3lzdGVtLkd1aWQCAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAk0bw1Q9TmZHuRiN3W36dskGAAAAAAAAAAAAAAAAwBDU7QMAAAMAAAAGBAAAAAxUYXNrIENvbnRlbnQGBQAAAApwcm9qZWN0S2V5CQYAAADbJ0dLtuXQCAH5/////f///6T0yfAl7LNJtt6hO06MmSUFBgAAADVJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuUmVzb3VyY2VzQ29sbGVjdGlvbgEAAAABMAECAAAABggAAAALUGVyc29uIE5hbWUL</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>b6f5c89e-1ff0-4def-8e4c-7c12a63ece52</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Description</TaskName>
+    <TaskStartTime>2014-01-23T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P12D</TaskDuration>
+    <Constraint>1</Constraint>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawgAAAACSWQSQ29uc3RyYWludERhdGVUaW1lCER1cmF0aW9uDkR1cmF0aW9uRm9ybWF0BE5hbWUPUGVyY2VudENvbXBsZXRlClByb2plY3RLZXkNU3RhcnREYXRlVGltZQMAAAABAAEAC1N5c3RlbS5HdWlkDQwICw0CAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAp7I9bbwH+9Njkx8EqY+zlIAAAAAAAAAAAAA9fxtCQAAAwAAAAYEAAAAEFRhc2sgRGVzY3JpcHRpb24AAAAABgUAAAAKcHJvamVjdEtledvnsHV/5tAICw==</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>41173f2b-22d0-482f-9bf7-52ba3b2225e7</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-01-23T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P2D</TaskDuration>
+    <ParentTaskID>b6f5c89e-1ff0-4def-8e4c-7c12a63ece52</ParentTaskID>
+    <Constraint>1</Constraint>
+    <TaskPercentComplete>90</TaskPercentComplete>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawoAAAACSWQSQ29uc3RyYWludERhdGVUaW1lCER1cmF0aW9uDkR1cmF0aW9uRm9ybWF0BE5hbWUPUGVyY2VudENvbXBsZXRlClByb2plY3RLZXkJUmVzb3VyY2VzDVN0YXJ0RGF0ZVRpbWUMUGFyZW50VGFza0lkAwAAAAEAAQQAAwtTeXN0ZW0uR3VpZA0MCAs1SW5mcmFnaXN0aWNzLldpbi5VbHRyYVdpblNjaGVkdWxlLlJlc291cmNlc0NvbGxlY3Rpb24CAAAADQtTeXN0ZW0uR3VpZAIAAAAE/f///wtTeXN0ZW0uR3VpZAsAAAACX2ECX2ICX2MCX2QCX2UCX2YCX2cCX2gCX2kCX2oCX2sAAAAAAAAAAAAAAAgHBwICAgICAgICKz8XQdAiL0ib91K6OyIl5wAAAAAAAAAAAIDTVJIBAAADAAAABgQAAAAMVGFzayBDb250ZW50AAC0QgYFAAAACnByb2plY3RLZXkJBgAAANvnsHV/5tAIAfn////9////nsj1tvAf702OTHwSpj7OUgUGAAAANUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAQAAAAEwAQIAAAAGCAAAAAtQZXJzb24gTmFtZQs=</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>f07520fe-231d-4a34-8c6d-f40b42d07041</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-01-25T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P2D</TaskDuration>
+    <ParentTaskID>b6f5c89e-1ff0-4def-8e4c-7c12a63ece52</ParentTaskID>
+    <Constraint>1</Constraint>
+    <TaskPercentComplete>75</TaskPercentComplete>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawsAAAACSWQSQ29uc3RyYWludERhdGVUaW1lDERlcGVuZGVuY2llcwhEdXJhdGlvbg5EdXJhdGlvbkZvcm1hdAROYW1lD1BlcmNlbnRDb21wbGV0ZQpQcm9qZWN0S2V5CVJlc291cmNlcw1TdGFydERhdGVUaW1lDFBhcmVudFRhc2tJZAMABAAAAQABBAADC1N5c3RlbS5HdWlkDTxJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFza0RlcGVuZGVuY2llc0NvbGxlY3Rpb24CAAAADAgLNUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAgAAAA0LU3lzdGVtLkd1aWQCAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAv4gdfAdIzRKjG30C0LQcEEAAAAAAAAAAAkEAAAAAIDTVJIBAAADAAAABgUAAAAMVGFzayBDb250ZW50AACWQgYGAAAACnByb2plY3RLZXkJBwAAANtnhMoR6NAIAfj////9////nsj1tvAf702OTHwSpj7OUgUEAAAAPEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jaWVzQ29sbGVjdGlvbgEAAAABMAQwSW5mcmFnaXN0aWNzLldpbi5VbHRyYVdpblNjaGVkdWxlLlRhc2tEZXBlbmRlbmN5AgAAAAIAAAAJCQAAAAUHAAAANUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAQAAAAEwAQIAAAAGCgAAAAtQZXJzb24gTmFtZQUJAAAAMEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jeQEAAAANUHJlZGVjZXNzb3JJZAMLU3lzdGVtLkd1aWQCAAAAAfX////9////Kz8XQdAiL0ib91K6OyIl5ws=</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>561a4b9b-2be6-4f6d-b609-d511e2fe5b1f</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-01-27T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P2D</TaskDuration>
+    <ParentTaskID>b6f5c89e-1ff0-4def-8e4c-7c12a63ece52</ParentTaskID>
+    <Constraint>1</Constraint>
+    <TaskPercentComplete>60</TaskPercentComplete>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawsAAAACSWQSQ29uc3RyYWludERhdGVUaW1lDERlcGVuZGVuY2llcwhEdXJhdGlvbg5EdXJhdGlvbkZvcm1hdAROYW1lD1BlcmNlbnRDb21wbGV0ZQpQcm9qZWN0S2V5CVJlc291cmNlcw1TdGFydERhdGVUaW1lDFBhcmVudFRhc2tJZAMABAAAAQABBAADC1N5c3RlbS5HdWlkDTxJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFza0RlcGVuZGVuY2llc0NvbGxlY3Rpb24CAAAADAgLNUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAgAAAA0LU3lzdGVtLkd1aWQCAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAptLGlbmK21PtgnVEeL+Wx8AAAAAAAAAAAkEAAAAAIDTVJIBAAADAAAABgUAAAAMVGFzayBDb250ZW50AABwQgYGAAAACnByb2plY3RLZXkJBwAAANvnVx+k6dAIAfj////9////nsj1tvAf702OTHwSpj7OUgUEAAAAPEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jaWVzQ29sbGVjdGlvbgEAAAABMAQwSW5mcmFnaXN0aWNzLldpbi5VbHRyYVdpblNjaGVkdWxlLlRhc2tEZXBlbmRlbmN5AgAAAAIAAAAJCQAAAAUHAAAANUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAQAAAAEwAQIAAAAGCgAAAAtQZXJzb24gTmFtZQUJAAAAMEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jeQEAAAANUHJlZGVjZXNzb3JJZAMLU3lzdGVtLkd1aWQCAAAAAfX////9/////iB18B0jNEqMbfQLQtBwQQs=</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>7e0b4906-07b7-4104-8d67-348eab92891e</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-01-29T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P2D</TaskDuration>
+    <ParentTaskID>b6f5c89e-1ff0-4def-8e4c-7c12a63ece52</ParentTaskID>
+    <Constraint>1</Constraint>
+    <TaskPercentComplete>45</TaskPercentComplete>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawsAAAACSWQSQ29uc3RyYWludERhdGVUaW1lDERlcGVuZGVuY2llcwhEdXJhdGlvbg5EdXJhdGlvbkZvcm1hdAROYW1lD1BlcmNlbnRDb21wbGV0ZQpQcm9qZWN0S2V5CVJlc291cmNlcw1TdGFydERhdGVUaW1lDFBhcmVudFRhc2tJZAMABAAAAQABBAADC1N5c3RlbS5HdWlkDTxJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFza0RlcGVuZGVuY2llc0NvbGxlY3Rpb24CAAAADAgLNUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAgAAAA0LU3lzdGVtLkd1aWQCAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAgZJC363BwRBjWc0jquSiR4AAAAAAAAAAAkEAAAAAIDTVJIBAAADAAAABgUAAAAMVGFzayBDb250ZW50AAA0QgYGAAAACnByb2plY3RLZXkJBwAAANtnK3Q269AIAfj////9////nsj1tvAf702OTHwSpj7OUgUEAAAAPEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jaWVzQ29sbGVjdGlvbgEAAAABMAQwSW5mcmFnaXN0aWNzLldpbi5VbHRyYVdpblNjaGVkdWxlLlRhc2tEZXBlbmRlbmN5AgAAAAIAAAAJCQAAAAUHAAAANUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAQAAAAEwAQIAAAAGCgAAAAtQZXJzb24gTmFtZQUJAAAAMEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jeQEAAAANUHJlZGVjZXNzb3JJZAMLU3lzdGVtLkd1aWQCAAAAAfX////9////m0saVuYrbU+2CdUR4v5bHws=</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>feac9af2-8aeb-42c1-ab90-e05def9bbc68</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-01-31T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P2D</TaskDuration>
+    <ParentTaskID>b6f5c89e-1ff0-4def-8e4c-7c12a63ece52</ParentTaskID>
+    <Constraint>1</Constraint>
+    <TaskPercentComplete>30</TaskPercentComplete>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawsAAAACSWQSQ29uc3RyYWludERhdGVUaW1lDERlcGVuZGVuY2llcwhEdXJhdGlvbg5EdXJhdGlvbkZvcm1hdAROYW1lD1BlcmNlbnRDb21wbGV0ZQpQcm9qZWN0S2V5CVJlc291cmNlcw1TdGFydERhdGVUaW1lDFBhcmVudFRhc2tJZAMABAAAAQABBAADC1N5c3RlbS5HdWlkDTxJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFza0RlcGVuZGVuY2llc0NvbGxlY3Rpb24CAAAADAgLNUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAgAAAA0LU3lzdGVtLkd1aWQCAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAvKarP7risFCq5DgXe+bvGgAAAAAAAAAAAkEAAAAAIDTVJIBAAADAAAABgUAAAAMVGFzayBDb250ZW50AADwQQYGAAAACnByb2plY3RLZXkJBwAAANvn/sjI7NAIAfj////9////nsj1tvAf702OTHwSpj7OUgUEAAAAPEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jaWVzQ29sbGVjdGlvbgEAAAABMAQwSW5mcmFnaXN0aWNzLldpbi5VbHRyYVdpblNjaGVkdWxlLlRhc2tEZXBlbmRlbmN5AgAAAAIAAAAJCQAAAAUHAAAANUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAQAAAAEwAQIAAAAGCgAAAAtQZXJzb24gTmFtZQUJAAAAMEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jeQEAAAANUHJlZGVjZXNzb3JJZAMLU3lzdGVtLkd1aWQCAAAAAfX////9////BkkLfrcHBEGNZzSOq5KJHgs=</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>668ffd2e-297e-4344-bf56-750c28dddfb1</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-02-02T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P2D</TaskDuration>
+    <ParentTaskID>b6f5c89e-1ff0-4def-8e4c-7c12a63ece52</ParentTaskID>
+    <Constraint>1</Constraint>
+    <TaskPercentComplete>15</TaskPercentComplete>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawsAAAACSWQSQ29uc3RyYWludERhdGVUaW1lDERlcGVuZGVuY2llcwhEdXJhdGlvbg5EdXJhdGlvbkZvcm1hdAROYW1lD1BlcmNlbnRDb21wbGV0ZQpQcm9qZWN0S2V5CVJlc291cmNlcw1TdGFydERhdGVUaW1lDFBhcmVudFRhc2tJZAMABAAAAQABBAADC1N5c3RlbS5HdWlkDTxJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFza0RlcGVuZGVuY2llc0NvbGxlY3Rpb24CAAAADAgLNUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAgAAAA0LU3lzdGVtLkd1aWQCAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAi79j2Z+KURDv1Z1DCjd37EAAAAAAAAAAAkEAAAAAIDTVJIBAAADAAAABgUAAAAMVGFzayBDb250ZW50AABwQQYGAAAACnByb2plY3RLZXkJBwAAANtn0h1b7tAIAfj////9////nsj1tvAf702OTHwSpj7OUgUEAAAAPEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jaWVzQ29sbGVjdGlvbgEAAAABMAQwSW5mcmFnaXN0aWNzLldpbi5VbHRyYVdpblNjaGVkdWxlLlRhc2tEZXBlbmRlbmN5AgAAAAIAAAAJCQAAAAUHAAAANUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAQAAAAEwAQIAAAAGCgAAAAtQZXJzb24gTmFtZQUJAAAAMEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jeQEAAAANUHJlZGVjZXNzb3JJZAMLU3lzdGVtLkd1aWQCAAAAAfX////9////8pqs/uuKwUKrkOBd75u8aAs=</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>abb7e31c-ec6d-45bc-90d9-f5f4e6d6148b</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-01-23T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P8D</TaskDuration>
+    <ParentTaskID>b6f5c89e-1ff0-4def-8e4c-7c12a63ece52</ParentTaskID>
+    <Constraint>6</Constraint>
+    <TaskPercentComplete>80</TaskPercentComplete>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawsAAAACSWQKQ29uc3RyYWludBJDb25zdHJhaW50RGF0ZVRpbWUIRHVyYXRpb24ORHVyYXRpb25Gb3JtYXQETmFtZQ9QZXJjZW50Q29tcGxldGUKUHJvamVjdEtleQlSZXNvdXJjZXMNU3RhcnREYXRlVGltZQxQYXJlbnRUYXNrSWQDAAAAAAEAAQQAAwtTeXN0ZW0uR3VpZAgNDAgLNUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAgAAAA0LU3lzdGVtLkd1aWQCAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAhzjt6tt7LxFkNn19ObWFIsGAAAAAAAAAAAAAAAAAE5TSQYAAAMAAAAGBAAAAAxUYXNrIENvbnRlbnQAAKBCBgUAAAAKcHJvamVjdEtleQkGAAAA2+ewdX/m0AgB+f////3///+eyPW28B/vTY5MfBKmPs5SBQYAAAA1SW5mcmFnaXN0aWNzLldpbi5VbHRyYVdpblNjaGVkdWxlLlJlc291cmNlc0NvbGxlY3Rpb24BAAAAATABAgAAAAYIAAAAC1BlcnNvbiBOYW1lCw==</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>7874be45-69d8-4182-a901-069ad747930a</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-01-23T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P6D</TaskDuration>
+    <ParentTaskID>b6f5c89e-1ff0-4def-8e4c-7c12a63ece52</ParentTaskID>
+    <Constraint>6</Constraint>
+    <TaskPercentComplete>80</TaskPercentComplete>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawsAAAACSWQKQ29uc3RyYWludBJDb25zdHJhaW50RGF0ZVRpbWUIRHVyYXRpb24ORHVyYXRpb25Gb3JtYXQETmFtZQ9QZXJjZW50Q29tcGxldGUKUHJvamVjdEtleQlSZXNvdXJjZXMNU3RhcnREYXRlVGltZQxQYXJlbnRUYXNrSWQDAAAAAAEAAQQAAwtTeXN0ZW0uR3VpZAgNDAgLNUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAgAAAA0LU3lzdGVtLkd1aWQCAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAkW+dHjYaYJBqQEGmtdHkwoGAAAAAAAAAAAAAAAAgHr+tgQAAAMAAAAGBAAAAAxUYXNrIENvbnRlbnQAAKBCBgUAAAAKcHJvamVjdEtleQkGAAAA2+ewdX/m0AgB+f////3///+eyPW28B/vTY5MfBKmPs5SBQYAAAA1SW5mcmFnaXN0aWNzLldpbi5VbHRyYVdpblNjaGVkdWxlLlJlc291cmNlc0NvbGxlY3Rpb24BAAAAATABAgAAAAYIAAAAC1BlcnNvbiBOYW1lCw==</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>3933416c-f7d1-4eb0-9c4a-137f5a75ab3f</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-01-25T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P4D</TaskDuration>
+    <ParentTaskID>b6f5c89e-1ff0-4def-8e4c-7c12a63ece52</ParentTaskID>
+    <Constraint>6</Constraint>
+    <TaskPercentComplete>80</TaskPercentComplete>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawsAAAACSWQKQ29uc3RyYWludBJDb25zdHJhaW50RGF0ZVRpbWUIRHVyYXRpb24ORHVyYXRpb25Gb3JtYXQETmFtZQ9QZXJjZW50Q29tcGxldGUKUHJvamVjdEtleQlSZXNvdXJjZXMNU3RhcnREYXRlVGltZQxQYXJlbnRUYXNrSWQDAAAAAAEAAQQAAwtTeXN0ZW0uR3VpZAgNDAgLNUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAgAAAA0LU3lzdGVtLkd1aWQCAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAmxBMznR97BOnEoTf1p1qz8GAAAAAAAAAAAAAAAAAKepJAMAAAMAAAAGBAAAAAxUYXNrIENvbnRlbnQAAKBCBgUAAAAKcHJvamVjdEtleQkGAAAA22eEyhHo0AgB+f////3///+eyPW28B/vTY5MfBKmPs5SBQYAAAA1SW5mcmFnaXN0aWNzLldpbi5VbHRyYVdpblNjaGVkdWxlLlJlc291cmNlc0NvbGxlY3Rpb24BAAAAATABAgAAAAYIAAAAC1BlcnNvbiBOYW1lCw==</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>0f7ebe8c-0617-45cf-b9e1-18765274d6d3</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Description</TaskName>
+    <TaskStartTime>2014-02-09T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P20D</TaskDuration>
+    <Constraint>1</Constraint>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawgAAAACSWQSQ29uc3RyYWludERhdGVUaW1lCER1cmF0aW9uDkR1cmF0aW9uRm9ybWF0BE5hbWUPUGVyY2VudENvbXBsZXRlClByb2plY3RLZXkNU3RhcnREYXRlVGltZQMAAAABAAEAC1N5c3RlbS5HdWlkDQwICw0CAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAoy+fg8XBs9FueEYdlJ01tMAAAAAAAAAAAAAQ1C3DwAAAwAAAAYEAAAAEFRhc2sgRGVzY3JpcHRpb24AAAAABgUAAAAKcHJvamVjdEtleduntkbb89AICw==</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>99e69b80-4d17-42ba-9c17-404d309ff7fe</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-02-09T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P8D</TaskDuration>
+    <ParentTaskID>0f7ebe8c-0617-45cf-b9e1-18765274d6d3</ParentTaskID>
+    <Constraint>1</Constraint>
+    <TaskPercentComplete>40</TaskPercentComplete>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawoAAAACSWQSQ29uc3RyYWludERhdGVUaW1lCER1cmF0aW9uDkR1cmF0aW9uRm9ybWF0BE5hbWUPUGVyY2VudENvbXBsZXRlClByb2plY3RLZXkJUmVzb3VyY2VzDVN0YXJ0RGF0ZVRpbWUMUGFyZW50VGFza0lkAwAAAAEAAQQAAwtTeXN0ZW0uR3VpZA0MCAs1SW5mcmFnaXN0aWNzLldpbi5VbHRyYVdpblNjaGVkdWxlLlJlc291cmNlc0NvbGxlY3Rpb24CAAAADQtTeXN0ZW0uR3VpZAIAAAAE/f///wtTeXN0ZW0uR3VpZAsAAAACX2ECX2ICX2MCX2QCX2UCX2YCX2cCX2gCX2kCX2oCX2sAAAAAAAAAAAAAAAgHBwICAgICAgICgJvmmRdNukKcF0BNMJ/3/gAAAAAAAAAAAABOU0kGAAADAAAABgQAAAAMVGFzayBDb250ZW50AAAgQgYFAAAACnByb2plY3RLZXkJBgAAANuntkbb89AIAfn////9////jL5+DxcGz0W54Rh2UnTW0wUGAAAANUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAQAAAAEwAQIAAAAGCAAAAAtQZXJzb24gTmFtZQs=</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>4e0955ae-6267-474c-ac00-d879fca22485</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-02-12T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P8D</TaskDuration>
+    <ParentTaskID>0f7ebe8c-0617-45cf-b9e1-18765274d6d3</ParentTaskID>
+    <Constraint>1</Constraint>
+    <TaskPercentComplete>35</TaskPercentComplete>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawsAAAACSWQSQ29uc3RyYWludERhdGVUaW1lDERlcGVuZGVuY2llcwhEdXJhdGlvbg5EdXJhdGlvbkZvcm1hdAROYW1lD1BlcmNlbnRDb21wbGV0ZQpQcm9qZWN0S2V5CVJlc291cmNlcw1TdGFydERhdGVUaW1lDFBhcmVudFRhc2tJZAMABAAAAQABBAADC1N5c3RlbS5HdWlkDTxJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFza0RlcGVuZGVuY2llc0NvbGxlY3Rpb24CAAAADAgLNUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAgAAAA0LU3lzdGVtLkd1aWQCAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAq5VCU5nYkxHrADYefyiJIUAAAAAAAAAAAkEAAAAAABOU0kGAAADAAAABgUAAAAMVGFzayBDb250ZW50AAAMQgYGAAAACnByb2plY3RLZXkJBwAAANvn88U29tAIAfj////9////jL5+DxcGz0W54Rh2UnTW0wUEAAAAPEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jaWVzQ29sbGVjdGlvbgEAAAABMAQwSW5mcmFnaXN0aWNzLldpbi5VbHRyYVdpblNjaGVkdWxlLlRhc2tEZXBlbmRlbmN5AgAAAAIAAAAJCQAAAAUHAAAANUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAQAAAAEwAQIAAAAGCgAAAAtQZXJzb24gTmFtZQUJAAAAMEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jeQEAAAANUHJlZGVjZXNzb3JJZAMLU3lzdGVtLkd1aWQCAAAAAfX////9////gJvmmRdNukKcF0BNMJ/3/gs=</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>4f80a859-68f5-44ef-8f26-cf5dcf4fcb7a</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-02-15T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P8D</TaskDuration>
+    <ParentTaskID>0f7ebe8c-0617-45cf-b9e1-18765274d6d3</ParentTaskID>
+    <Constraint>1</Constraint>
+    <TaskPercentComplete>30</TaskPercentComplete>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawsAAAACSWQSQ29uc3RyYWludERhdGVUaW1lDERlcGVuZGVuY2llcwhEdXJhdGlvbg5EdXJhdGlvbkZvcm1hdAROYW1lD1BlcmNlbnRDb21wbGV0ZQpQcm9qZWN0S2V5CVJlc291cmNlcw1TdGFydERhdGVUaW1lDFBhcmVudFRhc2tJZAMABAAAAQABBAADC1N5c3RlbS5HdWlkDTxJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFza0RlcGVuZGVuY2llc0NvbGxlY3Rpb24CAAAADAgLNUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAgAAAA0LU3lzdGVtLkd1aWQCAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAlmogE/1aO9EjybPXc9Py3oAAAAAAAAAAAkEAAAAAABOU0kGAAADAAAABgUAAAAMVGFzayBDb250ZW50AADwQQYGAAAACnByb2plY3RLZXkJBwAAANsnMUWS+NAIAfj////9////jL5+DxcGz0W54Rh2UnTW0wUEAAAAPEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jaWVzQ29sbGVjdGlvbgEAAAABMAQwSW5mcmFnaXN0aWNzLldpbi5VbHRyYVdpblNjaGVkdWxlLlRhc2tEZXBlbmRlbmN5AgAAAAIAAAAJCQAAAAUHAAAANUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAQAAAAEwAQIAAAAGCgAAAAtQZXJzb24gTmFtZQUJAAAAMEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jeQEAAAANUHJlZGVjZXNzb3JJZAMLU3lzdGVtLkd1aWQCAAAAAfX////9////rlUJTmdiTEesANh5/KIkhQs=</AllProperties>
+  </Tasks>
+  <Tasks>
+    <TaskID>eafd55ee-4eda-40f2-ba29-f7a783ee21bc</TaskID>
+    <ProjectKey>projectKey</ProjectKey>
+    <TaskName>Task Content</TaskName>
+    <TaskStartTime>2014-02-18T18:24:16.9002971-05:00</TaskStartTime>
+    <TaskDuration>P8D</TaskDuration>
+    <ParentTaskID>0f7ebe8c-0617-45cf-b9e1-18765274d6d3</ParentTaskID>
+    <Constraint>1</Constraint>
+    <TaskPercentComplete>25</TaskPercentComplete>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACZJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFzawsAAAACSWQSQ29uc3RyYWludERhdGVUaW1lDERlcGVuZGVuY2llcwhEdXJhdGlvbg5EdXJhdGlvbkZvcm1hdAROYW1lD1BlcmNlbnRDb21wbGV0ZQpQcm9qZWN0S2V5CVJlc291cmNlcw1TdGFydERhdGVUaW1lDFBhcmVudFRhc2tJZAMABAAAAQABBAADC1N5c3RlbS5HdWlkDTxJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuVGFza0RlcGVuZGVuY2llc0NvbGxlY3Rpb24CAAAADAgLNUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAgAAAA0LU3lzdGVtLkd1aWQCAAAABP3///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAu5V/eraTvJAuin3p4PuIbwAAAAAAAAAAAkEAAAAAABOU0kGAAADAAAABgUAAAAMVGFzayBDb250ZW50AADIQQYGAAAACnByb2plY3RLZXkJBwAAANtnbsTt+tAIAfj////9////jL5+DxcGz0W54Rh2UnTW0wUEAAAAPEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jaWVzQ29sbGVjdGlvbgEAAAABMAQwSW5mcmFnaXN0aWNzLldpbi5VbHRyYVdpblNjaGVkdWxlLlRhc2tEZXBlbmRlbmN5AgAAAAIAAAAJCQAAAAUHAAAANUluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5SZXNvdXJjZXNDb2xsZWN0aW9uAQAAAAEwAQIAAAAGCgAAAAtQZXJzb24gTmFtZQUJAAAAMEluZnJhZ2lzdGljcy5XaW4uVWx0cmFXaW5TY2hlZHVsZS5UYXNrRGVwZW5kZW5jeQEAAAANUHJlZGVjZXNzb3JJZAMLU3lzdGVtLkd1aWQCAAAAAfX////9////WaiAT/Vo70SPJs9dz0/Legs=</AllProperties>
+  </Tasks>
+  <Owners>
+    <Key>Person Name</Key>
+    <Name />
+    <EmailAddress />
+    <Visible>true</Visible>
+    <AllProperties>AAEAAAD/////AQAAAAAAAAAMAgAAAG9JbmZyYWdpc3RpY3M0Lldpbi5VbHRyYVdpblNjaGVkdWxlLnYxNC4xLCBWZXJzaW9uPTE0LjEuMC45MDAwLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTdkZDVjMzE2M2YyY2QwY2IFAQAAACdJbmZyYWdpc3RpY3MuV2luLlVsdHJhV2luU2NoZWR1bGUuT3duZXIBAAAAA0tleQECAAAABgMAAAALUGVyc29uIE5hbWUL</AllProperties>
+  </Owners>
+</ProjectManager>

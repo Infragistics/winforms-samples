@@ -1,0 +1,282 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Copyright>Copyright © Infragistics, Inc. 2014</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="bin\Debug\netcoreapp3.0\**" />
+    <EmbeddedResource Remove="bin\Debug\netcoreapp3.0\**" />
+    <None Remove="bin\Debug\netcoreapp3.0\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\NWind.Designer.cs" />
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Data\NWind.xml" />
+    <None Remove="Data\NWind.xsc" />
+    <None Remove="Data\NWind.xsd" />
+    <None Remove="Data\NWind.xss" />
+    <None Remove="Images\AdvancedFind-Selected.png" />
+    <None Remove="Images\AdvancedFind.png" />
+    <None Remove="Images\AppIcon.ico" />
+    <None Remove="Images\Arrow Colapsed.png" />
+    <None Remove="Images\Arrow Expanded.png" />
+    <None Remove="Images\Call-Selected.png" />
+    <None Remove="Images\Call.png" />
+    <None Remove="Images\Deleted-Selected.png" />
+    <None Remove="Images\Deleted.png" />
+    <None Remove="Images\DetectDuplicated-Selected.png" />
+    <None Remove="Images\DetectDuplicated.png" />
+    <None Remove="Images\Duplicate-Selected.png" />
+    <None Remove="Images\Duplicate.png" />
+    <None Remove="Images\Edit-Selected.png" />
+    <None Remove="Images\Edit.png" />
+    <None Remove="Images\ExplorerBar-Customers.png" />
+    <None Remove="Images\ExplorerBar-Marketing-ResourceCenter-Selected.png" />
+    <None Remove="Images\ExplorerBar-Marketing-ResourceCenter.png" />
+    <None Remove="Images\ExplorerBar-Marketing-Selected.png" />
+    <None Remove="Images\ExplorerBar-Marketing-Service-Selected.png" />
+    <None Remove="Images\ExplorerBar-Marketing-Service.png" />
+    <None Remove="Images\ExplorerBar-Marketing-Settings-Selected.png" />
+    <None Remove="Images\ExplorerBar-Marketing-Settings.png" />
+    <None Remove="Images\ExplorerBar-Marketing.png" />
+    <None Remove="Images\ExplorerBar-OrderDetails.png" />
+    <None Remove="Images\ExplorerBar-Orders.png" />
+    <None Remove="Images\ExplorerBar-ProductSales.png" />
+    <None Remove="Images\ExplorerBar-QuarterlyOrders.png" />
+    <None Remove="Images\ExplorerBar-Sales-Selected.png" />
+    <None Remove="Images\ExplorerBar-Sales.png" />
+    <None Remove="Images\ExplorerBar-SalesByCategory.png" />
+    <None Remove="Images\ExplorerBar-SalesByQuarter.png" />
+    <None Remove="Images\ExplorerBar-SalesByYear.png" />
+    <None Remove="Images\ExplorerBar-Shippers.png" />
+    <None Remove="Images\ExplorerBar-Suppliers.png" />
+    <None Remove="Images\ExplorerBar-Workplace-Selected.png" />
+    <None Remove="Images\ExplorerBar-Workplace.png" />
+    <None Remove="Images\Export_to_PDF.png" />
+    <None Remove="Images\Export_to_XLS.png" />
+    <None Remove="Images\Export_to_XPS.png" />
+    <None Remove="Images\ImportData-Selected.png" />
+    <None Remove="Images\ImportData.png" />
+    <None Remove="Images\Logo.PNG" />
+    <None Remove="Images\Merge-Selected.png" />
+    <None Remove="Images\Merge.png" />
+    <None Remove="Images\NewCustomer-Selected.png" />
+    <None Remove="Images\NewCustomer.png" />
+    <None Remove="Images\NewMeeting-Selected.png" />
+    <None Remove="Images\NewMeeting.png" />
+    <None Remove="Images\People01.png" />
+    <None Remove="Images\People02.png" />
+    <None Remove="Images\People03.png" />
+    <None Remove="Images\People04.png" />
+    <None Remove="Images\People05.png" />
+    <None Remove="Images\People06.png" />
+    <None Remove="Images\ReadingPane.png" />
+    <None Remove="Images\ReadingPane_Bottom.png" />
+    <None Remove="Images\ReadingPane_Off.png" />
+    <None Remove="Images\ReadingPane_Right.png" />
+    <None Remove="Images\ReadingPane_Selected.png" />
+    <None Remove="Images\RunReport-Selected.png" />
+    <None Remove="Images\RunReport.png" />
+    <None Remove="Images\RunWorkflow-Selected.png" />
+    <None Remove="Images\RunWorkflow.png" />
+    <None Remove="Images\Search.png" />
+    <None Remove="Images\SendEmail-Selected.png" />
+    <None Remove="Images\SendEmail.png" />
+    <None Remove="Images\StartDialog-Selected.png" />
+    <None Remove="Images\StartDialog.png" />
+    <None Remove="Images\Thumb.png" />
+    <None Remove="Images\WinChart.png" />
+    <None Remove="Images\WinExplorerBar.png" />
+    <None Remove="Images\WinGrid.png" />
+    <None Remove="Images\WinGridDocumentExporter.png" />
+    <None Remove="Images\WinGridExcelExporter.png" />
+    <None Remove="Images\WinToolbarsManager.png" />
+    <None Remove="Resources\SamplesBrowser\Outlook_Large_248x124.png" />
+    <None Remove="Resources\SamplesBrowser\Outlook_Large_310x155.png" />
+    <None Remove="Resources\SamplesBrowser\Outlook_Large_434x217.png" />
+    <None Remove="Resources\SamplesBrowser\Outlook_Large_558x279.png" />
+    <None Remove="Resources\SamplesBrowser\Outlook_Med_118x88.png" />
+    <None Remove="Resources\SamplesBrowser\Outlook_Med_148x113.png" />
+    <None Remove="Resources\SamplesBrowser\Outlook_Med_208x158.png" />
+    <None Remove="Resources\SamplesBrowser\Outlook_Med_268x202.png" />
+    <None Remove="Styling\Theme 01.isl" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\OutlookCRM.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\OutlookCRM.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\OutlookCRM.runtimeconfig.json" />
+    <Content Include="Resources\SamplesBrowser\Outlook_Large_248x124.png" />
+    <Content Include="Resources\SamplesBrowser\Outlook_Large_310x155.png" />
+    <Content Include="Resources\SamplesBrowser\Outlook_Large_434x217.png" />
+    <Content Include="Resources\SamplesBrowser\Outlook_Large_558x279.png" />
+    <Content Include="Resources\SamplesBrowser\Outlook_Med_118x88.png" />
+    <Content Include="Resources\SamplesBrowser\Outlook_Med_148x113.png" />
+    <Content Include="Resources\SamplesBrowser\Outlook_Med_208x158.png" />
+    <Content Include="Resources\SamplesBrowser\Outlook_Med_268x202.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data\NWind.xml" />
+    <EmbeddedResource Include="Images\AdvancedFind-Selected.png" />
+    <EmbeddedResource Include="Images\AdvancedFind.png" />
+    <EmbeddedResource Include="Images\AppIcon.ico" />
+    <EmbeddedResource Include="Images\Arrow Colapsed.png" />
+    <EmbeddedResource Include="Images\Arrow Expanded.png" />
+    <EmbeddedResource Include="Images\Call-Selected.png" />
+    <EmbeddedResource Include="Images\Call.png" />
+    <EmbeddedResource Include="Images\Deleted-Selected.png" />
+    <EmbeddedResource Include="Images\Deleted.png" />
+    <EmbeddedResource Include="Images\DetectDuplicated-Selected.png" />
+    <EmbeddedResource Include="Images\DetectDuplicated.png" />
+    <EmbeddedResource Include="Images\Duplicate-Selected.png" />
+    <EmbeddedResource Include="Images\Duplicate.png" />
+    <EmbeddedResource Include="Images\Edit-Selected.png" />
+    <EmbeddedResource Include="Images\Edit.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Customers.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Marketing-ResourceCenter-Selected.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Marketing-ResourceCenter.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Marketing-Selected.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Marketing-Service-Selected.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Marketing-Service.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Marketing-Settings-Selected.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Marketing-Settings.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Marketing.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-OrderDetails.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Orders.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-ProductSales.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-QuarterlyOrders.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Sales-Selected.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Sales.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-SalesByCategory.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-SalesByQuarter.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-SalesByYear.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Shippers.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Suppliers.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Workplace-Selected.png" />
+    <EmbeddedResource Include="Images\ExplorerBar-Workplace.png" />
+    <EmbeddedResource Include="Images\Export_to_PDF.png" />
+    <EmbeddedResource Include="Images\Export_to_XLS.png" />
+    <EmbeddedResource Include="Images\Export_to_XPS.png" />
+    <EmbeddedResource Include="Images\ImportData-Selected.png" />
+    <EmbeddedResource Include="Images\ImportData.png" />
+    <EmbeddedResource Include="Images\Logo.PNG" />
+    <EmbeddedResource Include="Images\Merge-Selected.png" />
+    <EmbeddedResource Include="Images\Merge.png" />
+    <EmbeddedResource Include="Images\NewCustomer-Selected.png" />
+    <EmbeddedResource Include="Images\NewCustomer.png" />
+    <EmbeddedResource Include="Images\NewMeeting-Selected.png" />
+    <EmbeddedResource Include="Images\NewMeeting.png" />
+    <EmbeddedResource Include="Images\People01.png" />
+    <EmbeddedResource Include="Images\People02.png" />
+    <EmbeddedResource Include="Images\People03.png" />
+    <EmbeddedResource Include="Images\People04.png" />
+    <EmbeddedResource Include="Images\People05.png" />
+    <EmbeddedResource Include="Images\People06.png" />
+    <EmbeddedResource Include="Images\ReadingPane.png" />
+    <EmbeddedResource Include="Images\ReadingPane_Bottom.png" />
+    <EmbeddedResource Include="Images\ReadingPane_Off.png" />
+    <EmbeddedResource Include="Images\ReadingPane_Right.png" />
+    <EmbeddedResource Include="Images\ReadingPane_Selected.png" />
+    <EmbeddedResource Include="Images\RunReport-Selected.png" />
+    <EmbeddedResource Include="Images\RunReport.png" />
+    <EmbeddedResource Include="Images\RunWorkflow-Selected.png" />
+    <EmbeddedResource Include="Images\RunWorkflow.png" />
+    <EmbeddedResource Include="Images\Search.png" />
+    <EmbeddedResource Include="Images\SendEmail-Selected.png" />
+    <EmbeddedResource Include="Images\SendEmail.png" />
+    <EmbeddedResource Include="Images\StartDialog-Selected.png" />
+    <EmbeddedResource Include="Images\StartDialog.png" />
+    <EmbeddedResource Include="Images\Thumb.png" />
+    <EmbeddedResource Include="Images\WinChart.png" />
+    <EmbeddedResource Include="Images\WinExplorerBar.png" />
+    <EmbeddedResource Include="Images\WinGrid.png" />
+    <EmbeddedResource Include="Images\WinGridDocumentExporter.png" />
+    <EmbeddedResource Include="Images\WinGridExcelExporter.png" />
+    <EmbeddedResource Include="Images\WinToolbarsManager.png" />
+    <EmbeddedResource Include="Styling\Theme 01.isl" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\de\Infragistics.Documents.Core.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\de\Infragistics.Documents.Excel.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\es\Infragistics.Documents.Core.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\es\Infragistics.Documents.Excel.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\fr\Infragistics.Documents.Core.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\fr\Infragistics.Documents.Excel.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Documents.Core.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Documents.Excel.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Documents.Reports.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Shared.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.DataVisualization.Shared.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.DataVisualization.UltraDataChart.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.Misc.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.Portable.Core.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinDataSource.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinDock.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinEditors.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinExplorerBar.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinGrid.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinGrid.DocumentExport.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinGrid.ExcelExport.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinSchedule.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinStatusBar.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinTabbedMdi.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinTabControl.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinToolbars.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Documents.Core.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Documents.Excel.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Documents.Reports.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Shared.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.DataVisualization.Shared.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.DataVisualization.UltraDataChart.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.Misc.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinDataSource.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinDock.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinEditors.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinExplorerBar.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinGrid.DocumentExport.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinGrid.ExcelExport.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinGrid.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinSchedule.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinStatusBar.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinTabbedMdi.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinTabControl.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinToolbars.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\OutlookCRM.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\OutlookCRM.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\OutlookCRM.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\OutlookCRM.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Infragistics.WinForms" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Charts" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.DataSource" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.DataVisualization" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Dock" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Editors" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Excel" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.ExplorerBar" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Reports" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Schedule" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Shared" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.TabbedMdi" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.TabControl" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Toolbars" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.WinGrid" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.WinGrid.DocumentExport" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.WinGrid.ExcelExport" Version="20.1.12" />
+  </ItemGroup>
+
+</Project>

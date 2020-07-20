@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INGear", "INGear\INGear.csproj", "{59864987-4F72-445B-A27C-7FF0A7E09D5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59864987-4F72-445B-A27C-7FF0A7E09D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59864987-4F72-445B-A27C-7FF0A7E09D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59864987-4F72-445B-A27C-7FF0A7E09D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59864987-4F72-445B-A27C-7FF0A7E09D5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69A48BAA-8E62-42BE-AF96-1A5168918714}
+	EndGlobalSection
+EndGlobal

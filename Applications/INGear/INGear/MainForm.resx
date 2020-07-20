@@ -1,0 +1,983 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;lblCurrent.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl4.Name" xml:space="preserve">
+    <value>ultraTabPageControl4</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Right.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea, Infragistics4.Win.UltraWinToolbars.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;btnInventory.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_MainForm_Toolbars_Dock_Area_Bottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 699</value>
+  </data>
+  <data name="ultraTabPageControl5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>836, 422</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Left.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tcSchedule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>840, 468</value>
+  </data>
+  <data name="ultraTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>840, 468</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tcSchedule.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblStart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnSchedule.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>777, 44</value>
+  </data>
+  <data name="&gt;&gt;ultraCalendarLook1.Name" xml:space="preserve">
+    <value>ultraCalendarLook1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl4.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="ultraTab4.Text" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="&gt;&gt;btnInventory.Name" xml:space="preserve">
+    <value>btnInventory</value>
+  </data>
+  <data name="mvSchedule.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="flowLayoutPanel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblStart.Text" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;MainForm_Fill_Panel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPrevious.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;mvSchedule.Name" xml:space="preserve">
+    <value>mvSchedule</value>
+  </data>
+  <data name="gridInventory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Right.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage2.Parent" xml:space="preserve">
+    <value>tcSchedule</value>
+  </data>
+  <data name="ultraTabPageControl5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_MainForm_Toolbars_Dock_Area_Right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>999, 30</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Top.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea, Infragistics4.Win.UltraWinToolbars.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="lblStart.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ultraPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl3.Name" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="ultraTabPageControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 43</value>
+  </data>
+  <data name="gridInventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>840, 428</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl2.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="btnInventory.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 4</value>
+  </data>
+  <data name="tcSchedule.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl4.Parent" xml:space="preserve">
+    <value>tcSchedule</value>
+  </data>
+  <data name="&gt;&gt;btnSchedule.Parent" xml:space="preserve">
+    <value>MainForm_Fill_Panel.ClientArea</value>
+  </data>
+  <data name="mvSchedule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>836, 422</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridInventory.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics4.Win.UltraWinGrid.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabControl1.Parent" xml:space="preserve">
+    <value>MainForm_Fill_Panel.ClientArea</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCurrent.Text" xml:space="preserve">
+    <value>Component</value>
+  </data>
+  <data name="resource.ItalicAsString" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAAAIABoBAAAJgAAACAgAAAAACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAEAE
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/ERER/05OTv9GRkb/AwMD/1lZWf9CQkL/Ozs7/wAA
+        AP8xMTH/Kioq/xsbG/83Nzf/AAAA/wAAAP8AAAD/AAAA/1VVVf8KCgr/T09P/zIyMv9SUlL/FBQU/0JC
+        Qv9eXl7/Wlpa/zk5Of9tbW3/EBAQ/wAAAP8AAAD/AAAA/wAAAP9VVVX/CgoK/ykpKf8VFRX/YmJi/y4u
+        Lv8NDQ3/bGxs/x8fH/85OTn/ODg4/z8/P/8AAAD/AAAA/wAAAP8GBgb/EhIS/0xMTP9KSkr/BwcH/1lZ
+        Wf9GRkb/BAQE/zExMf8EBAT/Kioq/1RUVP8bGxv/AAAA/wAAAP8AAAD/CAgI/1xcXP9iYmL/BgYG/zs7
+        O/9+fn7/CQkJ/woKCv8KCgr/CgoK/wgICP+Kior/AwMD/wAAAP8AAAD/AAAA/wYGBv+ioqL/rKys/wMD
+        A/9jY2P/29vb/wcHB/8KCgr/CgoK/wUFBf+Xl5f/1NTU/wEBAf8AAAD/AAAA/wAAAP8GBgb/oKCg/6ur
+        q/8DAwP/YmJi/9ra2v8FBQX/CQkJ/wUFBf+Dg4P//////9PT0/8BAQH/AAAA/wAAAP8AAAD/BgYG/6Cg
+        oP+rq6v/AwMD/2JiYv/a2tr/BQUF/wUFBf9vb2//8vLy/6Ojo//U1NT/AQEB/wAAAP8AAAD/AAAA/wYG
+        Bv+goKD/q6ur/wMDA/9iYmL/2tra/wMDA/9dXV3/9vb2/1lZWf9oaGj/1NTU/wEBAf8AAAD/AAAA/wAA
+        AP8GBgb/oKCg/6urq/8DAwP/YmJi/9bW1v9JSUn/9fX1/2pqav8CAgL/ampq/9TU1P8BAQH/AAAA/wAA
+        AP8AAAD/BgYG/6CgoP+rq6v/AwMD/2JiYv/w8PD/7u7u/319ff8EBAT/BAQE/2pqav/U1NT/AQEB/wAA
+        AP8AAAD/AAAA/wYGBv+goKD/q6ur/wICAv9hYWH//////5KSkv8EBAT/CAgI/wQEBP9qamr/1NTU/wEB
+        Af8AAAD/AAAA/wAAAP8GBgb/nZ2d/6ampv8CAgL/ZGRk/6urq/8HBwf/CAgI/wgICP8EBAT/aGho/8/P
+        z/8AAAD/AAAA/wAAAP8AAAD/CwsL/xgYGP8YGBj/BwcH/zIyMv8RERH/CgoK/wgICP8ICAj/BwcH/xAQ
+        EP8cHBz/BQUF/wAAAP8AAAD/AAAA/wUFBf8FBQX/BQUF/wQEBP8DAwP/BAQE/wQEBP8DAwP/AwMD/wMD
+        A/8DAwP/AwMD/wICAv8AAAD/AAAA/wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8oAAAAIAAAAEAAAAABACAAAAAAAIAQAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/w8PD/80NDT/Kioq/wAA
+        AP8AAAD/AAAA/zQ0NP80NDT/NDQ0/x4eHv80NDT/Dw8P/wAAAP8AAAD/AAAA/yoqKv8PDw//Kioq/w8P
+        D/8AAAD/Kioq/x4eHv8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP9HR0f/hYWF/3Jy
+        cv9/f3//cnJy/w8PD/8AAAD/i4uL/3Jycv9ycnL/R0dH/2VlZf9HR0f/AAAA/wAAAP8eHh7/f39//wAA
+        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
+        ///+/v7///////////+EhIT/AAAA/wUFBf8JCQn/CAgI/wEBAf8LCwv/ysrK//////+pqan/AAAA/wMD
+        A/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8NDQ3/AAAA/0hISP/4+Pj//v7+/1hYWP8AAAD/BgYG/wsL
+        C/+5ubn/////////////////l5eX/wcHB/8DAwP/CAgI/wgICP8ICAj/AQEB/wsLC//Kysr//////6mp
+        qf8AAAD/AwMD/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wwMDP8AAAD/SEhI//j4+P/+/v7/WFhY/wAA
+        AP8FBQX/CwsL/7i4uP///////////6ioqP8LCwv/AQEB/wgICP8ICAj/CAgI/wgICP8BAQH/CwsL/8rK
+        yv//////qamp/wAAAP8CAgL/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/DAwM/wAAAP9KSkr//v7+////
+        //9aWlr/AAAA/wQEBP8LCwv/uLi4//////+6urr/ExMT/wAAAP8KCgr/CAgI/wgICP8ICAj/CAgI/wEB
+        Af8LCwv/z8/P//////+urq7/AAAA/wEBAf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8MDAz/AAAA/0VF
+        Rf/n5+f/7e3t/1RUVP8AAAD/BAQE/wwMDP/Dw8P/1tbW/x4eHv8AAAD/CwsL/wkJCf8ICAj/CAgI/wgI
+        CP8ICAj/AQEB/wsLC/++vr7/7+/v/6Kiov8AAAD/AQEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wwM
+        DP8ICAj/GBgY/0FBQf9CQkL/Gxsb/wYGBv8DAwP/FRUV/4+Pj/84ODj/AAAA/wsLC/8KCgr/CQkJ/wgI
+        CP8ICAj/CAgI/wgICP8GBgb/BwcH/zMzM/9HR0f/Kysr/wQEBP8EBAT/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/CwsL/w0NDf8ICAj/AAAA/wAAAP8FBQX/CwsL/wgICP8PDw//FRUV/wMDA/8JCQn/CgoK/woK
+        Cv8JCQn/CAgI/wgICP8ICAj/CAgI/wgICP8GBgb/AAAA/wAAAP8AAAD/CAgI/wUFBf8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8KCgr/CwsL/wsLC/8MDAz/CwsL/wkJCf8JCQn/CQkJ/wgICP8EBAT/CAgI/wkJ
+        Cf8JCQn/CQkJ/wgICP8HBwf/BwcH/wcHB/8HBwf/BwcH/wYGBv8GBgb/BgYG/wYGBv8GBgb/BAQE/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+        AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Left.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage, Infragistics4.Win.UltraWinTabControl.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="lblPrevious.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblCurrent.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="resource.ItalicAsString2" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="lblStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>717, 618</value>
+  </data>
+  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gridInventory.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Left.Name" xml:space="preserve">
+    <value>_MainForm_Toolbars_Dock_Area_Left</value>
+  </data>
+  <data name="&gt;&gt;ultraTabControl1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabControl, Infragistics4.Win.UltraWinTabControl.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblCurrent.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSchedule.Text" xml:space="preserve">
+    <value>DELIVERY SCHEDULE</value>
+  </data>
+  <data name="&gt;&gt;dvSchedule.Name" xml:space="preserve">
+    <value>dvSchedule</value>
+  </data>
+  <data name="ultraTabPageControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ultraTabPageControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="lblCurrent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 26</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+    <value>MainForm_Fill_Panel.ClientArea</value>
+  </data>
+  <data name="resource.UnderlineAsString2" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPrevious.Text" xml:space="preserve">
+    <value>Category /</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;wvSchedule.Name" xml:space="preserve">
+    <value>wvSchedule</value>
+  </data>
+  <data name="lblStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraPanel, Infragistics4.Win.Misc.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl3.Parent" xml:space="preserve">
+    <value>tcSchedule</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="wvSchedule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>836, 422</value>
+  </data>
+  <data name="flowLayoutPanel1.WrapContents" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ultraTabSharedControlsPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="ultraTabSharedControlsPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>840, 468</value>
+  </data>
+  <data name="&gt;&gt;tcSchedule.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;wvSchedule.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnInventory.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_MainForm_Toolbars_Dock_Area_Top.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 30</value>
+  </data>
+  <data name="btnInventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 42</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Bottom.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea, Infragistics4.Win.UltraWinToolbars.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 50</value>
+  </data>
+  <data name="&gt;&gt;ultraCalendarInfo1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinSchedule.UltraCalendarInfo, Infragistics4.Win.UltraWinSchedule.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="btnInventory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 2</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.Name" xml:space="preserve">
+    <value>ultraPanel1</value>
+  </data>
+  <data name="resource.SizeInPoints2" type="System.Single, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Top.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="wvSchedule.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Bottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="appearance4.TextVAlignAsString" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage2.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage, Infragistics4.Win.UltraWinTabControl.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblLogo.Parent" xml:space="preserve">
+    <value>MainForm_Fill_Panel.ClientArea</value>
+  </data>
+  <data name="&gt;&gt;modalPanelManager1.Type" xml:space="preserve">
+    <value>Showcase.CustomControl.ModalPanelManager, INGear, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="ultraTab1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>980, 500</value>
+  </data>
+  <data name="lblLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>439, 120</value>
+  </data>
+  <data name="resource.SizeInPoints1" type="System.Single, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;ultraTabControl1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblCurrent.Name" xml:space="preserve">
+    <value>lblCurrent</value>
+  </data>
+  <data name="ultraTabSharedControlsPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="&gt;&gt;ultraTouchProvider1.Name" xml:space="preserve">
+    <value>ultraTouchProvider1</value>
+  </data>
+  <data name="&gt;&gt;ultraRadialMenu1.Name" xml:space="preserve">
+    <value>ultraRadialMenu1</value>
+  </data>
+  <data name="resource.StrikeoutAsString1" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage1.Parent" xml:space="preserve">
+    <value>ultraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;wvSchedule.Parent" xml:space="preserve">
+    <value>ultraTabPageControl4</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl5.Parent" xml:space="preserve">
+    <value>tcSchedule</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mvSchedule.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPrevious.Name" xml:space="preserve">
+    <value>lblPrevious</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage2.Name" xml:space="preserve">
+    <value>ultraTabSharedControlsPage2</value>
+  </data>
+  <data name="ultraTab5.Text" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="gridInventory.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="appearance3.TextVAlignAsString" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="&gt;&gt;btnSchedule.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;wvSchedule.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinSchedule.UltraWeekView, Infragistics4.Win.UltraWinSchedule.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;MainForm_Fill_Panel.Name" xml:space="preserve">
+    <value>MainForm_Fill_Panel</value>
+  </data>
+  <data name="ultraTabPageControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>836, 422</value>
+  </data>
+  <data name="&gt;&gt;MainForm_Fill_Panel.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraPanel, Infragistics4.Win.Misc.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;dvSchedule.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mvSchedule.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinSchedule.UltraMonthViewSingle, Infragistics4.Win.UltraWinSchedule.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="btnInventory.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;ultraCalendarLook1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinSchedule.UltraCalendarLook, Infragistics4.Win.UltraWinSchedule.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Bottom.Name" xml:space="preserve">
+    <value>_MainForm_Toolbars_Dock_Area_Bottom</value>
+  </data>
+  <data name="btnInventory.Text" xml:space="preserve">
+    <value>INVENTORY</value>
+  </data>
+  <data name="resource.BoldAsString2" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl3.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="ultraTabSharedControlsPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>836, 422</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.ClientArea.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblLogo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Bottom.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSchedule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 42</value>
+  </data>
+  <data name="lblCurrent.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ultraTab2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;gridInventory.Name" xml:space="preserve">
+    <value>gridInventory</value>
+  </data>
+  <data name="&gt;&gt;lblPrevious.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.ClientArea.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraPanelClientAreaUnsafe, Infragistics4.Win.Misc.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="dvSchedule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl5.Name" xml:space="preserve">
+    <value>ultraTabPageControl5</value>
+  </data>
+  <data name="mvSchedule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ultraTabPageControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>840, 468</value>
+  </data>
+  <data name="_MainForm_Toolbars_Dock_Area_Left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 30</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;modalPanelManager1.Name" xml:space="preserve">
+    <value>modalPanelManager1</value>
+  </data>
+  <data name="&gt;&gt;ultraToolbarsManager1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinToolbars.UltraToolbarsManager, Infragistics4.Win.UltraWinToolbars.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="btnSchedule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 2</value>
+  </data>
+  <data name="wvSchedule.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="_MainForm_Toolbars_Dock_Area_Bottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 1</value>
+  </data>
+  <data name="ultraTab3.Text" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="&gt;&gt;tcSchedule.Parent" xml:space="preserve">
+    <value>ultraTabPageControl2</value>
+  </data>
+  <data name="&gt;&gt;MainForm_Fill_Panel.ClientArea.Name" xml:space="preserve">
+    <value>MainForm_Fill_Panel.ClientArea</value>
+  </data>
+  <data name="&gt;&gt;lblStart.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ultraTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 122</value>
+  </data>
+  <data name="ultraTabPageControl4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl2.Parent" xml:space="preserve">
+    <value>ultraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl1.Name" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="MainForm_Fill_Panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 30</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="resource.StrikeoutAsString2" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="resource.UnderlineAsString1" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="tcSchedule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;dvSchedule.Parent" xml:space="preserve">
+    <value>ultraTabPageControl5</value>
+  </data>
+  <data name="&gt;&gt;btnSchedule.Name" xml:space="preserve">
+    <value>btnSchedule</value>
+  </data>
+  <data name="lblPrevious.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tcSchedule.Name" xml:space="preserve">
+    <value>tcSchedule</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.ClientArea.Parent" xml:space="preserve">
+    <value>ultraPanel1</value>
+  </data>
+  <data name="ultraTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;MainForm_Fill_Panel.ClientArea.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraPanelClientAreaUnsafe, Infragistics4.Win.Misc.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="gridInventory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 40</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl5.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;btnInventory.Parent" xml:space="preserve">
+    <value>MainForm_Fill_Panel.ClientArea</value>
+  </data>
+  <data name="mvSchedule.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ultraTabControl1.Name" xml:space="preserve">
+    <value>ultraTabControl1</value>
+  </data>
+  <data name="MainForm_Fill_Panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>998, 669</value>
+  </data>
+  <data name="&gt;&gt;ultraToolbarsManager1.Name" xml:space="preserve">
+    <value>ultraToolbarsManager1</value>
+  </data>
+  <data name="resource.BoldAsString" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Right.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ultraTouchProvider1.Type" xml:space="preserve">
+    <value>Infragistics.Win.Touch.UltraTouchProvider, Infragistics4.Win.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="MainForm_Fill_Panel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;lblLogo.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 700</value>
+  </data>
+  <data name="&gt;&gt;ultraRadialMenu1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinRadialMenu.UltraRadialMenu, Infragistics4.Win.UltraWinRadialMenu.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="lblCurrent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 3</value>
+  </data>
+  <data name="&gt;&gt;MainForm_Fill_Panel.ClientArea.Parent" xml:space="preserve">
+    <value>MainForm_Fill_Panel</value>
+  </data>
+  <data name="&gt;&gt;ultraCalendarInfo1.Name" xml:space="preserve">
+    <value>ultraCalendarInfo1</value>
+  </data>
+  <data name="resource.SizeInPoints" type="System.Single, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Parent" xml:space="preserve">
+    <value>MainForm_Fill_Panel.ClientArea</value>
+  </data>
+  <data name="&gt;&gt;lblLogo.Name" xml:space="preserve">
+    <value>lblLogo</value>
+  </data>
+  <data name="&gt;&gt;gridInventory.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPrevious.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 26</value>
+  </data>
+  <data name="ultraPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>840, 40</value>
+  </data>
+  <data name="dvSchedule.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;lblStart.Name" xml:space="preserve">
+    <value>lblStart</value>
+  </data>
+  <data name="lblCurrent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Right.Name" xml:space="preserve">
+    <value>_MainForm_Toolbars_Dock_Area_Right</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl2.Name" xml:space="preserve">
+    <value>ultraTabPageControl2</value>
+  </data>
+  <data name="&gt;&gt;tcSchedule.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabControl, Infragistics4.Win.UltraWinTabControl.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="lblPrevious.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 3</value>
+  </data>
+  <data name="resource.ItalicAsString1" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="resource.BoldAsString1" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="ultraPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="resource.StrikeoutAsString" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage1.Name" xml:space="preserve">
+    <value>ultraTabSharedControlsPage1</value>
+  </data>
+  <data name="ultraTabPageControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>840, 468</value>
+  </data>
+  <data name="btnSchedule.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="dvSchedule.Text" xml:space="preserve">
+    <value>ultraDayView1</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Left.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea, Infragistics4.Win.UltraWinToolbars.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblPrevious.Parent" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;mvSchedule.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="resource.UnderlineAsString" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="_MainForm_Toolbars_Dock_Area_Left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 669</value>
+  </data>
+  <data name="wvSchedule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ultraTabPageControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>836, 422</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Top.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MainForm_Fill_Panel.ClientArea.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel1.ClientArea.Name" xml:space="preserve">
+    <value>ultraPanel1.ClientArea</value>
+  </data>
+  <data name="dvSchedule.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl1.Parent" xml:space="preserve">
+    <value>ultraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;_MainForm_Toolbars_Dock_Area_Top.Name" xml:space="preserve">
+    <value>_MainForm_Toolbars_Dock_Area_Top</value>
+  </data>
+  <data name="_MainForm_Toolbars_Dock_Area_Right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 669</value>
+  </data>
+  <data name="appearance2.TextVAlignAsString" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="&gt;&gt;MainForm_Fill_Panel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 25</value>
+  </data>
+  <data name="&gt;&gt;dvSchedule.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinSchedule.UltraDayView, Infragistics4.Win.UltraWinSchedule.v13.2, Version=13.2.20132.1011, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="MainForm_Fill_Panel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dvSchedule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>836, 422</value>
+  </data>
+  <data name="&gt;&gt;btnSchedule.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ultraTabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="lblStart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="_MainForm_Toolbars_Dock_Area_Top.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <metadata name="ultraCalendarInfo1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>344, 17</value>
+  </metadata>
+  <metadata name="ultraTouchProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>653, 15</value>
+  </metadata>
+  <metadata name="ultraToolbarsManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="modalPanelManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="ultraRadialMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>196, 17</value>
+  </metadata>
+  <metadata name="ultraCalendarLook1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>497, 17</value>
+  </metadata>
+</root>

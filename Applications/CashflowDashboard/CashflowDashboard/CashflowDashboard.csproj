@@ -1,0 +1,157 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>Showcase.CashflowDashboard</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="bin\Debug\netcoreapp3.0\**" />
+    <Compile Remove="obj\Debug\netcoreapp3.0\**" />
+    <EmbeddedResource Remove="bin\Debug\netcoreapp3.0\**" />
+    <EmbeddedResource Remove="obj\Debug\netcoreapp3.0\**" />
+    <None Remove="bin\Debug\netcoreapp3.0\**" />
+    <None Remove="obj\Debug\netcoreapp3.0\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\cashflow.ico" />
+    <None Remove="Images\FinancingInflowLegend.png" />
+    <None Remove="Images\FinancingOutflowLegend.png" />
+    <None Remove="Images\InvestingInflowLegend.png" />
+    <None Remove="Images\InvestingOutflowLegend.png" />
+    <None Remove="Images\LeftGradientBackgroundGrey.png" />
+    <None Remove="Images\LeftGradientBackgroundWhite.png" />
+    <None Remove="Images\OperationsInflowLegend.png" />
+    <None Remove="Images\OperationsOutflowLegend.png" />
+    <None Remove="Images\OtherInflowLegend.png" />
+    <None Remove="Images\OtherOutflowLegend.png" />
+    <None Remove="Images\small_graphic.png" />
+    <None Remove="Images\Total Cashflow Legend\EndingCashLegend.png" />
+    <None Remove="Images\Total Cashflow Legend\InflowLegend.png" />
+    <None Remove="Images\Total Cashflow Legend\OutflowLegend.png" />
+    <None Remove="Images\Total Cashflow Legend\ProjectedLegend.png" />
+    <None Remove="Images\User.png" />
+    <None Remove="Images\WhiteButtonTransparent.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\CashflowDashboard.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\CashflowDashboard.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\CashflowDashboard.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\CashflowDashboard.runtimeconfig.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\CashflowDashboard.csproj.FileListAbsolute.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\cashflow.ico" />
+    <EmbeddedResource Include="Images\FinancingInflowLegend.png" />
+    <EmbeddedResource Include="Images\FinancingOutflowLegend.png" />
+    <EmbeddedResource Include="Images\InvestingInflowLegend.png" />
+    <EmbeddedResource Include="Images\InvestingOutflowLegend.png" />
+    <EmbeddedResource Include="Images\LeftGradientBackgroundGrey.png" />
+    <EmbeddedResource Include="Images\LeftGradientBackgroundWhite.png" />
+    <EmbeddedResource Include="Images\OperationsInflowLegend.png" />
+    <EmbeddedResource Include="Images\OperationsOutflowLegend.png" />
+    <EmbeddedResource Include="Images\OtherInflowLegend.png" />
+    <EmbeddedResource Include="Images\OtherOutflowLegend.png" />
+    <EmbeddedResource Include="Images\small_graphic.png" />
+    <EmbeddedResource Include="Images\Total Cashflow Legend\EndingCashLegend.png" />
+    <EmbeddedResource Include="Images\Total Cashflow Legend\InflowLegend.png" />
+    <EmbeddedResource Include="Images\Total Cashflow Legend\OutflowLegend.png" />
+    <EmbeddedResource Include="Images\Total Cashflow Legend\ProjectedLegend.png" />
+    <EmbeddedResource Include="Images\User.png" />
+    <EmbeddedResource Include="Images\WhiteButtonTransparent.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\SamplesBrowser\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\CashflowDashboard.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\CashflowDashboard.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\CashflowDashboard.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Shared.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.DataVisualization.Shared.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.DataVisualization.UltraDataChart.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.Misc.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.Portable.Core.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinEditors.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinGrid.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinRadialMenu.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinSchedule.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinStatusBar.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinTabControl.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\Infragistics.Win.UltraWinToolbars.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\CashflowDashboard.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Shared.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.DataVisualization.Shared.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.DataVisualization.UltraDataChart.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.Misc.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinEditors.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinGrid.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinRadialMenu.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinSchedule.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinStatusBar.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinTabControl.resources.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\ja\Infragistics.Win.UltraWinToolbars.resources.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\CashflowDashboard.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\CashflowDashboard.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\CashflowDashboard.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\CashflowDashboard.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\Showcase.CashflowDashboard.CashflowDetails.ja.resources" />
+    <None Include="obj\Debug\netcoreapp3.1\Showcase.CashflowDashboard.CashflowDetails.resources" />
+    <None Include="obj\Debug\netcoreapp3.1\Showcase.CashflowDashboard.MainForm.ja.resources" />
+    <None Include="obj\Debug\netcoreapp3.1\Showcase.CashflowDashboard.MainForm.resources" />
+    <None Include="obj\Debug\netcoreapp3.1\Showcase.CashflowDashboard.Properties.Resources.resources" />
+    <None Include="obj\Debug\netcoreapp3.1\Showcase.CashflowDashboard.Resources.SamplesBrowser.SamplesBrowser.ja.resources" />
+    <None Include="obj\Debug\netcoreapp3.1\Showcase.CashflowDashboard.Resources.SamplesBrowser.SamplesBrowser.resources" />
+    <None Include="obj\Debug\netcoreapp3.1\Showcase.CashflowDashboard.SummaryBlock.ja.resources" />
+    <None Include="obj\Debug\netcoreapp3.1\Showcase.CashflowDashboard.SummaryBlock.resources" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Infragistics.WinForms" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Charts" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.DataVisualization" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Editors" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Misc" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Portable.Core" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.RadialMenu" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Schedule" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Shared" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.StatusBar" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.TabControl" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Toolbars" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.WinGrid" Version="20.1.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

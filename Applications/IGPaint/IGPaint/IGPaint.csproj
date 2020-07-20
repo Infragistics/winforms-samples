@@ -1,0 +1,182 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>Images\IGPaint - App Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="bin\Debug\netcoreapp3.0\**" />
+    <EmbeddedResource Remove="bin\Debug\netcoreapp3.0\**" />
+    <None Remove="bin\Debug\netcoreapp3.0\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\IGPaint - 16x16 - Bold.png" />
+    <None Remove="Images\IGPaint - 16x16 - Capture.png" />
+    <None Remove="Images\IGPaint - 16x16 - Circle Border and Fill.png" />
+    <None Remove="Images\IGPaint - 16x16 - Circle Border.png" />
+    <None Remove="Images\IGPaint - 16x16 - Circle fill.png" />
+    <None Remove="Images\IGPaint - 16x16 - Clear Image.png" />
+    <None Remove="Images\IGPaint - 16x16 - Color Back.png" />
+    <None Remove="Images\IGPaint - 16x16 - Color Front.png" />
+    <None Remove="Images\IGPaint - 16x16 - Copy format.png" />
+    <None Remove="Images\IGPaint - 16x16 - Copy.png" />
+    <None Remove="Images\IGPaint - 16x16 - Curves.png" />
+    <None Remove="Images\IGPaint - 16x16 - Cut.png" />
+    <None Remove="Images\IGPaint - 16x16 - Eraser All.png" />
+    <None Remove="Images\IGPaint - 16x16 - Eraser Matching.png" />
+    <None Remove="Images\IGPaint - 16x16 - Eye Drop.png" />
+    <None Remove="Images\IGPaint - 16x16 - Fill.png" />
+    <None Remove="Images\IGPaint - 16x16 - Flip Horizontal.png" />
+    <None Remove="Images\IGPaint - 16x16 - Flip Vertical.png" />
+    <None Remove="Images\IGPaint - 16x16 - ForeColor.png" />
+    <None Remove="Images\IGPaint - 16x16 - Gradient.png" />
+    <None Remove="Images\IGPaint - 16x16 - Image Grid.png" />
+    <None Remove="Images\IGPaint - 16x16 - Image Size.png" />
+    <None Remove="Images\IGPaint - 16x16 - Invert Colors.png" />
+    <None Remove="Images\IGPaint - 16x16 - Italic.png" />
+    <None Remove="Images\IGPaint - 16x16 - Large Brush.png" />
+    <None Remove="Images\IGPaint - 16x16 - Line.png" />
+    <None Remove="Images\IGPaint - 16x16 - Medium Brush.png" />
+    <None Remove="Images\IGPaint - 16x16 - Move down.png" />
+    <None Remove="Images\IGPaint - 16x16 - Move left.png" />
+    <None Remove="Images\IGPaint - 16x16 - Move right.png" />
+    <None Remove="Images\IGPaint - 16x16 - Move Up.png" />
+    <None Remove="Images\IGPaint - 16x16 - New.png" />
+    <None Remove="Images\IGPaint - 16x16 - Open.png" />
+    <None Remove="Images\IGPaint - 16x16 - Palette.png" />
+    <None Remove="Images\IGPaint - 16x16 - Paste.png" />
+    <None Remove="Images\IGPaint - 16x16 - Pen.png" />
+    <None Remove="Images\IGPaint - 16x16 - Redo.png" />
+    <None Remove="Images\IGPaint - 16x16 - Rotate left.png" />
+    <None Remove="Images\IGPaint - 16x16 - Rotate Right.png" />
+    <None Remove="Images\IGPaint - 16x16 - Save 02.png" />
+    <None Remove="Images\IGPaint - 16x16 - Save as.png" />
+    <None Remove="Images\IGPaint - 16x16 - Save.png" />
+    <None Remove="Images\IGPaint - 16x16 - Select.png" />
+    <None Remove="Images\IGPaint - 16x16 - Small Brush.png" />
+    <None Remove="Images\IGPaint - 16x16 - Spryer.png" />
+    <None Remove="Images\IGPaint - 16x16 - Square Fill and Line.png" />
+    <None Remove="Images\IGPaint - 16x16 - Square Fill.png" />
+    <None Remove="Images\IGPaint - 16x16 - Square line.png" />
+    <None Remove="Images\IGPaint - 16x16 - StatusBar.png" />
+    <None Remove="Images\IGPaint - 16x16 - Text.png" />
+    <None Remove="Images\IGPaint - 16x16 - Underline.png" />
+    <None Remove="Images\IGPaint - 16x16 - Undo.png" />
+    <None Remove="Images\IGPaint - 16x16 - Zoom In.png" />
+    <None Remove="Images\IGPaint - 16x16 - Zoom out.png" />
+    <None Remove="Images\IGPaint - 16x16 - Zoom to fit.png" />
+    <None Remove="Images\IGPaint - 32x32 - ForeColor.png" />
+    <None Remove="Images\IGPaint - 32x32 - Gradient.png" />
+    <None Remove="Images\IGPaint - 32x32 - Paste.png" />
+    <None Remove="Images\IGPaint - App Icon.ico" />
+    <None Remove="Images\IGPaint - DefaultImage.png" />
+    <None Remove="Images\Logo.PNG" />
+    <None Remove="Resources\SamplesBrowser\IGPaint_118x88.png" />
+    <None Remove="Resources\SamplesBrowser\IGPaint_148x113.png" />
+    <None Remove="Resources\SamplesBrowser\IGPaint_208x158.png" />
+    <None Remove="Resources\SamplesBrowser\IGPaint_248x124.png" />
+    <None Remove="Resources\SamplesBrowser\IGPaint_268x202.png" />
+    <None Remove="Resources\SamplesBrowser\IGPaint_310x155.png" />
+    <None Remove="Resources\SamplesBrowser\IGPaint_434x217.png" />
+    <None Remove="Resources\SamplesBrowser\IGPaint_558x279.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Bold.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Capture.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Circle Border and Fill.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Circle Border.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Circle fill.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Clear Image.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Color Back.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Color Front.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Copy format.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Copy.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Curves.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Cut.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Eraser All.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Eraser Matching.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Eye Drop.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Fill.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Flip Horizontal.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Flip Vertical.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - ForeColor.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Gradient.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Image Grid.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Image Size.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Invert Colors.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Italic.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Large Brush.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Line.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Medium Brush.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Move down.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Move left.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Move right.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Move Up.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - New.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Open.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Palette.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Paste.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Pen.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Redo.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Rotate left.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Rotate Right.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Save 02.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Save as.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Save.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Select.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Small Brush.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Spryer.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Square Fill and Line.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Square Fill.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Square line.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - StatusBar.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Text.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Underline.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Undo.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Zoom In.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Zoom out.png" />
+    <EmbeddedResource Include="Images\IGPaint - 16x16 - Zoom to fit.png" />
+    <EmbeddedResource Include="Images\IGPaint - 32x32 - ForeColor.png" />
+    <EmbeddedResource Include="Images\IGPaint - 32x32 - Gradient.png" />
+    <EmbeddedResource Include="Images\IGPaint - 32x32 - Paste.png" />
+    <EmbeddedResource Include="Images\IGPaint - App Icon.ico" />
+    <EmbeddedResource Include="Images\IGPaint - DefaultImage.png" />
+    <EmbeddedResource Include="Images\Logo.PNG" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\IGPaint_118x88.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\IGPaint_148x113.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\IGPaint_208x158.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\IGPaint_248x124.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\IGPaint_268x202.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\IGPaint_310x155.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\IGPaint_434x217.png" />
+    <EmbeddedResource Include="Resources\SamplesBrowser\IGPaint_558x279.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Infragistics.WinForms" Version="19.2.134" />
+    <PackageReference Include="Infragistics.WinForms.Charts" Version="19.2.134" />
+    <PackageReference Include="Infragistics.WinForms.DataVisualization" Version="19.2.134" />
+    <PackageReference Include="Infragistics.WinForms.Editors" Version="19.2.134" />
+    <PackageReference Include="Infragistics.WinForms.ExplorerBar" Version="19.2.134" />
+    <PackageReference Include="Infragistics.WinForms.Misc" Version="19.2.134" />
+    <PackageReference Include="Infragistics.WinForms.Shared" Version="19.2.134" />
+    <PackageReference Include="Infragistics.WinForms.StatusBar" Version="19.2.134" />
+    <PackageReference Include="Infragistics.WinForms.TabControl" Version="19.2.134" />
+    <PackageReference Include="Infragistics.WinForms.Toolbars" Version="19.2.134" />
+    <PackageReference Include="Infragistics.WinForms.WinGrid" Version="19.2.134" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp3.1\" />
+  </ItemGroup>
+
+</Project>

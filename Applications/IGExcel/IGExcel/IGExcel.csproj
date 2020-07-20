@@ -1,0 +1,535 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>IGExcel</RootNamespace>
+    <Product>IG Excel</Product>
+    <Company />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ofrmMain.cs" />
+    <Compile Remove="ofrmMain.Designer.cs" />
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="ofrmMain.ja.resx" />
+    <EmbeddedResource Remove="ofrmMain.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="DocumentTemplates\en\ProjectBudget.xlsx" />
+    <None Remove="Images\100percent_32x32.png" />
+    <None Remove="Images\Aa_16x16.png" />
+    <None Remove="Images\AEraser_16x16.png" />
+    <None Remove="Images\AlignmentSettings_Preview.png" />
+    <None Remove="Images\BlankDocument.png" />
+    <None Remove="Images\Bold16.png" />
+    <None Remove="Images\Borders\AllBorders_16x16.png" />
+    <None Remove="Images\Borders\BottomBorder_16x16.png" />
+    <None Remove="Images\Borders\BottomDoubleBorder_16x16.png" />
+    <None Remove="Images\Borders\LeftBorder_16x16.png" />
+    <None Remove="Images\Borders\NoBorder_16x16.png" />
+    <None Remove="Images\Borders\OutsideBorder_16x16.png" />
+    <None Remove="Images\Borders\RightBorder_16x16.png" />
+    <None Remove="Images\Borders\ThickBottomBorder_16x16.png" />
+    <None Remove="Images\Borders\ThickBoxBorder_16x16.png" />
+    <None Remove="Images\Borders\TopAndBottomBorder_16x16.png" />
+    <None Remove="Images\Borders\TopAndDoubleBottomBorder_16x16.png" />
+    <None Remove="Images\Borders\TopAndThickBottomBorder_16x16.png" />
+    <None Remove="Images\Borders\TopBorder_16x16.png" />
+    <None Remove="Images\borders_16x16.png" />
+    <None Remove="Images\BottomAlign_16x16.png" />
+    <None Remove="Images\bullets_16x16.png" />
+    <None Remove="Images\CellStyles_32x32.png" />
+    <None Remove="Images\Cells\20%25 - Accent1.png" />
+    <None Remove="Images\Cells\20%25 - Accent2.png" />
+    <None Remove="Images\Cells\20%25 - Accent3.png" />
+    <None Remove="Images\Cells\20%25 - Accent4.png" />
+    <None Remove="Images\Cells\20%25 - Accent5.png" />
+    <None Remove="Images\Cells\20%25 - Accent6.png" />
+    <None Remove="Images\Cells\40%25 - Accent1.png" />
+    <None Remove="Images\Cells\40%25 - Accent2.png" />
+    <None Remove="Images\Cells\40%25 - Accent3.png" />
+    <None Remove="Images\Cells\40%25 - Accent4.png" />
+    <None Remove="Images\Cells\40%25 - Accent5.png" />
+    <None Remove="Images\Cells\40%25 - Accent6.png" />
+    <None Remove="Images\Cells\60%25 - Accent1.png" />
+    <None Remove="Images\Cells\60%25 - Accent2.png" />
+    <None Remove="Images\Cells\60%25 - Accent3.png" />
+    <None Remove="Images\Cells\60%25 - Accent4.png" />
+    <None Remove="Images\Cells\60%25 - Accent5.png" />
+    <None Remove="Images\Cells\60%25 - Accent6.png" />
+    <None Remove="Images\Cells\Accent1.png" />
+    <None Remove="Images\Cells\Accent2.png" />
+    <None Remove="Images\Cells\Accent3.png" />
+    <None Remove="Images\Cells\Accent4.png" />
+    <None Remove="Images\Cells\Accent5.png" />
+    <None Remove="Images\Cells\Accent6.png" />
+    <None Remove="Images\Cells\Bad.png" />
+    <None Remove="Images\Cells\Calculation.png" />
+    <None Remove="Images\Cells\Check Cell.png" />
+    <None Remove="Images\Cells\Comma [0].png" />
+    <None Remove="Images\Cells\Comma.png" />
+    <None Remove="Images\Cells\Currency [0].png" />
+    <None Remove="Images\Cells\Currency.png" />
+    <None Remove="Images\Cells\Explanatory Text.png" />
+    <None Remove="Images\Cells\Good.png" />
+    <None Remove="Images\Cells\Heading 1.png" />
+    <None Remove="Images\Cells\Heading 2.png" />
+    <None Remove="Images\Cells\Heading 3.png" />
+    <None Remove="Images\Cells\Heading 4.png" />
+    <None Remove="Images\Cells\Input.png" />
+    <None Remove="Images\Cells\Linked Cell.png" />
+    <None Remove="Images\Cells\Neutral.png" />
+    <None Remove="Images\Cells\Normal.png" />
+    <None Remove="Images\Cells\Note.png" />
+    <None Remove="Images\Cells\Output.png" />
+    <None Remove="Images\Cells\Percent.png" />
+    <None Remove="Images\Cells\Title.png" />
+    <None Remove="Images\Cells\Total.png" />
+    <None Remove="Images\Cells\Warning Text.png" />
+    <None Remove="Images\CenterAlign_16x16.png" />
+    <None Remove="Images\center_16x16.png" />
+    <None Remove="Images\ColumnWidth_16x16.png" />
+    <None Remove="Images\Computer_32.png" />
+    <None Remove="Images\Copy_16x16.png" />
+    <None Remove="Images\Cut_16x16.png" />
+    <None Remove="Images\DecFont_16x16.png" />
+    <None Remove="Images\DeleteCells_16x16.png" />
+    <None Remove="Images\DeleteSheetColumns_16x16.png" />
+    <None Remove="Images\DeleteSheetRows_16x16.png" />
+    <None Remove="Images\DeleteSheet_16x16.png" />
+    <None Remove="Images\Delete_32x32.png" />
+    <None Remove="Images\DoubleUnderline_16x16.png" />
+    <None Remove="Images\Excel2003-2007File.png" />
+    <None Remove="Images\Excel2003-2007TemplateFile.png" />
+    <None Remove="Images\ExcelFile.png" />
+    <None Remove="Images\ExcelMacroEnabledFile.png" />
+    <None Remove="Images\ExcelTemplateFile.png" />
+    <None Remove="Images\fill_16x16.png" />
+    <None Remove="Images\find_16.png" />
+    <None Remove="Images\folder_16x16.png" />
+    <None Remove="Images\folder_32x32.png" />
+    <None Remove="Images\fontbackground_16x16.png" />
+    <None Remove="Images\FontColor.png" />
+    <None Remove="Images\fontcolor_16x16.png" />
+    <None Remove="Images\FontIcon.png" />
+    <None Remove="Images\FontSettings_Preview.png" />
+    <None Remove="Images\footer_32x32.png" />
+    <None Remove="Images\FormatAsTable_32x32.png" />
+    <None Remove="Images\formatleft_16x16.png" />
+    <None Remove="Images\formatright_16x16.png" />
+    <None Remove="Images\format_16x16.png" />
+    <None Remove="Images\Format_32x32.png" />
+    <None Remove="Images\FreezeFirstColumn_32x32.png" />
+    <None Remove="Images\FreezePanes_32x32.png" />
+    <None Remove="Images\FreezeTopRow_32x32.png" />
+    <None Remove="Images\header_32x32.png" />
+    <None Remove="Images\HtmlFile.png" />
+    <None Remove="Images\hyperlink_32x32.png" />
+    <None Remove="Images\Icons\ColumnWidth.ico" />
+    <None Remove="Images\Icons\FormatAsTable.ico" />
+    <None Remove="Images\Icons\FormatCells.ico" />
+    <None Remove="Images\Icons\IgExcelGray.ico" />
+    <None Remove="Images\Icons\RowHeight.ico" />
+    <None Remove="Images\Icons\Zoom.ico" />
+    <None Remove="Images\IgExcelStartScreen.png" />
+    <None Remove="Images\IncFont_16x16.png" />
+    <None Remove="Images\indentleft_16x16.png" />
+    <None Remove="Images\indentright_16x16.png" />
+    <None Remove="Images\InsertCells_16x16.png" />
+    <None Remove="Images\InsertSheetColumns_16x16.png" />
+    <None Remove="Images\InsertSheetRows_16x16.png" />
+    <None Remove="Images\InsertSheet_16x16.png" />
+    <None Remove="Images\Insert_32x32.png" />
+    <None Remove="Images\Italic16.png" />
+    <None Remove="Images\justify_16x16.png" />
+    <None Remove="Images\landscape_32x32.png" />
+    <None Remove="Images\left_16x16.png" />
+    <None Remove="Images\magnify_32.png" />
+    <None Remove="Images\margin_32x32.png" />
+    <None Remove="Images\MergeAcross_16x16.png" />
+    <None Remove="Images\MergeAndCenter_Tooltip.png" />
+    <None Remove="Images\MergeCellsAndCenter_16x16.png" />
+    <None Remove="Images\MergeCells_16x16.png" />
+    <None Remove="Images\MoreColors_16x16.png" />
+    <None Remove="Images\multilevel_16x16.png" />
+    <None Remove="Images\numbering_16x16.png" />
+    <None Remove="Images\paragraphSpacing_16x16.png" />
+    <None Remove="Images\Paste_32x32.png" />
+    <None Remove="Images\ProjectBudget.png" />
+    <None Remove="Images\Recent_32.png" />
+    <None Remove="Images\Redo16.png" />
+    <None Remove="Images\replace_16.png" />
+    <None Remove="Images\right_16x16.png" />
+    <None Remove="Images\RowHeight_16x16.png" />
+    <None Remove="Images\Save_16x16.png" />
+    <None Remove="Images\Shading.png" />
+    <None Remove="Images\sort_16x16.png" />
+    <None Remove="Images\spacingafter_16x16.png" />
+    <None Remove="Images\spacingbefore_16x16.png" />
+    <None Remove="Images\Split_16x16.png" />
+    <None Remove="Images\strikeout_16x16.png" />
+    <None Remove="Images\Tables\TableStyleDark1.png" />
+    <None Remove="Images\Tables\TableStyleDark10.png" />
+    <None Remove="Images\Tables\TableStyleDark11.png" />
+    <None Remove="Images\Tables\TableStyleDark2.png" />
+    <None Remove="Images\Tables\TableStyleDark3.png" />
+    <None Remove="Images\Tables\TableStyleDark4.png" />
+    <None Remove="Images\Tables\TableStyleDark5.png" />
+    <None Remove="Images\Tables\TableStyleDark6.png" />
+    <None Remove="Images\Tables\TableStyleDark7.png" />
+    <None Remove="Images\Tables\TableStyleDark8.png" />
+    <None Remove="Images\Tables\TableStyleDark9.png" />
+    <None Remove="Images\Tables\TableStyleLight1.png" />
+    <None Remove="Images\Tables\TableStyleLight10.png" />
+    <None Remove="Images\Tables\TableStyleLight11.png" />
+    <None Remove="Images\Tables\TableStyleLight12.png" />
+    <None Remove="Images\Tables\TableStyleLight13.png" />
+    <None Remove="Images\Tables\TableStyleLight14.png" />
+    <None Remove="Images\Tables\TableStyleLight15.png" />
+    <None Remove="Images\Tables\TableStyleLight16.png" />
+    <None Remove="Images\Tables\TableStyleLight17.png" />
+    <None Remove="Images\Tables\TableStyleLight18.png" />
+    <None Remove="Images\Tables\TableStyleLight19.png" />
+    <None Remove="Images\Tables\TableStyleLight2.png" />
+    <None Remove="Images\Tables\TableStyleLight20.png" />
+    <None Remove="Images\Tables\TableStyleLight21.png" />
+    <None Remove="Images\Tables\TableStyleLight3.png" />
+    <None Remove="Images\Tables\TableStyleLight4.png" />
+    <None Remove="Images\Tables\TableStyleLight5.png" />
+    <None Remove="Images\Tables\TableStyleLight6.png" />
+    <None Remove="Images\Tables\TableStyleLight7.png" />
+    <None Remove="Images\Tables\TableStyleLight8.png" />
+    <None Remove="Images\Tables\TableStyleLight9.png" />
+    <None Remove="Images\Tables\TableStyleMedium1.png" />
+    <None Remove="Images\Tables\TableStyleMedium10.png" />
+    <None Remove="Images\Tables\TableStyleMedium11.png" />
+    <None Remove="Images\Tables\TableStyleMedium12.png" />
+    <None Remove="Images\Tables\TableStyleMedium13.png" />
+    <None Remove="Images\Tables\TableStyleMedium14.png" />
+    <None Remove="Images\Tables\TableStyleMedium15.png" />
+    <None Remove="Images\Tables\TableStyleMedium16.png" />
+    <None Remove="Images\Tables\TableStyleMedium17.png" />
+    <None Remove="Images\Tables\TableStyleMedium18.png" />
+    <None Remove="Images\Tables\TableStyleMedium19.png" />
+    <None Remove="Images\Tables\TableStyleMedium2.png" />
+    <None Remove="Images\Tables\TableStyleMedium20.png" />
+    <None Remove="Images\Tables\TableStyleMedium21.png" />
+    <None Remove="Images\Tables\TableStyleMedium22.png" />
+    <None Remove="Images\Tables\TableStyleMedium23.png" />
+    <None Remove="Images\Tables\TableStyleMedium24.png" />
+    <None Remove="Images\Tables\TableStyleMedium25.png" />
+    <None Remove="Images\Tables\TableStyleMedium26.png" />
+    <None Remove="Images\Tables\TableStyleMedium27.png" />
+    <None Remove="Images\Tables\TableStyleMedium28.png" />
+    <None Remove="Images\Tables\TableStyleMedium3.png" />
+    <None Remove="Images\Tables\TableStyleMedium4.png" />
+    <None Remove="Images\Tables\TableStyleMedium5.png" />
+    <None Remove="Images\Tables\TableStyleMedium6.png" />
+    <None Remove="Images\Tables\TableStyleMedium7.png" />
+    <None Remove="Images\Tables\TableStyleMedium8.png" />
+    <None Remove="Images\Tables\TableStyleMedium9.png" />
+    <None Remove="Images\table_32x32.png" />
+    <None Remove="Images\TextFile.png" />
+    <None Remove="Images\TextHighlightColor_16x16.png" />
+    <None Remove="Images\TextHightlightColor.png" />
+    <None Remove="Images\TopAlign_16x16.png" />
+    <None Remove="Images\Underline16.png" />
+    <None Remove="Images\Underline_16x16.png" />
+    <None Remove="Images\Undo16.png" />
+    <None Remove="Images\UnmergeCells_16x16.png" />
+    <None Remove="Images\UserPhoto.jpg" />
+    <None Remove="Images\web_32x32.png" />
+    <None Remove="Images\WinSpreadsheet.png" />
+    <None Remove="Images\WinToolbarsManager.png" />
+    <None Remove="Images\WordFile.png" />
+    <None Remove="Images\WrapText_16x16.png" />
+    <None Remove="Images\WrapText_Tooltip.png" />
+    <None Remove="Images\x_sub2_16x16.png" />
+    <None Remove="Images\x_sup2_16x16.png" />
+    <None Remove="Images\ZoomToSelection_32x32.png" />
+    <None Remove="Images\Zoom_32x32.png" />
+    <None Remove="UpgradeLog.htm" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="DocumentTemplates\en\ProjectBudget.xlsx" />
+    <EmbeddedResource Include="Images\100percent_32x32.png" />
+    <EmbeddedResource Include="Images\Aa_16x16.png" />
+    <EmbeddedResource Include="Images\AEraser_16x16.png" />
+    <EmbeddedResource Include="Images\AlignmentSettings_Preview.png" />
+    <EmbeddedResource Include="Images\BlankDocument.png" />
+    <EmbeddedResource Include="Images\Bold16.png" />
+    <EmbeddedResource Include="Images\Borders\AllBorders_16x16.png" />
+    <EmbeddedResource Include="Images\Borders\BottomBorder_16x16.png" />
+    <EmbeddedResource Include="Images\Borders\BottomDoubleBorder_16x16.png" />
+    <EmbeddedResource Include="Images\Borders\LeftBorder_16x16.png" />
+    <EmbeddedResource Include="Images\Borders\NoBorder_16x16.png" />
+    <EmbeddedResource Include="Images\Borders\OutsideBorder_16x16.png" />
+    <EmbeddedResource Include="Images\Borders\RightBorder_16x16.png" />
+    <EmbeddedResource Include="Images\Borders\ThickBottomBorder_16x16.png" />
+    <EmbeddedResource Include="Images\Borders\ThickBoxBorder_16x16.png" />
+    <EmbeddedResource Include="Images\Borders\TopAndBottomBorder_16x16.png" />
+    <EmbeddedResource Include="Images\Borders\TopAndDoubleBottomBorder_16x16.png" />
+    <EmbeddedResource Include="Images\Borders\TopAndThickBottomBorder_16x16.png" />
+    <EmbeddedResource Include="Images\Borders\TopBorder_16x16.png" />
+    <EmbeddedResource Include="Images\borders_16x16.png" />
+    <EmbeddedResource Include="Images\BottomAlign_16x16.png" />
+    <EmbeddedResource Include="Images\bullets_16x16.png" />
+    <EmbeddedResource Include="Images\CellStyles_32x32.png" />
+    <EmbeddedResource Include="Images\Cells\20% - Accent1.png" />
+    <EmbeddedResource Include="Images\Cells\20% - Accent2.png" />
+    <EmbeddedResource Include="Images\Cells\20% - Accent3.png" />
+    <EmbeddedResource Include="Images\Cells\20% - Accent4.png" />
+    <EmbeddedResource Include="Images\Cells\20% - Accent5.png" />
+    <EmbeddedResource Include="Images\Cells\20% - Accent6.png" />
+    <EmbeddedResource Include="Images\Cells\40% - Accent1.png" />
+    <EmbeddedResource Include="Images\Cells\40% - Accent2.png" />
+    <EmbeddedResource Include="Images\Cells\40% - Accent3.png" />
+    <EmbeddedResource Include="Images\Cells\40% - Accent4.png" />
+    <EmbeddedResource Include="Images\Cells\40% - Accent5.png" />
+    <EmbeddedResource Include="Images\Cells\40% - Accent6.png" />
+    <EmbeddedResource Include="Images\Cells\60% - Accent1.png" />
+    <EmbeddedResource Include="Images\Cells\60% - Accent2.png" />
+    <EmbeddedResource Include="Images\Cells\60% - Accent3.png" />
+    <EmbeddedResource Include="Images\Cells\60% - Accent4.png" />
+    <EmbeddedResource Include="Images\Cells\60% - Accent5.png" />
+    <EmbeddedResource Include="Images\Cells\60% - Accent6.png" />
+    <EmbeddedResource Include="Images\Cells\Accent1.png" />
+    <EmbeddedResource Include="Images\Cells\Accent2.png" />
+    <EmbeddedResource Include="Images\Cells\Accent3.png" />
+    <EmbeddedResource Include="Images\Cells\Accent4.png" />
+    <EmbeddedResource Include="Images\Cells\Accent5.png" />
+    <EmbeddedResource Include="Images\Cells\Accent6.png" />
+    <EmbeddedResource Include="Images\Cells\Bad.png" />
+    <EmbeddedResource Include="Images\Cells\Calculation.png" />
+    <EmbeddedResource Include="Images\Cells\Check Cell.png" />
+    <EmbeddedResource Include="Images\Cells\Comma [0].png" />
+    <EmbeddedResource Include="Images\Cells\Comma.png" />
+    <EmbeddedResource Include="Images\Cells\Currency [0].png" />
+    <EmbeddedResource Include="Images\Cells\Currency.png" />
+    <EmbeddedResource Include="Images\Cells\Explanatory Text.png" />
+    <EmbeddedResource Include="Images\Cells\Good.png" />
+    <EmbeddedResource Include="Images\Cells\Heading 1.png" />
+    <EmbeddedResource Include="Images\Cells\Heading 2.png" />
+    <EmbeddedResource Include="Images\Cells\Heading 3.png" />
+    <EmbeddedResource Include="Images\Cells\Heading 4.png" />
+    <EmbeddedResource Include="Images\Cells\Input.png" />
+    <EmbeddedResource Include="Images\Cells\Linked Cell.png" />
+    <EmbeddedResource Include="Images\Cells\Neutral.png" />
+    <EmbeddedResource Include="Images\Cells\Normal.png" />
+    <EmbeddedResource Include="Images\Cells\Note.png" />
+    <EmbeddedResource Include="Images\Cells\Output.png" />
+    <EmbeddedResource Include="Images\Cells\Percent.png" />
+    <EmbeddedResource Include="Images\Cells\Title.png" />
+    <EmbeddedResource Include="Images\Cells\Total.png" />
+    <EmbeddedResource Include="Images\Cells\Warning Text.png" />
+    <EmbeddedResource Include="Images\CenterAlign_16x16.png" />
+    <EmbeddedResource Include="Images\center_16x16.png" />
+    <EmbeddedResource Include="Images\ColumnWidth_16x16.png" />
+    <EmbeddedResource Include="Images\Computer_32.png" />
+    <EmbeddedResource Include="Images\Copy_16x16.png" />
+    <EmbeddedResource Include="Images\Cut_16x16.png" />
+    <EmbeddedResource Include="Images\DecFont_16x16.png" />
+    <EmbeddedResource Include="Images\DeleteCells_16x16.png" />
+    <EmbeddedResource Include="Images\DeleteSheetColumns_16x16.png" />
+    <EmbeddedResource Include="Images\DeleteSheetRows_16x16.png" />
+    <EmbeddedResource Include="Images\DeleteSheet_16x16.png" />
+    <EmbeddedResource Include="Images\Delete_32x32.png" />
+    <EmbeddedResource Include="Images\DoubleUnderline_16x16.png" />
+    <EmbeddedResource Include="Images\Excel2003-2007File.png" />
+    <EmbeddedResource Include="Images\Excel2003-2007TemplateFile.png" />
+    <EmbeddedResource Include="Images\ExcelFile.png" />
+    <EmbeddedResource Include="Images\ExcelMacroEnabledFile.png" />
+    <EmbeddedResource Include="Images\ExcelTemplateFile.png" />
+    <EmbeddedResource Include="Images\fill_16x16.png" />
+    <EmbeddedResource Include="Images\find_16.png" />
+    <EmbeddedResource Include="Images\folder_16x16.png" />
+    <EmbeddedResource Include="Images\folder_32x32.png" />
+    <EmbeddedResource Include="Images\fontbackground_16x16.png" />
+    <EmbeddedResource Include="Images\FontColor.png" />
+    <EmbeddedResource Include="Images\fontcolor_16x16.png" />
+    <EmbeddedResource Include="Images\FontIcon.png" />
+    <EmbeddedResource Include="Images\FontSettings_Preview.png" />
+    <EmbeddedResource Include="Images\footer_32x32.png" />
+    <EmbeddedResource Include="Images\FormatAsTable_32x32.png" />
+    <EmbeddedResource Include="Images\formatleft_16x16.png" />
+    <EmbeddedResource Include="Images\formatright_16x16.png" />
+    <EmbeddedResource Include="Images\format_16x16.png" />
+    <EmbeddedResource Include="Images\Format_32x32.png" />
+    <EmbeddedResource Include="Images\FreezeFirstColumn_32x32.png" />
+    <EmbeddedResource Include="Images\FreezePanes_32x32.png" />
+    <EmbeddedResource Include="Images\FreezeTopRow_32x32.png" />
+    <EmbeddedResource Include="Images\header_32x32.png" />
+    <EmbeddedResource Include="Images\HtmlFile.png" />
+    <EmbeddedResource Include="Images\hyperlink_32x32.png" />
+    <EmbeddedResource Include="Images\Icons\ColumnWidth.ico" />
+    <EmbeddedResource Include="Images\Icons\FormatAsTable.ico" />
+    <EmbeddedResource Include="Images\Icons\FormatCells.ico" />
+    <EmbeddedResource Include="Images\Icons\IgExcelGray.ico" />
+    <EmbeddedResource Include="Images\Icons\RowHeight.ico" />
+    <EmbeddedResource Include="Images\Icons\Zoom.ico" />
+    <EmbeddedResource Include="Images\IgExcelStartScreen.png" />
+    <EmbeddedResource Include="Images\IncFont_16x16.png" />
+    <EmbeddedResource Include="Images\indentleft_16x16.png" />
+    <EmbeddedResource Include="Images\indentright_16x16.png" />
+    <EmbeddedResource Include="Images\InsertCells_16x16.png" />
+    <EmbeddedResource Include="Images\InsertSheetColumns_16x16.png" />
+    <EmbeddedResource Include="Images\InsertSheetRows_16x16.png" />
+    <EmbeddedResource Include="Images\InsertSheet_16x16.png" />
+    <EmbeddedResource Include="Images\Insert_32x32.png" />
+    <EmbeddedResource Include="Images\Italic16.png" />
+    <EmbeddedResource Include="Images\justify_16x16.png" />
+    <EmbeddedResource Include="Images\landscape_32x32.png" />
+    <EmbeddedResource Include="Images\left_16x16.png" />
+    <EmbeddedResource Include="Images\magnify_32.png" />
+    <EmbeddedResource Include="Images\margin_32x32.png" />
+    <EmbeddedResource Include="Images\MergeAcross_16x16.png" />
+    <EmbeddedResource Include="Images\MergeAndCenter_Tooltip.png" />
+    <EmbeddedResource Include="Images\MergeCellsAndCenter_16x16.png" />
+    <EmbeddedResource Include="Images\MergeCells_16x16.png" />
+    <EmbeddedResource Include="Images\MoreColors_16x16.png" />
+    <EmbeddedResource Include="Images\multilevel_16x16.png" />
+    <EmbeddedResource Include="Images\numbering_16x16.png" />
+    <EmbeddedResource Include="Images\paragraphSpacing_16x16.png" />
+    <EmbeddedResource Include="Images\Paste_32x32.png" />
+    <EmbeddedResource Include="Images\ProjectBudget.png" />
+    <EmbeddedResource Include="Images\Recent_32.png" />
+    <EmbeddedResource Include="Images\Redo16.png" />
+    <EmbeddedResource Include="Images\replace_16.png" />
+    <EmbeddedResource Include="Images\right_16x16.png" />
+    <EmbeddedResource Include="Images\RowHeight_16x16.png" />
+    <EmbeddedResource Include="Images\Save_16x16.png" />
+    <EmbeddedResource Include="Images\Shading.png" />
+    <EmbeddedResource Include="Images\sort_16x16.png" />
+    <EmbeddedResource Include="Images\spacingafter_16x16.png" />
+    <EmbeddedResource Include="Images\spacingbefore_16x16.png" />
+    <EmbeddedResource Include="Images\Split_16x16.png" />
+    <EmbeddedResource Include="Images\strikeout_16x16.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleDark1.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleDark10.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleDark11.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleDark2.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleDark3.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleDark4.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleDark5.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleDark6.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleDark7.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleDark8.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleDark9.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight1.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight10.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight11.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight12.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight13.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight14.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight15.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight16.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight17.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight18.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight19.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight2.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight20.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight21.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight3.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight4.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight5.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight6.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight7.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight8.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleLight9.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium1.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium10.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium11.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium12.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium13.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium14.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium15.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium16.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium17.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium18.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium19.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium2.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium20.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium21.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium22.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium23.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium24.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium25.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium26.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium27.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium28.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium3.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium4.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium5.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium6.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium7.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium8.png" />
+    <EmbeddedResource Include="Images\Tables\TableStyleMedium9.png" />
+    <EmbeddedResource Include="Images\table_32x32.png" />
+    <EmbeddedResource Include="Images\TextFile.png" />
+    <EmbeddedResource Include="Images\TextHighlightColor_16x16.png" />
+    <EmbeddedResource Include="Images\TextHightlightColor.png" />
+    <EmbeddedResource Include="Images\TopAlign_16x16.png" />
+    <EmbeddedResource Include="Images\Underline16.png" />
+    <EmbeddedResource Include="Images\Underline_16x16.png" />
+    <EmbeddedResource Include="Images\Undo16.png" />
+    <EmbeddedResource Include="Images\UnmergeCells_16x16.png" />
+    <EmbeddedResource Include="Images\UserPhoto.jpg" />
+    <EmbeddedResource Include="Images\web_32x32.png" />
+    <EmbeddedResource Include="Images\WinSpreadsheet.png" />
+    <EmbeddedResource Include="Images\WinToolbarsManager.png" />
+    <EmbeddedResource Include="Images\WordFile.png" />
+    <EmbeddedResource Include="Images\WrapText_16x16.png" />
+    <EmbeddedResource Include="Images\WrapText_Tooltip.png" />
+    <EmbeddedResource Include="Images\x_sub2_16x16.png" />
+    <EmbeddedResource Include="Images\x_sup2_16x16.png" />
+    <EmbeddedResource Include="Images\ZoomToSelection_32x32.png" />
+    <EmbeddedResource Include="Images\Zoom_32x32.png" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Infragistics.WinForms" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Carousel" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Charts" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.DataVisualization" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Documents.Core" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Editors" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Excel" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Misc" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.PivotGrid" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Portable.Core" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Shared" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Spreadsheet" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.StatusBar" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.TabControl" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Toolbars" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Tree" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Undo" Version="20.1.12" />         
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp3.1\" />
+  </ItemGroup>
+
+</Project>

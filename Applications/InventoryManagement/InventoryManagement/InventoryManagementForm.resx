@@ -1,0 +1,3465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="scHome2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="scHome2.IsSplitterFixed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="scHome2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="scHome2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="scHome2.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="lvNewProducts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lvNewProducts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 49</value>
+  </data>
+  <data name="lvNewProducts.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 4</value>
+  </data>
+  <data name="lvNewProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 211</value>
+  </data>
+  <data name="lvNewProducts.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lvNewProducts.Text" xml:space="preserve">
+    <value>ultraListView1</value>
+  </data>
+  <data name="&gt;&gt;lvNewProducts.Name" xml:space="preserve">
+    <value>lvNewProducts</value>
+  </data>
+  <data name="&gt;&gt;lvNewProducts.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinListView.UltraListView, Infragistics4.Win.UltraWinListView.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lvNewProducts.Parent" xml:space="preserve">
+    <value>scHome2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lvNewProducts.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.Name" xml:space="preserve">
+    <value>Segoe UI Light</value>
+  </data>
+  <data name="resource.SizeInPoints" type="System.Single, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblNewProducts.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNewProducts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblNewProducts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 0</value>
+  </data>
+  <data name="lblNewProducts.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblNewProducts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 49</value>
+  </data>
+  <data name="lblNewProducts.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblNewProducts.Text" xml:space="preserve">
+    <value>New Products in Stock</value>
+  </data>
+  <data name="&gt;&gt;lblNewProducts.Name" xml:space="preserve">
+    <value>lblNewProducts</value>
+  </data>
+  <data name="&gt;&gt;lblNewProducts.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblNewProducts.Parent" xml:space="preserve">
+    <value>scHome2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblNewProducts.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="scHome2.Panel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;scHome2.Panel1.Name" xml:space="preserve">
+    <value>scHome2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;scHome2.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scHome2.Panel1.Parent" xml:space="preserve">
+    <value>scHome2</value>
+  </data>
+  <data name="&gt;&gt;scHome2.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Datacharthome.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Datacharthome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 49</value>
+  </data>
+  <data name="Datacharthome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 400</value>
+  </data>
+  <data name="Datacharthome.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Datacharthome.Text" xml:space="preserve">
+    <value>ultraDataChart1</value>
+  </data>
+  <data name="&gt;&gt;Datacharthome.Name" xml:space="preserve">
+    <value>Datacharthome</value>
+  </data>
+  <data name="&gt;&gt;Datacharthome.Type" xml:space="preserve">
+    <value>Infragistics.Win.DataVisualization.UltraDataChart, Infragistics4.Win.DataVisualization.UltraDataChart.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;Datacharthome.Parent" xml:space="preserve">
+    <value>scHome2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;Datacharthome.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.Name1" xml:space="preserve">
+    <value>Segoe UI Light</value>
+  </data>
+  <data name="resource.SizeInPoints1" type="System.Single, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblStatus.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStatus.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 0</value>
+  </data>
+  <data name="lblStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 49</value>
+  </data>
+  <data name="lblStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Name" xml:space="preserve">
+    <value>lblStatus</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.Parent" xml:space="preserve">
+    <value>scHome2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblStatus.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="resource.Name2" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints2" type="System.Single, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="appearance3.TextHAlignAsString" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="lblSold.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblSold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="lblSold.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 0, 4</value>
+  </data>
+  <data name="lblSold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="lblSold.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblSold.Text" xml:space="preserve">
+    <value>Units Sold</value>
+  </data>
+  <data name="&gt;&gt;lblSold.Name" xml:space="preserve">
+    <value>lblSold</value>
+  </data>
+  <data name="&gt;&gt;lblSold.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblSold.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblSold.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.Name3" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints3" type="System.Single, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="appearance4.TextHAlignAsString" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="lblSoldValue.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblSoldValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 42</value>
+  </data>
+  <data name="lblSoldValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 0, 4</value>
+  </data>
+  <data name="lblSoldValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 49</value>
+  </data>
+  <data name="lblSoldValue.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblSoldValue.Text" xml:space="preserve">
+    <value>10,000</value>
+  </data>
+  <data name="&gt;&gt;lblSoldValue.Name" xml:space="preserve">
+    <value>lblSoldValue</value>
+  </data>
+  <data name="&gt;&gt;lblSoldValue.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblSoldValue.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblSoldValue.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="resource.Name4" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints4" type="System.Single, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="appearance5.TextHAlignAsString" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="lblQuantity.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblQuantity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 4</value>
+  </data>
+  <data name="lblQuantity.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 0, 4</value>
+  </data>
+  <data name="lblQuantity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="lblQuantity.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblQuantity.Text" xml:space="preserve">
+    <value>Order Quantity</value>
+  </data>
+  <data name="&gt;&gt;lblQuantity.Name" xml:space="preserve">
+    <value>lblQuantity</value>
+  </data>
+  <data name="&gt;&gt;lblQuantity.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblQuantity.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblQuantity.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="resource.Name5" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints5" type="System.Single, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="appearance6.TextHAlignAsString" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="lblQuantityValue.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblQuantityValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 42</value>
+  </data>
+  <data name="lblQuantityValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 0, 4</value>
+  </data>
+  <data name="lblQuantityValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 49</value>
+  </data>
+  <data name="lblQuantityValue.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblQuantityValue.Text" xml:space="preserve">
+    <value>50,000</value>
+  </data>
+  <data name="&gt;&gt;lblQuantityValue.Name" xml:space="preserve">
+    <value>lblQuantityValue</value>
+  </data>
+  <data name="&gt;&gt;lblQuantityValue.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblQuantityValue.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblQuantityValue.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="resource.Name6" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints6" type="System.Single, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="appearance7.TextHAlignAsString" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="lblRevenue.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblRevenue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 4</value>
+  </data>
+  <data name="lblRevenue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 0, 4</value>
+  </data>
+  <data name="lblRevenue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 30</value>
+  </data>
+  <data name="lblRevenue.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblRevenue.Text" xml:space="preserve">
+    <value>Total Revenue</value>
+  </data>
+  <data name="&gt;&gt;lblRevenue.Name" xml:space="preserve">
+    <value>lblRevenue</value>
+  </data>
+  <data name="&gt;&gt;lblRevenue.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblRevenue.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblRevenue.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="resource.Name7" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints7" type="System.Single, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="appearance8.TextHAlignAsString" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="lblRevenueValue.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblRevenueValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 42</value>
+  </data>
+  <data name="lblRevenueValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 0, 4</value>
+  </data>
+  <data name="lblRevenueValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 49</value>
+  </data>
+  <data name="lblRevenueValue.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblRevenueValue.Text" xml:space="preserve">
+    <value>$50,000</value>
+  </data>
+  <data name="&gt;&gt;lblRevenueValue.Name" xml:space="preserve">
+    <value>lblRevenueValue</value>
+  </data>
+  <data name="&gt;&gt;lblRevenueValue.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblRevenueValue.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblRevenueValue.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="resource.Name8" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints8" type="System.Single, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="appearance9.TextHAlignAsString" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="lblProfit.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblProfit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 4</value>
+  </data>
+  <data name="lblProfit.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 0, 4</value>
+  </data>
+  <data name="lblProfit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 30</value>
+  </data>
+  <data name="lblProfit.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblProfit.Text" xml:space="preserve">
+    <value>Total Profit</value>
+  </data>
+  <data name="&gt;&gt;lblProfit.Name" xml:space="preserve">
+    <value>lblProfit</value>
+  </data>
+  <data name="&gt;&gt;lblProfit.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblProfit.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblProfit.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="resource.Name9" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints9" type="System.Single, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="appearance10.TextHAlignAsString" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="lblProfitValue.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblProfitValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>480, 42</value>
+  </data>
+  <data name="lblProfitValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 4, 0, 4</value>
+  </data>
+  <data name="lblProfitValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 49</value>
+  </data>
+  <data name="lblProfitValue.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblProfitValue.Text" xml:space="preserve">
+    <value>$100,000</value>
+  </data>
+  <data name="&gt;&gt;lblProfitValue.Name" xml:space="preserve">
+    <value>lblProfitValue</value>
+  </data>
+  <data name="&gt;&gt;lblProfitValue.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblProfitValue.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;lblProfitValue.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tableLayoutPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 449</value>
+  </data>
+  <data name="tableLayoutPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>643, 95</value>
+  </data>
+  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
+    <value>scHome2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblSold" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblSoldValue" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblQuantity" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblQuantityValue" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblRevenue" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblRevenueValue" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblProfit" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblProfitValue" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Absolute,38,Absolute,38" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="scHome2.Panel2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;scHome2.Panel2.Name" xml:space="preserve">
+    <value>scHome2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;scHome2.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scHome2.Panel2.Parent" xml:space="preserve">
+    <value>scHome2</value>
+  </data>
+  <data name="&gt;&gt;scHome2.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="scHome2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>655, 805</value>
+  </data>
+  <data name="scHome2.SplitterDistance" type="System.Int32, mscorlib">
+    <value>260</value>
+  </data>
+  <data name="scHome2.SplitterWidth" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="scHome2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;scHome2.Name" xml:space="preserve">
+    <value>scHome2</value>
+  </data>
+  <data name="&gt;&gt;scHome2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scHome2.Parent" xml:space="preserve">
+    <value>scHome1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;scHome2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.Name10" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints10" type="System.Single, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="appearance15.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="appearance17.TextVAlignAsString" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="gridInventory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridInventory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 151</value>
+  </data>
+  <data name="gridInventory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gridInventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1155, 652</value>
+  </data>
+  <data name="gridInventory.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;gridInventory.Name" xml:space="preserve">
+    <value>gridInventory</value>
+  </data>
+  <data name="&gt;&gt;gridInventory.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics4.Win.UltraWinGrid.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;gridInventory.Parent" xml:space="preserve">
+    <value>ultraTabPageControl6</value>
+  </data>
+  <data name="&gt;&gt;gridInventory.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.Name11" xml:space="preserve">
+    <value>Segoe UI Light</value>
+  </data>
+  <data name="resource.SizeInPoints11" type="System.Single, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblProductInventory.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblProductInventory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblProductInventory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 102</value>
+  </data>
+  <data name="lblProductInventory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblProductInventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1155, 49</value>
+  </data>
+  <data name="lblProductInventory.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblProductInventory.Text" xml:space="preserve">
+    <value>Product Inventory</value>
+  </data>
+  <data name="&gt;&gt;lblProductInventory.Name" xml:space="preserve">
+    <value>lblProductInventory</value>
+  </data>
+  <data name="&gt;&gt;lblProductInventory.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblProductInventory.Parent" xml:space="preserve">
+    <value>ultraTabPageControl6</value>
+  </data>
+  <data name="&gt;&gt;lblProductInventory.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="resource.Name12" xml:space="preserve">
+    <value>Segoe UI Light</value>
+  </data>
+  <data name="resource.SizeInPoints12" type="System.Single, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="lblStoreName_Inventory.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStoreName_Inventory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblStoreName_Inventory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 0</value>
+  </data>
+  <data name="lblStoreName_Inventory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblStoreName_Inventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1155, 102</value>
+  </data>
+  <data name="lblStoreName_Inventory.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblStoreName_Inventory.Text" xml:space="preserve">
+    <value>My Store Name</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName_Inventory.Name" xml:space="preserve">
+    <value>lblStoreName_Inventory</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName_Inventory.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName_Inventory.Parent" xml:space="preserve">
+    <value>ultraTabPageControl6</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName_Inventory.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ultraTabPageControl6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 1</value>
+  </data>
+  <data name="ultraTabPageControl6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>48, 0, 48, 48</value>
+  </data>
+  <data name="ultraTabPageControl6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 851</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl6.Name" xml:space="preserve">
+    <value>ultraTabPageControl6</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl6.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl6.Parent" xml:space="preserve">
+    <value>tcInventory</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ultraTabPageControl7.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ultraTabPageControl7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 851</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl7.Name" xml:space="preserve">
+    <value>ultraTabPageControl7</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl7.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl7.Parent" xml:space="preserve">
+    <value>tcInventory</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ultraTabPageControl8.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ultraTabPageControl8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 851</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl8.Name" xml:space="preserve">
+    <value>ultraTabPageControl8</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl8.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl8.Parent" xml:space="preserve">
+    <value>tcInventory</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl8.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ultraTabPageControl9.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ultraTabPageControl9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 851</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl9.Name" xml:space="preserve">
+    <value>ultraTabPageControl9</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl9.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl9.Parent" xml:space="preserve">
+    <value>tcInventory</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl9.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="resource.Name13" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints13" type="System.Single, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="appearance25.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="appearance27.TextVAlignAsString" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="gridContacts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridContacts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 151</value>
+  </data>
+  <data name="gridContacts.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gridContacts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1155, 652</value>
+  </data>
+  <data name="gridContacts.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;gridContacts.Name" xml:space="preserve">
+    <value>gridContacts</value>
+  </data>
+  <data name="&gt;&gt;gridContacts.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics4.Win.UltraWinGrid.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;gridContacts.Parent" xml:space="preserve">
+    <value>ultraTabPageControl13</value>
+  </data>
+  <data name="&gt;&gt;gridContacts.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.Name14" xml:space="preserve">
+    <value>Segoe UI Light</value>
+  </data>
+  <data name="resource.SizeInPoints14" type="System.Single, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblContacts.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblContacts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblContacts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 102</value>
+  </data>
+  <data name="lblContacts.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblContacts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1155, 49</value>
+  </data>
+  <data name="lblContacts.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblContacts.Text" xml:space="preserve">
+    <value>Business Customers, Consumers &amp;&amp; Suppliers</value>
+  </data>
+  <data name="&gt;&gt;lblContacts.Name" xml:space="preserve">
+    <value>lblContacts</value>
+  </data>
+  <data name="&gt;&gt;lblContacts.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblContacts.Parent" xml:space="preserve">
+    <value>ultraTabPageControl13</value>
+  </data>
+  <data name="&gt;&gt;lblContacts.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="resource.Name15" xml:space="preserve">
+    <value>Segoe UI Light</value>
+  </data>
+  <data name="resource.SizeInPoints15" type="System.Single, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="lblStoreName_Customers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStoreName_Customers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblStoreName_Customers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 0</value>
+  </data>
+  <data name="lblStoreName_Customers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblStoreName_Customers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1155, 102</value>
+  </data>
+  <data name="lblStoreName_Customers.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblStoreName_Customers.Text" xml:space="preserve">
+    <value>My Store Name</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName_Customers.Name" xml:space="preserve">
+    <value>lblStoreName_Customers</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName_Customers.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName_Customers.Parent" xml:space="preserve">
+    <value>ultraTabPageControl13</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName_Customers.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ultraTabPageControl13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 1</value>
+  </data>
+  <data name="ultraTabPageControl13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl13.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>48, 0, 48, 48</value>
+  </data>
+  <data name="ultraTabPageControl13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 851</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl13.Name" xml:space="preserve">
+    <value>ultraTabPageControl13</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl13.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl13.Parent" xml:space="preserve">
+    <value>tcCustomers</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl13.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ultraTabPageControl14.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ultraTabPageControl14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 851</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl14.Name" xml:space="preserve">
+    <value>ultraTabPageControl14</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl14.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl14.Parent" xml:space="preserve">
+    <value>tcCustomers</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl14.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ultraTabPageControl15.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ultraTabPageControl15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 851</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl15.Name" xml:space="preserve">
+    <value>ultraTabPageControl15</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl15.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl15.Parent" xml:space="preserve">
+    <value>tcCustomers</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl15.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ultraTabPageControl16.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ultraTabPageControl16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 851</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl16.Name" xml:space="preserve">
+    <value>ultraTabPageControl16</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl16.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl16.Parent" xml:space="preserve">
+    <value>tcCustomers</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl16.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="ultraCalendarInfo1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>460, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>44</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>120, 120</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1500, 894</value>
+  </data>
+  <data name="resource.Name16" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints16" type="System.Single, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="appearance32.TextHAlignAsString" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="appearance32.TextVAlignAsString" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="resource.Name17" xml:space="preserve">
+    <value>Segoe UI Light</value>
+  </data>
+  <data name="resource.SizeInPoints17" type="System.Single, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="lblStoreName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStoreName.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblStoreName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblStoreName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblStoreName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1403, 102</value>
+  </data>
+  <data name="lblStoreName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblStoreName.Text" xml:space="preserve">
+    <value>My Store Name</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName.Name" xml:space="preserve">
+    <value>lblStoreName</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName.Parent" xml:space="preserve">
+    <value>ultraTabSharedControlsPage1</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ultraTabSharedControlsPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabSharedControlsPage1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabSharedControlsPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1403, 853</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage1.Name" xml:space="preserve">
+    <value>ultraTabSharedControlsPage1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage1.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="scHome1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="scHome1.IsSplitterFixed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="scHome1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 0</value>
+  </data>
+  <data name="scHome1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="resource.Name18" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints18" type="System.Single, mscorlib">
+    <value>13.5</value>
+  </data>
+  <data name="appearance35.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAJsSURBVHhe
+        7dlBbiMxDETRHGFukPuf0hPGaC8EgQRYdlMp/AeUN0Zbsf4q8Nfj8ThtEOwudHoQ7C50ehDsLnR6EOwu
+        dHoQ7C50ehDsLnR6EOwudHoQ7C50ehDsLnR6EOwudHoQ7C50ehDsLnR6EOwudHoQ7C50ehDsLnR6/9jv
+        WnYXys5Yy+6D2Blr2X0QO2Mtuw9iZ6xl90HsjLXsPoidsZb2g3iJfzHWGNduN3KoGYKaIagZgpohqBmC
+        miGomSxovNddSxwKTVz+GvIda2k/iBeCmiGoGYKaIagZq6DfP4sv9NeniOfXGNdupx6afZm/NAVBD5yC
+        oAdOQdADpyDogVMQ9MApCHrgFFZBkQeN97priUOhictfQ75jLe0H8UJQMwQ1Q1AzBDVjFfQTP59VJs7M
+        xPNrjGu3Uw/Nvkx3lYkzMwQtViFoQj2UoAQtVyFoQj2UoAQtVyFoYuRQM1nQeK+7ljgUmrj8NeQ71tJ+
+        EC8ENUNQMwQ1Q1AzVkH5teX5/Brj2u3UQ7Mv011l4swMQYtVCJpQDyUoQctVCJpQDyUoQctVCJpQDyWo
+        WVDkQeO97lriUGji8teQ71hL+0G8ENQMQc0Q1AxBzVgF5eez5/NrjGu3Uw/Nvkx3lYkzMwQtViFoQj2U
+        oAQtVyFoQj2UoAQtVyFoYuRQMwQ1Q1AzBDVDUDMENUNQM1ZB+bXl+fwa8tp6zscXhyriQ9Yvoa4ycWbm
+        E39Pe/GiIChBy1UImixeFAQlaLkKQZPFi4KgBC1XIWiyeIGGoGYIaoagZghqhqBmCGqGoGYIaoagZghq
+        hqBmCGqGoGYOCvr4+g/mSpZvW9COJwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="appearance35.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="appearance35.TextVAlignAsString" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="btnOrders.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 324</value>
+  </data>
+  <data name="btnOrders.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 313</value>
+  </data>
+  <data name="btnOrders.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnOrders.Text" xml:space="preserve">
+    <value>Orders</value>
+  </data>
+  <data name="&gt;&gt;btnOrders.Name" xml:space="preserve">
+    <value>btnOrders</value>
+  </data>
+  <data name="&gt;&gt;btnOrders.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;btnOrders.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnOrders.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.Name19" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints19" type="System.Single, mscorlib">
+    <value>13.5</value>
+  </data>
+  <data name="appearance36.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="appearance36.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="appearance36.TextVAlignAsString" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="btnContacts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnContacts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 4</value>
+  </data>
+  <data name="btnContacts.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnContacts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>313, 312</value>
+  </data>
+  <data name="btnContacts.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnContacts.Text" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="&gt;&gt;btnContacts.Name" xml:space="preserve">
+    <value>btnContacts</value>
+  </data>
+  <data name="&gt;&gt;btnContacts.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;btnContacts.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnContacts.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="resource.Name20" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints20" type="System.Single, mscorlib">
+    <value>13.5</value>
+  </data>
+  <data name="appearance37.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        YwAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="appearance37.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="appearance37.TextVAlignAsString" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="btnReports.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnReports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 324</value>
+  </data>
+  <data name="btnReports.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnReports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>313, 313</value>
+  </data>
+  <data name="btnReports.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnReports.Text" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="&gt;&gt;btnReports.Name" xml:space="preserve">
+    <value>btnReports</value>
+  </data>
+  <data name="&gt;&gt;btnReports.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;btnReports.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnReports.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="resource.Name21" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints21" type="System.Single, mscorlib">
+    <value>13.5</value>
+  </data>
+  <data name="appearance38.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="appearance38.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="appearance38.TextVAlignAsString" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="btnInventory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnInventory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="btnInventory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnInventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 312</value>
+  </data>
+  <data name="btnInventory.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnInventory.Text" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="&gt;&gt;btnInventory.Name" xml:space="preserve">
+    <value>btnInventory</value>
+  </data>
+  <data name="&gt;&gt;btnInventory.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraButton, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;btnInventory.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;btnInventory.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 49</value>
+  </data>
+  <data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>641, 641</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>scHome1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="btnOrders" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="btnContacts" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btnReports" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="btnInventory" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="resource.Name22" xml:space="preserve">
+    <value>Segoe UI Light</value>
+  </data>
+  <data name="resource.SizeInPoints22" type="System.Single, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblCategories.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCategories.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblCategories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblCategories.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblCategories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>647, 49</value>
+  </data>
+  <data name="lblCategories.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblCategories.Text" xml:space="preserve">
+    <value>Categories</value>
+  </data>
+  <data name="&gt;&gt;lblCategories.Name" xml:space="preserve">
+    <value>lblCategories</value>
+  </data>
+  <data name="&gt;&gt;lblCategories.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblCategories.Parent" xml:space="preserve">
+    <value>scHome1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblCategories.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;scHome1.Panel1.Name" xml:space="preserve">
+    <value>scHome1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;scHome1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scHome1.Panel1.Parent" xml:space="preserve">
+    <value>scHome1</value>
+  </data>
+  <data name="&gt;&gt;scHome1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;scHome1.Panel2.Name" xml:space="preserve">
+    <value>scHome1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;scHome1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scHome1.Panel2.Parent" xml:space="preserve">
+    <value>scHome1</value>
+  </data>
+  <data name="&gt;&gt;scHome1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="scHome1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1307, 805</value>
+  </data>
+  <data name="scHome1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>647</value>
+  </data>
+  <data name="scHome1.SplitterWidth" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="scHome1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;scHome1.Name" xml:space="preserve">
+    <value>scHome1</value>
+  </data>
+  <data name="&gt;&gt;scHome1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scHome1.Parent" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;scHome1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ultraTabPageControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>48, 0, 48, 48</value>
+  </data>
+  <data name="ultraTabPageControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1403, 853</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl1.Name" xml:space="preserve">
+    <value>ultraTabPageControl1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl1.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="resource.Name23" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="appearance40.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ultraTabSharedControlsPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabSharedControlsPage2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabSharedControlsPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 851</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage2.Name" xml:space="preserve">
+    <value>ultraTabSharedControlsPage2</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage2.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage2.Parent" xml:space="preserve">
+    <value>tcInventory</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tcInventory.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tcInventory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tcInventory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tcInventory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1403, 853</value>
+  </data>
+  <data name="tcInventory.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="appearance42.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAClSURBVEhL7dJBCoMwEIVhe4Pu
+        C+3VuvGIbnqq0gvECTgg8r82zYy7PPhQHjhMiFMp5Ww3s5h9rtvT8zJ3Q99/hWWip3mbY44HqPmY2dAc
+        CctEdVFygc7RHAnLRD2hORKWiXpCcyQsE/WE5khYJqJ/3KnQHAnLoJaMAzgsgzwP44vu32vGDTgsgzzj
+        BlpgGeT5dQMKzZSwDGrJ34sqWAa1JOkAZVoB+WOijuhaPO8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="appearance43.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAC5SURBVEhL7dIxCsJAEIXheAN7
+        Qc/gcexsPKKNpxIru/WtZGEYfneUnYBFig+SBxne7GYqpSzqeTru5CrF2Lr3m+zp+wiGWVTqLPe5pOUX
+        qB5yoTk9GGZRoVqUbCB7ozk9GGZRIX/KIT8jgmEWKhjxMyIYZqGCET8jgmEWFcL/fPafC1ApsC7QYDjC
+        lDlIK2qfq/UGGgxHmDLrDXwDwxGmTHQDiGb2YDhCJVrJnp+LfoLhCChLkhYo0wvZxFtQadOuMgAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="ultraTab10.Text" xml:space="preserve">
+    <value>Product Inventory</value>
+  </data>
+  <data name="appearance44.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAD/SURBVEhL1ZQxCgIxEEXXyk7E
+        VtALeAwPYmPpUTzDnsLGW3gJCyuxU4T4v+xAiD+7roOw+fAY8uMOM3GSKoTwD+bgAGJNm2g6ggVQ33+N
+        NJ1swBWkShugbmALRkDl6kSaTliogkUqnwyqgV/EJlSuTqTppI84andQVAO83GswBvw9x6eYEdqBCdiD
+        M40mck1f5WtFmk5yqgGLPL1Xn6LfuwlpOslpBXjSsZZNNHFf5cwiTSdKD8A5t7Ex8fLG4r7KmUWaTpT4
+        2rABE0/e3n/GuBGVM4s0nShdAPeK/QeeYAbSO5A2MIg70PamF/EKdcEiedI2Toxc9y6eSLMcQvUCMfyR
+        UALLXUsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="appearance45.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAEISURBVEhL1dU/CsIwGAVwO7mV
+        4iroBVy8g5dwc3H0KD2Dp3DxFl6ig5M4qQjxPUkkfDz7h4i0w4+SVw3fF5M4cs793G29nMIBXKQw4yPM
+        1Pe7kGEKFLWBiy8yZhugK2whU3O1IcMUKIaFKpnIgl41YFe5jULN1YYMU4ji6nCr3WFQDfBwr2DsP8+t
+        NZgttIMcSqh8xifHuZqviQxT+KKUPbD4U5TFmHduQoYpTFGxBXCl42xuxqWas44MU5iCggdwr4dtE/AK
+        jceVmrOODFOYggLeNmwgjLny7/vfPz+N2PmayDBFKMQ4+3eD/QWeMAF7BmwDvTgDX+90vOv/LdSERUJ/
+        /wf+y41eFgFezHD8bTIAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ultraTab11.Text" xml:space="preserve">
+    <value>Add New Product</value>
+  </data>
+  <data name="appearance46.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAFUSURBVEhLzdUxSsRAGMXxVREb
+        QRELQdDCbisbKzu9iKBew8rCI1jpFURWELG3s/MAdjaKeADH/9MMhPFNjJkR/OBHMm+yH9ndj2QUQvhr
+        q7hCuxabY6wbrMF9vpMNK9rDK9JKv4DqDYdwfbJsWJFu1JkyWeT6ZNmwoiHl+mTZsKIh5fpk2bCiIeX6
+        ZNmwIs30Mrawj0u8o13XzTGW65Nlw0LbuMATdLOic2XaO0CsI+gzOsZK+3WyYSE9DnOlvY2v03CCFdxh
+        vVmrXM8sGxb66R/QWOlm53EP1QMWoNz1zLJhIc35Dqah573oXJn2tJ5FOvu3mIPrmWXDQs9Q6Q2sX1ji
+        21h7uubsc/W9zpH262TDQmOc4hGxdK5Me7pGY7SJWPqC/+ZN3B4hrdMRite1nzzHiPmv2LBQnxFawosC
+        Sv/MDNI+vdiwUJ8R0qxPsNusBwqjDzapjWpJo+O7AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="appearance47.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAFzSURBVEhLzdWxSsRAFIXhVREb
+        QRELQdDCbistrOz0KewE9TW2sthH2Mp9BREFEXs7Ox/AzmZFrKyM/5FJmL1cM1lmBIsPMifZy0l2SHpV
+        Vf2pz+O9Tdyiiqya9T22vN+nuGEplDrBeygZszcgHzj35rRxw1IopKKeOSf74c1p44alUMg+5SQ7I8UN
+        S/EKptgZKW5Yilcwxc5IccNSKKR9vY59nOIaX4hL38VrOyPFDXNQ4gBXeIXKio6V6dwZ6sKD8JtBncWz
+        unDDHJTQ67B5oobO7YTjITbwiO2wZoQ/9zdumIMSqX9A20pll/EE3cwzVjD0ZrZxwxyU0D4/xDz0vhcd
+        K9M5rRcxtffxgCVvZhs3zEGJSSikL7CesNRf40m45jKsrbGdl+KGOSjRxwgvoZToWFk/XKNttIv6vG7w
+        f3yJKdFsobCe2kLRdc2bBxd1Pis3zEGZLltoDW8h0z+zYOd05YY5KNNlC41xgyP7+9lUvW+a4kwYfPQB
+        DwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ultraTab12.Text" xml:space="preserve">
+    <value>Import Product</value>
+  </data>
+  <data name="appearance48.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAFVSURBVEhLtdaxLgRRGMXxRUIi
+        EaIiEhqVXiE6EvEYGr0nUGmpNXgFERIRvYrOA6hoiNC7/md3bjKZnDsTc6+T/LJ3zh1fdjOzswYhhP+2
+        hBvUM1e9xtxhGe7vW9myoD18opnmB1C+sA83J8mWBemNOmOmi9ycJFsW1CduTpItC+oTNyfJlgX1iZuT
+        ZMuC4n29il2c4BttcXOSbJlpE5d4w09Fa3Xa20DMA15Hy2Ee4WYm2TKTHoepaG9itAzXmMbB8CiEY0zC
+        zUyyZaauK6BzzjCFcyxiB/O4QHNeK1tmusIWxqHnvWitTns6nsEtlHUc4gO6Km5mki0zvUPRL/BTJf4a
+        a28B6ly24WYm2TLTGk7xghit1WlPX1wX7bt5rWyZqX4L6bh5C63gGTG6OkfQl7s5q5MtM3XdQjpnFvcq
+        yJ///6mzZaauWyiep0emnjoZHyAMfgGZ7Y8KZUY5tAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="appearance49.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAFxSURBVEhLtda/LkRBHMXxZZOV
+        SISoiIRGpVMoREciXkGn0XsC1bbU27CvILISEb2KzgOoaIjQqFzfI3PlZnIyQ+YqPsmdM3d/Obs7+6dT
+        VdW/+thdXcAFqoaZaH2FRff4HBu2hVJ7eA0lm+InIG/Yd3NSbNgWCqmoM2ayb25Oig3bQqH4Vc6KZ+TY
+        sC2uYE48I8eGbXEFc+IZOTZsC4Xqs72MHRzjHba8xDNybFiCEhs4wxM+A10r09466sI3eGysb93MFBuW
+        oIS+DutCMe11w/UIkzgI6yP03MwUG5agRPIdCPecYAKnmMc2ZjGM5+XYsAQlzrGJcej7XnStTHtaT+ES
+        euXXcIgXjNzMFBuWoMQzVEy/wHdB/WusvbmQaR3bcjNTbFiCEisY4CGUEl0r054+uM3StYGbl2PDEhT5
+        OUJhHR+hJdyjLq53p49uPOs3bFiCIskjFO6ZxnXI/vz/p8mGJSiUPEKN+3oYouAJVJ0vZahJR9Vxvy0A
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ultraTab13.Text" xml:space="preserve">
+    <value>Export Products</value>
+  </data>
+  <data name="&gt;&gt;tcInventory.Name" xml:space="preserve">
+    <value>tcInventory</value>
+  </data>
+  <data name="&gt;&gt;tcInventory.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;tcInventory.Parent" xml:space="preserve">
+    <value>ultraTabPageControl2</value>
+  </data>
+  <data name="&gt;&gt;tcInventory.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ultraTabPageControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1403, 853</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl2.Name" xml:space="preserve">
+    <value>ultraTabPageControl2</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl2.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl2.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="resource.Name24" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="appearance50.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ultraTabSharedControlsPage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabSharedControlsPage4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabSharedControlsPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 851</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage4.Name" xml:space="preserve">
+    <value>ultraTabSharedControlsPage4</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage4.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage4.Parent" xml:space="preserve">
+    <value>tcCustomers</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tcCustomers.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tcCustomers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tcCustomers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tcCustomers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1403, 853</value>
+  </data>
+  <data name="tcCustomers.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="appearance52.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAD1SURBVEhLvdWxDgFBEAZgItGI
+        RK/wOlq1p6BRKrRKr6TSkaDgHRSCbv3DbXK5/GPnjPUnX+L+rMlNNqERQvi3NqzgBndYFh07m0TLzOZQ
+        zQLY2SRaZnaEavbAzibRMrMdVLMFdjaJlpl1oAflTIGdTaKlkyWywAHOMIEmsFlJtHSyRBaQsy0Ywqh4
+        ro2WTjEDkBcti5HP8hP6eD29MwY27yNaOllSXibmCn1gM1W0dIpJ3QCL/KmxmSpaOlmiLXACNlNFS6eY
+        b25AwmaqaOlkibbABthMFS2dYqw3cIE1zKALbKaKlk6WyALsu7XR0smSHy0QGk+6joa7lJH6twAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="appearance53.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAEOSURBVEhLvdWxakJBEIXhK0Ia
+        Cdhb5HXSWvsGdtpYWqS1zAtZpLJT0BTxHSzEpNucDVcZlv/uXTJeiw/kMAxnXNAqhPBQ1XT9JO9ykW9Z
+        xYxmS2DYJZVdSki80WwJDLuksp9J+WhPsyUw7JLK7pLy0ZZmS2DYJZUdyNCUj+Y0WwJDj6RYk3jAQY4y
+        kx7tKoGhh8pQ4dSwnu3Lq4zTPaUw9KgLRi8Sv2nrdoDEn9Afk01oXxsMPUyhHHvM1VlGtDMHQw9TqO0F
+        rp+tFe3MwdADSpGmA75oZw6GHqbMf15AK3hvEww9qBRoOmBDO3Mw9DBlSl/gJB+ykGfamYOhR12qzd//
+        wD1g6AFlyZ0OCNUvGQAwdG8H+xUAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ultraTab14.Text" xml:space="preserve">
+    <value>Full List</value>
+  </data>
+  <data name="appearance54.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAEjSURBVEhL1dUxSgNBAIXhBMQq
+        iEIaScBD5Ab2XiAnSDyCeIKAVzA3CFja2FhZiQSsY2Mltpbr/2QGwuRtxJkJxAcfs/syGXY3u5tO0zS7
+        coAZvgJtq3Nzs9mykmukUefmZrNlJc9Io87NzWbLSp6QRp2bm82WlUyRRp2bm82WlfQwwWugbXVubjZb
+        VjDECrc4D+Z4wwDuO1lsWaiLR7jc4RQ3eFcRRu0fwa23lS0LXcBliT5efvY2o/7PJ2HLQgu4jKErvZ6z
+        MMboc7dmK1sW+oCL7v1428QchzFGn7s1W9myUFtOwqjoyuvg9bxoXD8Rt2YrWxa6h8sI/+IXOMQlHvCJ
+        mCukz0B6AnvxDGyjt8zev4V+o4PUlY63k0btZ/wPNJ1vWrp2sz0sRW8AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="appearance55.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAExSURBVEhL1dUxSgNBGMXxFYJV
+        CAo2EsFDeAN7L+AJTI4gOYGQK+gNBEsbQVKlChJIrU0qsbUc/x/MyvDx2EW/EbX4sTuPyfBms5M0KaUf
+        0UwfB7jCe2b3AzU3QoY1UHaG5MzU3AgZ1kDZlStvVmpuhAxroOzSlTdLNTdChjVQduLKm4maGyHDGig7
+        xAU2md0P1dwIGUZR9AjPuMZpdoMXjNVnvkuGERTcwQL+9TF3OMQc25zZ1cYjtV4fGUZQ5CwX89Y4wFOR
+        lSz/8iZkGEGJ26JU6Rz2pMvs2I3nas0uMoygxKsr1RqjfW1ae268VWt2kWGEK1TaL+7tyVt5Oy92/dyI
+        X6+PDCMocd+WcU7wL76BXUzxgDe05S7hz4DfwO+fgS4UHOFv/wr1sZKo9D+Qmg9fuz9ejgZJjAAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="ultraTab15.Text" xml:space="preserve">
+    <value>New Customer</value>
+  </data>
+  <data name="appearance56.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAEsSURBVEhL1dY/SsRAHMXxFazF
+        ykr8A1Zi5Sm8wRbiHWwsPYK2Vp5FbNTWxgsIq4WFtQjj90EGhuHNJDqzog8+JPtCfmSy2bCzEMJvOcJY
+        ruDOLbLlkjxgSty5Rbbs5Bg/iZtVZMsO1vCCa6wPpsbNK7JlB5e4x2rSTU06Z5QtGx3gE4dJJ1OTnjPK
+        lo1uUcsCp9iDHq19nOEViptZZMtGtdxgGxfQQhRt9XkXd3Azi2zZSPnAObawOew/Qxf/CBf1O3Azi2zZ
+        6AknmONtoP0N6E6n0YLS6LibWWTLTt4Ro3118bGJyV+vOp7PqbJlJ24BMbrzuviVYZsuJJ9TZctO8kdI
+        3b/6Bpz8N5Av4E/9Bhz9xai9hXTcnVdkyyXTRepOx8dJW33+9sWHEGZfMV6YJhEx7iwAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="appearance57.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAFPSURBVEhL1da9SgNBFMXxjVoH
+        KyvxCytJ5VP4BhbiC1jZWPoIsbXyWSSNprXxBYRoYWEtwvi/MAOTy8nMyiSixY/sHHYvZze72XQhhF/R
+        XUxOECpu1bElMlwFyk1dWckfVyPDZaDMmS/Xh59TI8NWFBniFXfYjGRhz8+qkWEritzgERtZJgt7af++
+        ZNiCEiN84djlsrCXH9OHDFtQYuJLOTNc4hB2ax3hCm9ghJ67iAxbWImCe+xhDDsRy+zT1gd4UDNLZNgi
+        lvrENXawHbdfYOWfkJ9UYvm+mlkiwxaUeMY5TvEe2fYW7ErnpXfdeqxmlsiwFUXW8ZEVs+0B0m2T+J/X
+        mZpXIsNWFLGy/gTWsrVdeStv+829J/ysGhkuA2XmbqGY/Y9vIKGQXeFBtvbPgD+Bv/EMLEJB+4tR+hUa
+        quNKZLhKVhLqPfDj8iGE7huJDxuyMLHzdgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ultraTab16.Text" xml:space="preserve">
+    <value>New Supplier</value>
+  </data>
+  <data name="appearance58.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAFVSURBVEhLvda9LkRBGMbx9dlt
+        iEonGoVug0qFQuEGtK5CpVPtDdD4uAQRhUKv04maSiNEQwTH/4k5ycnkOWcik/Emv+y7z7w7OWd3crK9
+        qqr+2ziGeAvUK3OzSTYsbBdxKXOzSTYs7ApxKXOzSTYs7BhxKXOzSTYsbB4PqEu9MjebZMPCVjDAdqB+
+        CW42yYYFbeETX7gL1H9gE+4znWyYaRVneMR3oF7ZGnbQrPfw+owFuD1b2TDTK9pKa6O/bXWAEeiGVaeY
+        htuzlQ0zdf0CWtOMLn4CevrMQMdHr0eI9+tkw0znWIe+aX3Dol6Z1jTTxyVUy9jDEy4Q79fJhpl0IaoX
+        3ATqVVqbhTJXG3B7trJhpkUc4h51qVemtWsFprTu9utkw0zNI6T38RGawy3q0q+zjzHEeyXZMFPqCGlm
+        CvV/oj8/eZpsmCl1hOq5SZwg4waq3g8eOWnEAf6B1wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="appearance59.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAFzSURBVEhLvdYxL0NRGMbxomxC
+        TDbpYrAJpk4YOvgCVqsv0Mlm8gV0UT6CNAZDF5PNJmYmixALEVz/J3kr18nr3iMnx/BLz33u25OntydN
+        G0VR/KvG7kUTB3gxWje92RhumBNluygCXW82hhvmRNlhUF6G3mwMN8yJsv2gvPS92RhumBNlW7grlde6
+        5c3GcMOcKLuGZWwbrVe82RhumAtFt/COD9wYrd/Q8d5Txw1TUKSNU9zj02itbB07KJ//V3t9xKK3ZxU3
+        TEGJZyvk0b1xWx9iDPrAuj7BrLdnFTdMYYV++wbaNqPyk9Av0hw69noU7lfHDVNQYoAN6EnrCYvWygY2
+        M41z6MmvYg8POAv3q+OGKayIij3hymitTPfmLdN1aNPbs4obpqDEEnq4tVKitTLdu7Qs1PP2q+OGKSjy
+        fYTs+scRwgKuMSqub2cfE+FeMdwwBUUqj5DNzGD0n+jPvzxlbpiCQpVHqDQ3hWMkfICi8QWhxyz562FS
+        UQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ultraTab17.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="&gt;&gt;tcCustomers.Name" xml:space="preserve">
+    <value>tcCustomers</value>
+  </data>
+  <data name="&gt;&gt;tcCustomers.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;tcCustomers.Parent" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;tcCustomers.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ultraTabPageControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1403, 853</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl3.Name" xml:space="preserve">
+    <value>ultraTabPageControl3</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl3.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl3.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="resource.Name25" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="appearance60.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="resource.Name26" xml:space="preserve">
+    <value>Segoe UI Light</value>
+  </data>
+  <data name="resource.SizeInPoints23" type="System.Single, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="appearance61.TextHAlignAsString" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="appearance61.TextVAlignAsString" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="appearance62.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        SQAAEkkBDGpDtQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAABcSURBVDhP
+        pczBCQAgDENRt+3+E0RyEKwN2uDhHfySDgBfZHTIeIoILOdfeii3MZWwe41JRuqMScbumEpwxpQe7phK
+        cI/I6ByRkbpHZFw6R2TcvY6UoNyOpIcPYwL0dN6AGMIvZgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="appearance64.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        SQAAEkkBDGpDtQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAABhSURBVDhP
+        pcxBDgAhCENRb+v9T8CkCxORD2Jm8RZW2mFmv2D4AsM5py3n3wlD6Y5guHRGMNzdRkJAqhH3qGQj7uiG
+        RsJRhsrijjJZWdyDVGUJwe5WFgylUxYMu2XBsM/GB7Dz3oC+8LOoAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="llDateNavigation.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="llDateNavigation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 151</value>
+  </data>
+  <data name="llDateNavigation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="llDateNavigation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 39</value>
+  </data>
+  <data name="llDateNavigation.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="llDateNavigation.Value" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;llDateNavigation.Name" xml:space="preserve">
+    <value>llDateNavigation</value>
+  </data>
+  <data name="&gt;&gt;llDateNavigation.Type" xml:space="preserve">
+    <value>Infragistics.Win.FormattedLinkLabel.UltraFormattedLinkLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;llDateNavigation.Parent" xml:space="preserve">
+    <value>ultraTabSharedControlsPage5</value>
+  </data>
+  <data name="&gt;&gt;llDateNavigation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.Name27" xml:space="preserve">
+    <value>Segoe UI Light</value>
+  </data>
+  <data name="resource.SizeInPoints24" type="System.Single, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblSchedule.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSchedule.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblSchedule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 102</value>
+  </data>
+  <data name="lblSchedule.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblSchedule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 49</value>
+  </data>
+  <data name="lblSchedule.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblSchedule.Text" xml:space="preserve">
+    <value>Schedule</value>
+  </data>
+  <data name="&gt;&gt;lblSchedule.Name" xml:space="preserve">
+    <value>lblSchedule</value>
+  </data>
+  <data name="&gt;&gt;lblSchedule.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblSchedule.Parent" xml:space="preserve">
+    <value>ultraTabSharedControlsPage5</value>
+  </data>
+  <data name="&gt;&gt;lblSchedule.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="resource.Name28" xml:space="preserve">
+    <value>Segoe UI Light</value>
+  </data>
+  <data name="resource.SizeInPoints25" type="System.Single, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="lblStoreName_Orders.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStoreName_Orders.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblStoreName_Orders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblStoreName_Orders.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="lblStoreName_Orders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 102</value>
+  </data>
+  <data name="lblStoreName_Orders.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblStoreName_Orders.Text" xml:space="preserve">
+    <value>My Store Name</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName_Orders.Name" xml:space="preserve">
+    <value>lblStoreName_Orders</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName_Orders.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName_Orders.Parent" xml:space="preserve">
+    <value>ultraTabSharedControlsPage5</value>
+  </data>
+  <data name="&gt;&gt;lblStoreName_Orders.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ultraTabSharedControlsPage5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabSharedControlsPage5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabSharedControlsPage5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 851</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage5.Name" xml:space="preserve">
+    <value>ultraTabSharedControlsPage5</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage5.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage5.Parent" xml:space="preserve">
+    <value>tcOrders</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="ultraCalendarLook1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>613, 17</value>
+  </metadata>
+  <data name="resource.BoldAsString" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="appearance70.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="resource.Name29" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints26" type="System.Single, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="resource.Name30" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints27" type="System.Single, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="appearance72.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="resource.BoldAsString1" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="resource.Name31" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints28" type="System.Single, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="appearance74.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="dvWeekly.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dvWeekly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 0</value>
+  </data>
+  <data name="dvWeekly.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="dvWeekly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1155, 803</value>
+  </data>
+  <data name="dvWeekly.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="dvWeekly.Text" xml:space="preserve">
+    <value>ultraDayView1</value>
+  </data>
+  <data name="&gt;&gt;dvWeekly.Name" xml:space="preserve">
+    <value>dvWeekly</value>
+  </data>
+  <data name="&gt;&gt;dvWeekly.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinSchedule.UltraDayView, Infragistics4.Win.UltraWinSchedule.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;dvWeekly.Parent" xml:space="preserve">
+    <value>ultraTabPageControl20</value>
+  </data>
+  <data name="&gt;&gt;dvWeekly.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ultraTabPageControl20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl20.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl20.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>48, 0, 48, 48</value>
+  </data>
+  <data name="ultraTabPageControl20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 851</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl20.Name" xml:space="preserve">
+    <value>ultraTabPageControl20</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl20.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl20.Parent" xml:space="preserve">
+    <value>tcOrders</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl20.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mvMonthly.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="mvMonthly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 0</value>
+  </data>
+  <data name="mvMonthly.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="mvMonthly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1155, 803</value>
+  </data>
+  <data name="mvMonthly.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mvMonthly.Name" xml:space="preserve">
+    <value>mvMonthly</value>
+  </data>
+  <data name="&gt;&gt;mvMonthly.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinSchedule.UltraMonthViewSingle, Infragistics4.Win.UltraWinSchedule.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;mvMonthly.Parent" xml:space="preserve">
+    <value>ultraTabPageControl21</value>
+  </data>
+  <data name="&gt;&gt;mvMonthly.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ultraTabPageControl21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl21.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl21.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>48, 0, 48, 48</value>
+  </data>
+  <data name="ultraTabPageControl21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 851</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl21.Name" xml:space="preserve">
+    <value>ultraTabPageControl21</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl21.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl21.Parent" xml:space="preserve">
+    <value>tcOrders</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl21.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tcOrders.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tcOrders.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tcOrders.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tcOrders.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1403, 853</value>
+  </data>
+  <data name="tcOrders.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="appearance81.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAAC1SURBVEhL7ZVRCoNADET1Br1B
+        73/KrfMxEOQZUoZ+LPTBY9eJhqwIHmutX2pel9/UxmIYajSYqXvxVKN+rRiGGg1mTwWFpxr1a8UwNIH6
+        tWIYKt6X9S1PFNSvFcNQoYGo1ikob8UwVNQDGL/lyv0+78diGCrqYB7cqz8vscUBauaV7hPej8UwVPwP
+        MBXDUNEdoLLNAXStP67WqrL6XH1mJIahQsNRrVNQ3ophaAL1a8VwH9fxAR/eWduR7wiUAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="appearance82.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAADJSURBVEhL1ZVRCoMwEET1t1+9
+        QQ/dQ/SYqyuZMixjyLoI5uORydsaJiJ0MbPb+P5e1nhnZhmkrMDFTvLpLJ41gpQVQjGwNtedxbNGkLIC
+        ylwhnjWClBVamc8Ov+UR9sf1mT2krOBFvJCa9XjsBdr+cJT/jn+HnEHKCqIYimPF5zXHBdjxjDP2yBmk
+        rBCLseMZZ+yRM0hZIRZjxzPO2CNnkLJCLMaurcw0F/Dy/o/rK7Pyc8gZpKzgRbycmvV42gUuEc8aQcp5
+        sGUDNe1NEB8dCIEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="ultraTab8.Text" xml:space="preserve">
+    <value>Daily Schedule</value>
+  </data>
+  <data name="appearance83.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAACqSURBVEhL1ZNBCsQwDMT62v3/
+        D7II1hDC2I4ZeliBsFFDyKXPWutNg+m3a2U0DbIdqnMjZTQNsg7Zt7O3ymjqoO4rldEUVO8E1UtlNIWz
+        fX5WO8T5a2U0hbNlj953iPPXymgKqneC6qUymkJMmOzMkTKaQkyY7MyRMpqC6p2geqmMpsDMftZ934Wz
+        tcpoCszs0fu+C2drldEUVO8E1UtlNHVQ95XK+D+u5wtjZFjARBgdFAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="appearance84.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAACjSURBVEhL1ZNBCoAwDAQ9+1A/
+        5CN8ZkwOQhq2Neki1MOwYYJlc3ATkc84r12M6I3RrgKUDL4Ymkc7m6tAydAr8/jRLvoMUDL4olXiWxmg
+        ZJgtsvQB6g7jZdZov8sAJQMqEor+74AMyx1gWZ0tq0DJ0CuXmS2rQMkwW2S5AzRff1yPOo3WZYCS4Sni
+        i/ZmjzqN1mWAkmG2yFIHzBLfygDlf5DtBu1tl8H6K0raAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ultraTab9.Text" xml:space="preserve">
+    <value>Weekly Schedule</value>
+  </data>
+  <data name="appearance85.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAACwSURBVEhL3ZNRCsQgDAW7N9gb
+        7P1P6XY+AkGeIfLoRx0YiE8MsdhrjPGkwfd2Z6+tDE0DBgtyDas91a9UhqYBg4UfgsRqT/UrlaGpg+pX
+        KkNT+N3mr9wRVL9SGZoCA80ZxKCg6nympQxN4bgLsEZ+2FUN+UxLGZoCQwU7tepXKkNTOOICYfVscg2q
+        X6kMTYGhgqqez+V1SxmawhEXCKtnM5/L65YyNHVQ/Upl+B7H9QdSi2vT5KmGZgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="appearance86.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAQCAYAAABQrvyxAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACwwAAAsMAT9AIsgAAADaSURBVEhL1ZNBDsIwDATLlRM/
+        4NE8gmeGGNmSY22sbVccOIzqTPFqFZVjjPEzXu/7cB5n3p0BSoVcbDNv39UsBigVSrHg5q59V7MYoFSI
+        MleoWQxQKniZ5yTfMsNcx5kdUCpYESsE3Nd3c95hgVIhCgEHS+c577BAqRCFirOChv1hd/P86ZrFAKWC
+        FfFSy+0yc81igFIhFzo71ywGKBVSoaD7bPI813FmB5QKVsRLLbeL5rqXzyxQKkQ5f7Zz3ctnFigVolxi
+        +9nUvXxmgVLBilylZjFA+T+M4wNkHxau0K4otgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ultraTab18.Text" xml:space="preserve">
+    <value>Monthly Schedule</value>
+  </data>
+  <data name="&gt;&gt;tcOrders.Name" xml:space="preserve">
+    <value>tcOrders</value>
+  </data>
+  <data name="&gt;&gt;tcOrders.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;tcOrders.Parent" xml:space="preserve">
+    <value>ultraTabPageControl4</value>
+  </data>
+  <data name="&gt;&gt;tcOrders.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ultraTabPageControl4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1403, 853</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl4.Name" xml:space="preserve">
+    <value>ultraTabPageControl4</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl4.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl4.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="resource.Name32" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="resource.SizeInPoints29" type="System.Single, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="appearance91.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="appearance93.TextVAlignAsString" xml:space="preserve">
+    <value>Middle</value>
+  </data>
+  <data name="gridReports.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="gridReports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 258</value>
+  </data>
+  <data name="gridReports.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="gridReports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1307, 547</value>
+  </data>
+  <data name="gridReports.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;gridReports.Name" xml:space="preserve">
+    <value>gridReports</value>
+  </data>
+  <data name="&gt;&gt;gridReports.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.UltraGrid, Infragistics4.Win.UltraWinGrid.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;gridReports.Parent" xml:space="preserve">
+    <value>ultraTabPageControl5</value>
+  </data>
+  <data name="&gt;&gt;gridReports.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="scReports.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="scReports.IsSplitterFixed" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="scReports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="scReports.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="resource.Name33" xml:space="preserve">
+    <value>Segoe UI Light</value>
+  </data>
+  <data name="resource.SizeInPoints30" type="System.Single, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblStockReports.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStockReports.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblStockReports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblStockReports.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblStockReports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>649, 49</value>
+  </data>
+  <data name="lblStockReports.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblStockReports.Text" xml:space="preserve">
+    <value>Stock Reports</value>
+  </data>
+  <data name="&gt;&gt;lblStockReports.Name" xml:space="preserve">
+    <value>lblStockReports</value>
+  </data>
+  <data name="&gt;&gt;lblStockReports.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblStockReports.Parent" xml:space="preserve">
+    <value>scReports.Panel1</value>
+  </data>
+  <data name="&gt;&gt;lblStockReports.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="datachartReportsStock.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="datachartReportsStock.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="datachartReportsStock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>649, 258</value>
+  </data>
+  <data name="datachartReportsStock.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="datachartReportsStock.Text" xml:space="preserve">
+    <value>ultraDataChart1</value>
+  </data>
+  <data name="&gt;&gt;datachartReportsStock.Name" xml:space="preserve">
+    <value>datachartReportsStock</value>
+  </data>
+  <data name="&gt;&gt;datachartReportsStock.Type" xml:space="preserve">
+    <value>Infragistics.Win.DataVisualization.UltraDataChart, Infragistics4.Win.DataVisualization.UltraDataChart.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;datachartReportsStock.Parent" xml:space="preserve">
+    <value>scReports.Panel1</value>
+  </data>
+  <data name="&gt;&gt;datachartReportsStock.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;scReports.Panel1.Name" xml:space="preserve">
+    <value>scReports.Panel1</value>
+  </data>
+  <data name="&gt;&gt;scReports.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scReports.Panel1.Parent" xml:space="preserve">
+    <value>scReports</value>
+  </data>
+  <data name="&gt;&gt;scReports.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="datachartReportsSales.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="datachartReportsSales.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 49</value>
+  </data>
+  <data name="datachartReportsSales.Size" type="System.Drawing.Size, System.Drawing">
+    <value>653, 209</value>
+  </data>
+  <data name="datachartReportsSales.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="datachartReportsSales.Text" xml:space="preserve">
+    <value>ultraDataChart1</value>
+  </data>
+  <data name="&gt;&gt;datachartReportsSales.Name" xml:space="preserve">
+    <value>datachartReportsSales</value>
+  </data>
+  <data name="&gt;&gt;datachartReportsSales.Type" xml:space="preserve">
+    <value>Infragistics.Win.DataVisualization.UltraDataChart, Infragistics4.Win.DataVisualization.UltraDataChart.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;datachartReportsSales.Parent" xml:space="preserve">
+    <value>scReports.Panel2</value>
+  </data>
+  <data name="&gt;&gt;datachartReportsSales.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="resource.Name34" xml:space="preserve">
+    <value>Segoe UI Light</value>
+  </data>
+  <data name="resource.SizeInPoints31" type="System.Single, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblSalesReports.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSalesReports.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblSalesReports.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="lblSalesReports.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblSalesReports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>653, 49</value>
+  </data>
+  <data name="lblSalesReports.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblSalesReports.Text" xml:space="preserve">
+    <value>Sales Reports</value>
+  </data>
+  <data name="&gt;&gt;lblSalesReports.Name" xml:space="preserve">
+    <value>lblSalesReports</value>
+  </data>
+  <data name="&gt;&gt;lblSalesReports.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;lblSalesReports.Parent" xml:space="preserve">
+    <value>scReports.Panel2</value>
+  </data>
+  <data name="&gt;&gt;lblSalesReports.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;scReports.Panel2.Name" xml:space="preserve">
+    <value>scReports.Panel2</value>
+  </data>
+  <data name="&gt;&gt;scReports.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scReports.Panel2.Parent" xml:space="preserve">
+    <value>scReports</value>
+  </data>
+  <data name="&gt;&gt;scReports.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="scReports.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1307, 258</value>
+  </data>
+  <data name="scReports.SplitterDistance" type="System.Int32, mscorlib">
+    <value>649</value>
+  </data>
+  <data name="scReports.SplitterWidth" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="scReports.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;scReports.Name" xml:space="preserve">
+    <value>scReports</value>
+  </data>
+  <data name="&gt;&gt;scReports.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scReports.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;scReports.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 0</value>
+  </data>
+  <data name="panel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1307, 258</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>ultraTabPageControl5</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ultraTabPageControl5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 1</value>
+  </data>
+  <data name="ultraTabPageControl5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>48, 0, 48, 48</value>
+  </data>
+  <data name="ultraTabPageControl5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1403, 853</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl5.Name" xml:space="preserve">
+    <value>ultraTabPageControl5</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl5.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl5.Parent" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tcMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tcMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 38</value>
+  </data>
+  <data name="tcMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tcMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1498, 855</value>
+  </data>
+  <data name="tcMain.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="appearance99.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAFlSURBVFhH
+        7dIhTwNBEAXgtmmatElFQ1IBgpqqqqLAgaytxYFDgQGDAFFRUUFCCPxHBPyC4w2Za3aXd7d7cHcL5MSX
+        0MfsvEnaVpIkvwoNY6JhEa9v7204VW02UwQNQ+GADpzDizqTjM2GomEIFHfhQg8xSdZlb0LQ0AeFPbjS
+        A5hL6LG3PjTMg6I+3Ghxnmvosx15aJgFBUO41cIQMjtku7LQkMHiEdxrURF3MGI7GRq6sHAMKy34Dnk7
+        ZrtdNDRh0R6sdfFPyI5d1mGiYQoLJrDRhWWQXfusK0VDgYdTeNBFZZKdU9YpaIgHM3jUBVWQ3TPW/SXA
+        4AE86cMqScfc7bc+YOAInvVBHaTr0LzBPObEGKzbsXUQgoUzEMPi8yD8sXT+EdNSDho42GCVdmDbv/0N
+        pXSoTgOz3zpGkAdV+78HWd89wd4wpR1kLXKR+SzNQT7NQT7NQT7NQT5/7KDYaBhP0voADS8cmg7xnLEA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="appearance101.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAFOSURBVFhH
+        7dGxLgRRFMbxFYlCQ7OdRKOko6SlpucBeAGeYN/AC9BT066SjopKp9IoJDL+Z7JzM3fmm7132J1ZMl/y
+        S2bO3HvOSaaXJMlMkcU2yWJNczgfsWd1Jpos1jCPS2S5gNXU2SiyGGkB1yjmCvZN3QmSxQiLuEVVbmBn
+        1N2xZDFgCXcIZQg7q3pUksUx+nhAbO5hd1QvSRYrrOAJdfMIu6t6lsiisIYX/DTPsB6qt0cWCzbwit/G
+        eqxDzXBkMWcLb5hUrNcm1KyULI7s4B2TjvXchppZudAePjCtWO9dlGaXCjjAJ6Ydm7EPb773giN8oanY
+        rEO4HfLLnKCtHMNb6Axt5xTpQoP0dTYysIWWC5rOKtz87JflNR1bxM3PL5JpOv93Ie/fC7Gxs25+fpFM
+        bLxGQmy6hULpFgqlWyiUbqFQ/t5CrZLF9iS9b8Ddoj3TnFHEAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="appearance102.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAFOSURBVFhH
+        7dGxLgRRFMbxFYlCQ7OdRKOko6SlpucBeAGeYN/AC9BT066SjopKp9IoJDL+Z7JzM3fmm7132J1ZMl/y
+        S2bO3HvOSaaXJMlMkcU2yWJNczgfsWd1Jpos1jCPS2S5gNXU2SiyGGkB1yjmCvZN3QmSxQiLuEVVbmBn
+        1N2xZDFgCXcIZQg7q3pUksUx+nhAbO5hd1QvSRYrrOAJdfMIu6t6lsiisIYX/DTPsB6qt0cWCzbwit/G
+        eqxDzXBkMWcLb5hUrNcm1KyULI7s4B2TjvXchppZudAePjCtWO9dlGaXCjjAJ6Ydm7EPb773giN8oanY
+        rEO4HfLLnKCtHMNb6Axt5xTpQoP0dTYysIWWC5rOKtz87JflNR1bxM3PL5JpOv93Ie/fC7Gxs25+fpFM
+        bLxGQmy6hULpFgqlWyiUbqFQ/t5CrZLF9iS9b8Ddoj3TnFHEAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ultraTab1.Text" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="appearance103.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAEJSURBVFhH
+        7dcxDsIwDAVQusKC4AzszEhM3IS9Egdg4AgwMPSODPQE5bdqKid169QJUkEZ3pLU5suWWrGoqmrQ612u
+        4AQ3KAYsnRruGeoKe8hondE7qOHhHZzhCVxTamoggw1GG/lMg6MNZFjBpk6DExrIaILVDZaBrJEz95N0
+        jeYiZMRGrJU1UiBJCiT5y0BRpUCSFEjyM4FyuDhnPrR1HS7QHdawgUd75kNbZ+ECHchL7ujcjdHWWdxA
+        uWnaNs7AZwXauh4aqBk5bdw2l1agrWPRQN3IXbgbW4G2jkUDGdqPZZSPbAokSYEkKZBEXfgtNNAW2P/b
+        gawflNBA1shjIf29zHplM1AWH2Pyq5TiAF/wAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="appearance104.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAEMSURBVFhH
+        7ZZBCsIwEEX1BuJW0JN4B4/gxr138gxuvIQ7zyGu3MX/q5FpOjbJpAWVPHhSgn/4nQp14pzrcw738AI/
+        MYMyE+MMN3AKZa6xc/ByDQ/wDmPkFvKoxeSglG1oWAt5WsU4IGcbGqWFPE0xDuDAEsPfgvadZOWgr5Af
+        pfDO5NAiaqEYtVCMvyw0KLVQjFooxs8UOsLT8zILa+6NVugKF3AJbzxIxJproRXaQp7THQ8SseZahIW4
+        cj+U8s9XyiOw5jow7PErl4Np7BFYcyoMeuTKQ/segTWnwlCI9WU5yEtWC9ZCEi1YC0m0YC0kMQfHQhZa
+        Qd7l0GYhCzHs1z2kWWQHxubLCjn3ADhvDT2NkDXdAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="appearance105.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAEMSURBVFhH
+        7ZZBCsIwEEX1BuJW0JN4B4/gxr138gxuvIQ7zyGu3MX/q5FpOjbJpAWVPHhSgn/4nQp14pzrcw738AI/
+        MYMyE+MMN3AKZa6xc/ByDQ/wDmPkFvKoxeSglG1oWAt5WsU4IGcbGqWFPE0xDuDAEsPfgvadZOWgr5Af
+        pfDO5NAiaqEYtVCMvyw0KLVQjFooxs8UOsLT8zILa+6NVugKF3AJbzxIxJproRXaQp7THQ8SseZahIW4
+        cj+U8s9XyiOw5jow7PErl4Np7BFYcyoMeuTKQ/segTWnwlCI9WU5yEtWC9ZCEi1YC0m0YC0kMQfHQhZa
+        Qd7l0GYhCzHs1z2kWWQHxubLCjn3ADhvDT2NkDXdAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="ultraTab2.Text" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="appearance106.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAMmSURBVFhH
+        zZfdSxRhFMZ1U0zFUOxGUzDNCoy+KKLsIiXwoiKJLkUjvMiSuqggIiL6otLsAyr7H7uov2B7fsOZ5fju
+        2XV0N7aLHzP7vOc858zs+84701Yul/8rQrGVhGIrCcUi/Pr9p0/cEC/FD4NztL4opwhVgsx6xEVxRZwS
+        pSBmSnwSP2vA2FSQVxJ44k2NnjRmyw8FjIkN4c2fikqizsfFNxurBzHjLo8LxcvHUGssj4HKiQbaxRsL
+        TFlwMc+dvh3EtlvugtM91MxiwDc04oJS1ixmMtGLMGm5a4nuGcn78A2NJkGevKG5RC/CnOXWa2g078M3
+        xIR764I8ixYzn+hFmLfcxUTPoWZl4VQasqQJka6eZ6LXxmedXpRZy+0VePkxak34HtKGhsU+MSOui7P2
+        e8DGh4Q3LMKQ5Q4KvPDEmxr8HvY9+GauiU3xStwUzBduM1fxUWTLU8dVERWOWLWcowIfwBNvalCLmpfy
+        PvJmTovI0PNecNv77TyK8RBD7ID4YlotaOpw1pBOOsQ7G6gHSWfsArj9T0yPYGzQYqedXg8md0fRBP6y
+        I1aAPYwHJBwT/AUPDc7RGGPVZnuajtTggiJvzzTBDxIxZV1kE0/H4+KDeCwOoaVIzxtlmyA2fzCyh23X
+        1H0CPyeihx082490ZNKn46/FLcHziZVzW6TzC49z5nHZ6REbBNXr+qoZnU/0nVLZaHVccXrKJgHLiZjz
+        QjAPWCVfTWsEFg6rlDmYvlHkLNMQRS+IR+K7yAdP2hXVang3LJknD8Vc4y+lNhO/lE5IHgEs6YOCyXlA
+        FFkdO4FNfI/gvWq/6PA9bGkoRcF3RGTaCCtRrZxQBCWyz3A7I9NG4I73RzUhFEFJu9nZizIT1YRQBCXd
+        TUyaSbbpRoQiKIkndGTWDNajmhCKStibGPwLuqLaVQIomKUfmTST7G0gpUoABXeLZj9/PHh3R7WrhBwl
+        LDmDZpM9sSNCEZTUKWp93DUCnp1RTQhFj5L5EuGJXeTzuRbk4rHlCyMiFCNk1iVOCN577gk+k3mT9HON
+        czTGiCGWnHBFRYRiKwnF1lFu+wt3VCpO8lzcwwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="appearance107.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAMLSURBVFhH
+        zZfLq01RHMdxuSlCSSTCUB4xkLcwEUlISQZymYmBgZmQRwb+AfIaqDvyKEpmYqLIwEAJJc9whTLwvMfn
+        s+9ep33OWXufh3s6vvWptX/r9zp7r7XXPkNKpdJ/RdTYSaLGThI1NsgEOAlP4FeKY23OxWLqEjOOg91w
+        EDbBcKj2WQOfIU/O6VMdZy5zmtsa1qrwqbiABdAHWd2HbOBi+AH1pI++Ic4c5srKWtYMPhUNDYPnENNp
+        CD6PNDQofY0x1hwxWTP4VDQ0F/L0DvRZnlw1J2OMNUeerJ30EZqReZCn0NCB5Ko5GWNsUUPWTvoIzUgX
+        vICYzoI+J5Kr5mSMseaIyZrWTvoIzQSWQvXueQjjwfl9GpqUMcaaw1xZWcua5R7Kg5TZMBH2wjHYBpNg
+        Cjg/E5qVMcZOB3OZ09zWsNYsKPdQHsBh+ANP4RT47M+Bv+IjhO15AxqVvsasBvOIOc1tDWtZcw8kfYRm
+        tkA9vQFv++R0XE/66DsVvmookE2thKShbngJ9dQPW8GYaXAP8uScPvru0tCAXNzdjQb4yFaB/p5TvsiG
+        wlpw99xOcazNOXdOONOs4V2opx6dbw2Mc/UewsJbD2/hLixLbdXYzDp4APquAO2boV5TN3X8MjCO6jeE
+        8+iIhio9g4twHI7CJXgNWZljO5hjv4YC9enk2sjTIdBnR3LVujxoF4G5rmrIUb8OvQPjGj0GPxfcJd80
+        /KNegbvUdfVJQ0S9NuTi2wl34CcEbYSihlvRBTCnL8UgP+ys3QNdTmbxFeAbdSG4OOdA0SNtRfNhBPgI
+        Z4A1yz1km4lxBQZbrqFYrYSoMcVzxts52HLr+waP1SxsqJWTvVG5hmI1Cxu6Bu1SOHRriBpTfEO3Sx8g
+        VjO3oTHQbo2Cmto1hhS3frsVvgYqqDGkjIVGTudWZW5r1NSuMWQ4D+2SuWM1CxsaCWdgsGVOc8dqFjYU
+        WAKX4Tu0KmPNYa5YjTJRYw6jYQP4j+E6+DfZL8nsWnOszTl99DXG2FjOGqLGThI1do7SkL/0JeDmLbWg
+        3gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="appearance108.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAMLSURBVFhH
+        zZfLq01RHMdxuSlCSSTCUB4xkLcwEUlISQZymYmBgZmQRwb+AfIaqDvyKEpmYqLIwEAJJc9whTLwvMfn
+        s+9ep33OWXufh3s6vvWptX/r9zp7r7XXPkNKpdJ/RdTYSaLGThI1NsgEOAlP4FeKY23OxWLqEjOOg91w
+        EDbBcKj2WQOfIU/O6VMdZy5zmtsa1qrwqbiABdAHWd2HbOBi+AH1pI++Ic4c5srKWtYMPhUNDYPnENNp
+        CD6PNDQofY0x1hwxWTP4VDQ0F/L0DvRZnlw1J2OMNUeerJ30EZqReZCn0NCB5Ko5GWNsUUPWTvoIzUgX
+        vICYzoI+J5Kr5mSMseaIyZrWTvoIzQSWQvXueQjjwfl9GpqUMcaaw1xZWcua5R7Kg5TZMBH2wjHYBpNg
+        Cjg/E5qVMcZOB3OZ09zWsNYsKPdQHsBh+ANP4RT47M+Bv+IjhO15AxqVvsasBvOIOc1tDWtZcw8kfYRm
+        tkA9vQFv++R0XE/66DsVvmookE2thKShbngJ9dQPW8GYaXAP8uScPvru0tCAXNzdjQb4yFaB/p5TvsiG
+        wlpw99xOcazNOXdOONOs4V2opx6dbw2Mc/UewsJbD2/hLixLbdXYzDp4APquAO2boV5TN3X8MjCO6jeE
+        8+iIhio9g4twHI7CJXgNWZljO5hjv4YC9enk2sjTIdBnR3LVujxoF4G5rmrIUb8OvQPjGj0GPxfcJd80
+        /KNegbvUdfVJQ0S9NuTi2wl34CcEbYSihlvRBTCnL8UgP+ys3QNdTmbxFeAbdSG4OOdA0SNtRfNhBPgI
+        Z4A1yz1km4lxBQZbrqFYrYSoMcVzxts52HLr+waP1SxsqJWTvVG5hmI1Cxu6Bu1SOHRriBpTfEO3Sx8g
+        VjO3oTHQbo2Cmto1hhS3frsVvgYqqDGkjIVGTudWZW5r1NSuMWQ4D+2SuWM1CxsaCWdgsGVOc8dqFjYU
+        WAKX4Tu0KmPNYa5YjTJRYw6jYQP4j+E6+DfZL8nsWnOszTl99DXG2FjOGqLGThI1do7SkL/0JeDmLbWg
+        3gAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ultraTab3.Text" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="appearance109.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAC9SURBVFhH
+        7dIxFoQwCEVRa1tXP3u0GFeQSWE8nvFJ0BAKpbiNQfhGhpTSJfN3+fSEQyXUxBIOlVATSzhUQk0s4VBJ
+        fmm8CQP8w6E90HDS/Rdk4xpIdWtugQjUut4QnR28OtCzdmjK6ItqqJfJLzv9Kgn02XrBc6QubPCuHdKe
+        7/XboQvneyaBLJVAqht1C0SgNnaoSl3YoARS3ahbIAK1sUNV6sIGzwwUO1SoCxuUQHSjB26BtCJQTQSS
+        peEHk519xFOJF+oAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="appearance110.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAADRSURBVFhH
+        7ZLRCcMwDEQ7Qjfo/lO61sdB0J2RUluGtn7wIlCEdQl+tNbuWopaGFmKWhhZiloYWYpaGPn80BRqYZUp
+        0oMT2N+xPf6PmcTOQEpCNheDQCn+OpBVL7EzkJKQzc6r678mo8L6oz3EaBCH3FWxJNBKEMiql9gZSEnI
+        Zmd0h0D0/or1R3uI0SAO8YLo/ZUlgVaCQFa9xM5ASkI2O+cOgfTgBAhk1UvsDKQkZLNz7hBID07wm4HO
+        HQLpwQkQyGrozkAp7VHNCRTxzYHa4w0PUa5AwPV4IgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="appearance111.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAADRSURBVFhH
+        7ZLRCcMwDEQ7Qjfo/lO61sdB0J2RUluGtn7wIlCEdQl+tNbuWopaGFmKWhhZiloYWYpaGPn80BRqYZUp
+        0oMT2N+xPf6PmcTOQEpCNheDQCn+OpBVL7EzkJKQzc6r678mo8L6oz3EaBCH3FWxJNBKEMiql9gZSEnI
+        Zmd0h0D0/or1R3uI0SAO8YLo/ZUlgVaCQFa9xM5ASkI2O+cOgfTgBAhk1UvsDKQkZLNz7hBID07wm4HO
+        HQLpwQkQyGrozkAp7VHNCRTxzYHa4w0PUa5AwPV4IgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ultraTab4.Text" xml:space="preserve">
+    <value>Orders</value>
+  </data>
+  <data name="appearance112.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAJzSURBVFhH
+        3Za9a9VgFMZtKS2tWCiWDsUO7VCqS9FFpItDVZwqrnWruggiDoqDuojgoOIHxf6PHexfcP09l/OGk5M3
+        aVJuyMXhd5Ocj+c84U3e3Euj0ah3Tv+ePYaTNmQF+oBhrUxlm/uCgeeayjb2CUMbTWWb+oSh02OIgdOz
+        ZAybnoeaQXVmnkAplxWYJHGg4znMxpqsSFtM6BBmGvLRiHgFc7nakkAXaH4oAaNiius6M+9g3tf6nkqw
+        DTTeNXFPYYpjnZmPcNnpHEDpZkqD2kDzbcgNExKvM/MZVoJWyhWmSsPOg6Zd+GMiXfgKaxk9XzM2VSpo
+        guIdOLbmLvyADaejm1qw81h7WBmcg8It+O0aCwF4FmIe9Ww7nW2LLdl1pacyPELRNdBdxmYZmYUF+GAx
+        j5Z21+lsQNK5mCEK1kDrHxtfQrGPcL4K3y2XuNOg090QyRX44ouNN1DZR4jdgPTA77u4dPSGeY1uhkhc
+        gU++0NDSLOZ6BLkHcBBi2nuiTntDBJcgJyKDy67uPozNcdyx44xINRaLOqKdIQJ6QLW1x0It3aqr27N4
+        Ev4GV11+DtKHM2r5vkrOm5HIa580NGzd1d2C9Kx44fcwD3rz9CWvHQrNhjiRyAufMH7Cpmqs7jr4zTEK
+        PwX9x8nlPPWG+NG6H/mgocHjZ8OaN+GX5RIXGgqNhrTbxoSW5GYyY81auljXi6Hc13kvGUlkasTkDVnC
+        m7qnmMWXYbwju7ynH0OWlKlH7noRtB9NfCi0MlRsahz1+r5VAQxjKEFQ+5E+nqloOEMEtB/F/zeDGkqb
+        mmcYQ1zoGaoUwDCGJi0M/4Ohs5N/XyYIbJI8DxUAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="appearance114.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAJFSURBVFhH
+        3ZY/axRxEIb9RwQVDATUQiEJ2omQKuksFEsFbQUhdulCRLBX8BvEfICEJKWNYmFnwE7U0sLCzj8gJCkC
+        snneeBPmJrN3u0fWPXzh4XZ/v5nZ925nZ+9IURT/gudQSVlyU1QylSU2SV9TWVLT9DSVJTTNUBkaqls2
+        VE1dZmYJuvay5MOmzMw6HIeumJhcFxVahKNuLe5negMjcCDWL9TlCZgyU2Vm3sMp8LH7OdliFeYgypsq
+        M/MZxsDqPIWuL2MbdbgPZVLxMjNf4SL4WqZ9U36zCnfgD9TVd7gMsZ7XnqkY0IsbsAN19RumwOrchjOd
+        46hFC+rHDGxD1AtY+3uYSjnXweroWGujnfMDssBeXAN9y6hV0Bw5DR+1EKRbq1/D6uhXsjoDG7oCuv9R
+        r8DPkUn4BV4PwPbVP77OQIYuwTeIegfZHLkF1vDzYOt6svSEedU2dA6+QJRuzVnIcsRj0Gzxa5o9UbUM
+        KfgTRMngebC4R2Dm9ATqU7MkTuxMlQ2pQTXao3TrJsDiHoJkhX/CeOdYqL/sxZmpkqGT8BaifsBVsLh7
+        YL3iC38A9ZaM6E1eelHU19AJeKmFoE2YBou7CX44xsIroP840sCGjsHy3lm3dGHrDSFjW+A10EVRT0N6
+        h0TpltwF7Rvqk6hGDGVv51nQnidTI4aEN7UAtn4B1OxpMmrMkJCpZ+5cM0bz6NAviioZ8kNNj+8GSK0Z
+        MjTUXoOpVUMaavH/TauGbKh5tWZI/ZOpNUO1k9H/bqgodgHFmZM0CwAm3AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="appearance115.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNui8sowAAAJFSURBVFhH
+        3ZY/axRxEIb9RwQVDATUQiEJ2omQKuksFEsFbQUhdulCRLBX8BvEfICEJKWNYmFnwE7U0sLCzj8gJCkC
+        snneeBPmJrN3u0fWPXzh4XZ/v5nZ925nZ+9IURT/gudQSVlyU1QylSU2SV9TWVLT9DSVJTTNUBkaqls2
+        VE1dZmYJuvay5MOmzMw6HIeumJhcFxVahKNuLe5negMjcCDWL9TlCZgyU2Vm3sMp8LH7OdliFeYgypsq
+        M/MZxsDqPIWuL2MbdbgPZVLxMjNf4SL4WqZ9U36zCnfgD9TVd7gMsZ7XnqkY0IsbsAN19RumwOrchjOd
+        46hFC+rHDGxD1AtY+3uYSjnXweroWGujnfMDssBeXAN9y6hV0Bw5DR+1EKRbq1/D6uhXsjoDG7oCuv9R
+        r8DPkUn4BV4PwPbVP77OQIYuwTeIegfZHLkF1vDzYOt6svSEedU2dA6+QJRuzVnIcsRj0Gzxa5o9UbUM
+        KfgTRMngebC4R2Dm9ATqU7MkTuxMlQ2pQTXao3TrJsDiHoJkhX/CeOdYqL/sxZmpkqGT8BaifsBVsLh7
+        YL3iC38A9ZaM6E1eelHU19AJeKmFoE2YBou7CX44xsIroP840sCGjsHy3lm3dGHrDSFjW+A10EVRT0N6
+        h0TpltwF7Rvqk6hGDGVv51nQnidTI4aEN7UAtn4B1OxpMmrMkJCpZ+5cM0bz6NAviioZ8kNNj+8GSK0Z
+        MjTUXoOpVUMaavH/TauGbKh5tWZI/ZOpNUO1k9H/bqgodgHFmZM0CwAm3AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ultraTab5.Text" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="&gt;&gt;tcMain.Name" xml:space="preserve">
+    <value>tcMain</value>
+  </data>
+  <data name="&gt;&gt;tcMain.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;tcMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tcMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="ultraFormManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="appearance116.TextHAlignAsString" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="_Form1_UltraFormManager_Dock_Area_Left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 38</value>
+  </data>
+  <data name="_Form1_UltraFormManager_Dock_Area_Left.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="_Form1_UltraFormManager_Dock_Area_Left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 855</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Left.Name" xml:space="preserve">
+    <value>_Form1_UltraFormManager_Dock_Area_Left</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Left.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinForm.UltraFormDockArea, Infragistics4.Win.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Left.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Left.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_Form1_UltraFormManager_Dock_Area_Right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1499, 38</value>
+  </data>
+  <data name="_Form1_UltraFormManager_Dock_Area_Right.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="_Form1_UltraFormManager_Dock_Area_Right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 855</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Right.Name" xml:space="preserve">
+    <value>_Form1_UltraFormManager_Dock_Area_Right</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Right.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinForm.UltraFormDockArea, Infragistics4.Win.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Right.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Right.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="_Form1_UltraFormManager_Dock_Area_Top.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="_Form1_UltraFormManager_Dock_Area_Top.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="_Form1_UltraFormManager_Dock_Area_Top.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1500, 38</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Top.Name" xml:space="preserve">
+    <value>_Form1_UltraFormManager_Dock_Area_Top</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Top.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinForm.UltraFormDockArea, Infragistics4.Win.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Top.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Top.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="_Form1_UltraFormManager_Dock_Area_Bottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 893</value>
+  </data>
+  <data name="_Form1_UltraFormManager_Dock_Area_Bottom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="_Form1_UltraFormManager_Dock_Area_Bottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1500, 1</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Bottom.Name" xml:space="preserve">
+    <value>_Form1_UltraFormManager_Dock_Area_Bottom</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Bottom.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinForm.UltraFormDockArea, Infragistics4.Win.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Bottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_Form1_UltraFormManager_Dock_Area_Bottom.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAUAQEAAAAEACAAoFgAAVgAAADAwAAABAAgAqA4AAH4WAAAgIAAAAQAIAKgIAAAmJQAAGBgAAAEA
+        CADIBgAAzi0AABAQAAABAAgAaAUAAJY0AAAoAAAAQAAAAIAAAAABAAgAAAAAAAASAAAAAAAAAAAAAAAB
+        AAAAAAAAHzIvAB80MQAeNzQAHTo2AB08OAAiIiIAIiQjACEmJQAhKCcAICopACAsKwAgLSwAHEI9ABxG
+        QQAbSEIAGk1HABpOSAAaUEkAGFdPABdcVAAYWVEAGFxTABZjWQAWZVsAFmZcABVoXgAVa2AAFG1hABRx
+        ZQATdGgAEn1wAA+KewAPjn4AEYByABCIeQAOkYAADJqIAAyciQAMn4wAC6GOAAujkAAKppIAUfP/AHH1
+        /wCR9/8Asfn/ANH7/wD///8AAAAAAAAvIQAAUDcAAHBMAACQYwAAsHkAAM+PAADwpgAR/7QAMf++AFH/
+        yABx/9MAkf/cALH/5QDR//AA////AAAAAAAALw4AAFAYAABwIgAAkCwAALA2AADPQAAA8EoAEf9bADH/
+        cQBR/4cAcf+dAJH/sgCx/8kA0f/fAP///wAAAAAAAi8AAARQAAAGcAAACJAAAAqwAAALzwAADvAAACD/
+        EgA9/zEAW/9RAHn/cQCY/5EAtf+xANT/0QD///8AAAAAABQvAAAiUAAAMHAAAD2QAABMsAAAWc8AAGfw
+        AAB4/xEAiv8xAJz/UQCu/3EAwP+RANL/sQDk/9EA////AAAAAAAmLwAAQFAAAFpwAAB0kAAAjrAAAKnP
+        AADC8AAA0f8RANj/MQDe/1EA4/9xAOn/kQDv/7EA9v/RAP///wAAAAAALyYAAFBBAABwWwAAkHQAALCO
+        AADPqQAA8MMAAP/SEQD/2DEA/91RAP/kcQD/6pEA//CxAP/20QD///8AAAAAAC8UAABQIgAAcDAAAJA+
+        AACwTQAAz1sAAPBpAAD/eREA/4oxAP+dUQD/r3EA/8GRAP/SsQD/5dEA////AAAAAAAvAwAAUAQAAHAG
+        AACQCQAAsAoAAM8MAADwDgAA/yASAP8+MQD/XFEA/3pxAP+XkQD/trEA/9TRAP///wAAAAAALwAOAFAA
+        FwBwACEAkAArALAANgDPAEAA8ABJAP8RWgD/MXAA/1GGAP9xnAD/kbIA/7HIAP/R3wD///8AAAAAAC8A
+        IABQADYAcABMAJAAYgCwAHgAzwCOAPAApAD/EbMA/zG+AP9RxwD/cdEA/5HcAP+x5QD/0fAA////AAAA
+        AAAsAC8ASwBQAGkAcACHAJAApQCwAMQAzwDhAPAA8BH/APIx/wD0Uf8A9nH/APeR/wD5sf8A+9H/AP//
+        /wAAAAAAGwAvAC0AUAA/AHAAUgCQAGMAsAB2AM8AiADwAJkR/wCmMf8AtFH/AMJx/wDPkf8A3LH/AOvR
+        /wD///8AAAAAAAgALwAOAFAAFQBwABsAkAAhALAAJgDPACwA8AA+Ef8AWDH/AHFR/wCMcf8AppH/AL+x
+        /wDa0f8A////AAUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUGBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUGBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQYFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQYFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBgUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBgUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUGBQYGBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQYFBgUGBQUFBQUFBQUFBQUFBQUFBQUFBgcFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQcGBgYFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCAkK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgkJBwYFBQUFBQUFBQUFBQUFBQUFBQUJ
+        KSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkFBQUFBQUFBQUFBQUFBQUF
+        BQUFBSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpCAYFBQUFBQUFBQUF
+        BQUFBQUFBQkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkIBgUF
+        BQUFBQUFBQUFBQUFBQUFCSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkp
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkp
+        KSkpKQkFBQUFBQUFBQUFBQUFBQUFBQUJKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkp
+        KSkpKSkpKSkFBQUFBQUFBQUFBQUFBQUFBQUFBSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkp
+        KSkpKSkpKSkpKSkpCAYFBQUFBQUFBQUFBQUFBQUFBQkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkp
+        KBUpKSkpKSkpKSkpKSkpKQUFBQUFBQUFBQUFBQUFBQUFBQUFKSkpKSkpKSkpKSkpAAUFBQUpKSkpKSkp
+        KSkpKRUFGSkpKSkpKSkpKSkpKSkIBgUFBQUFBQUFBQUFBQUFBQUFCSkpKSkpKSkpKSkpKQkFBQYIKSkp
+        KSkpKSkpKSEGBQYgKSkpKSkpKSkpKSkpBQUFBQUFBQUFBQUFBQUFBQUFBQUpKSkpKSkpKSkpKSkABQUF
+        BSkpKSkpKSkpKSYLBgUFASYpKSkpKSkpKSkpKQgGBQUFBQUFBQUFBQUFBQUFBQUJKSkpKSkpKSkpKSkp
+        CQUFBQgpKSkpKSkpKSkNBQUFBQYRKSkpKSkpKSkpKSkFBQUFBQUFBQUFBQUFBQUFBQUFBSkpKSkpKSkp
+        KSkpKQAFBQUFKSkpKSkpKSkcBQUFBQUFBR0pKSkpKSkpKSkpCQUFBQUFBQUFBQUFBQUFBQUFBQkpKSkp
+        KSkpKSkpKSkJBQUGCCkpKSkpKSkjCAUFBQUFBQUIJCkpKSkpKSkpKQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        KSkpKSkpKSkpKSkpCwYFBQUpKSkpKSkpDAUFBQUFBQUFBQQoKSkpKSkpKSkIBQUFBQUFBQUFBQUFBQUF
+        BQUFCSkpKSkpKSkpKSkpKQkFBQUHKSkpKSkpGAgIBgUFBQYGCAgKGikpKSkpKSkpBQUFBQUFBQUGBQUF
+        BQUFBQUFBQUpKSkpKSkpKSkpKSkLBgUFBSkpKSkpKSkpKSkABQYFBSkpKSkpKSkpKSkpKQgFBQUFBQUF
+        BQUGBQUFBQUFBQUIKSkpKSkpKSkpKSkpCQUFBQYpKSkpKSkpKSkpCgUFBQgpKSkpKSkpKSkpKSkFBQUF
+        BQUFBQUFBQYFBQUFBQUFBSkpKSkpKSkpFwYGBgUGBQUFBQUGFSkpKSkpKQAGBQUFKSkpKSkpKSkpKSkp
+        CQUFBQUFBQUFBQUFBQUFBQUFBQgpKSkpKSkpKSkCBgYFBQUFBQUGDSkpKSkpKSkIBQUGCCkpKSkpKSkp
+        KSkpKQUFBQUFBQUFBQUFBQUFBQUFBQUFKSkpKSkpKSkpJQkGBQUFBQUFCCMpKSkpKSkpAAYFBQYpKSkp
+        KSkpKSkpKSkIBQUFBQUFBQUFBQUFBQUFBQUFCCkpKSkpKSkpKSkaBgYFBQYGBh4pKSkpKSkpKQgFBgYI
+        KSkpKSkpKSkpKSkpBQUFBQUFBQUGBQUGBgUFBQUFBQUpKSkpKSkpKSkpKREGBQYFBREpKSkpKSkpKSkA
+        BQUFBikpKSkpKSkpKSkpKQgFBQUFBQUFBQUFBQUFBQUFBQUIKSkpKSkpKSkpKSkmCwYGBgIpKSkpKSkp
+        KSkpCQUGBgopKSkpKSkpKSkpKSkFBQUFBQUFBQUFBQYFBQUFBQUFBSkpKSkpKSkpKSkpKSIGBgcgKSkp
+        KSkpKSkpKQEGCAYHKSkpKSkpKSkpKSkpCAUFBQUFBQUFBQUFBQUFBQUFBggpKSkpKSkpKSkpKSkpFAcc
+        KSkpKSkpKSkpKSkACAgICykpKSkpKSkpKSkpKQUFBQUFBQUFBgUFBQUFBQUFBQUFKSkpKSkpKSkpKSkp
+        KSkTKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkIBQUFBQUFBQUFBQUFBQUFBQUGBykpKSkpKSkp
+        KSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpBQUFBQUFBQUFBQUGBQUFBQUFBQUpKSkp
+        KSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKQcGBQUFBQUFBQUFBQUFBQUFBQUH
+        KSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkFBQUFBQUFBQUFBQUFBQUF
+        BQUFBSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpBwUFBQUFBQUFBQUF
+        BQUFBQUFBQcpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKQUFBQUFBQUF
+        BgUFBQUFBQUFBQUFKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkGBQUF
+        BQUFBQUFBQUFBQUFBQUFBikpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkp
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkp
+        KSkpKQYFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQYFBQUFBgUFBgUFBQUGBQUFBQUFBQYFBgUFBQUGBQUF
+        BQUFBQUGBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQYFBQYFBgUGBQYGBgYFBQUFBQUFBgUGBQYG
+        BgYFBQUFBQUFBQYFBQUFBQUFBQUFBQUFBQUFBQUFBQUCFBwdHB0cHRwdHBwdHB0cHRwcHRwFBhwdHBwd
+        HB0cHRwcHRwdHBwdHBwWAwUFBQUFBQUFBQUFBQUFBQUFBQUFBQUKEBscHBwcHB0cHRwcHBwcHB0cBgUc
+        HRwcHRwcHBwcHB0cHRwdHBYEBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUHDBccHRwdHB0cHRwdHBwd
+        HAUGHBwdHB0cHRwdHB0cHBwcFgMFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFAhQcHBwcHB0c
+        HRwdHB0FBRwdHBwdHB0cHRwdHB0WBAUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFChAb
+        HRwdHB0cHRwcBgUdHB0cHRwdHB0cHBYDBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBwwXHBwcHBwcHAUFHBwcHBwcHBwcFgMFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF
+        BQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgA
+        AAAwAAAAYAAAAAEACAAAAAAAgAoAAAAAAAAAAAAAAAEAAAAAAAAfMjAAHjc0AB0+OQAiIiIAIiQkACEo
+        JwAgKikAIC4sAB1APAAbSUMAGVJLABlVTQAYW1IAF2BWABZiWQAWZFoAFWhdABVqYAAUbmMAFG9kABRx
+        ZQAQh3gADJmHAAujjwAKppIAMab/AFGz/wBxwf8Akc//ALHd/wDR6/8A////AAAAAAAALC8AAEtQAABo
+        cAAAhpAAAKWwAADDzwAA4fAAEe//ADHx/wBR8/8AcfX/AJH3/wCx+f8A0fv/AP///wAAAAAAAC8hAABQ
+        NwAAcEwAAJBjAACweQAAz48AAPCmABH/tAAx/74AUf/IAHH/0wCR/9wAsf/lANH/8AD///8AAAAAAAAv
+        DgAAUBgAAHAiAACQLAAAsDYAAM9AAADwSgAR/1sAMf9xAFH/hwBx/50Akf+yALH/yQDR/98A////AAAA
+        AAACLwAABFAAAAZwAAAIkAAACrAAAAvPAAAO8AAAIP8SAD3/MQBb/1EAef9xAJj/kQC1/7EA1P/RAP//
+        /wAAAAAAFC8AACJQAAAwcAAAPZAAAEywAABZzwAAZ/AAAHj/EQCK/zEAnP9RAK7/cQDA/5EA0v+xAOT/
+        0QD///8AAAAAACYvAABAUAAAWnAAAHSQAACOsAAAqc8AAMLwAADR/xEA2P8xAN7/UQDj/3EA6f+RAO//
+        sQD2/9EA////AAAAAAAvJgAAUEEAAHBbAACQdAAAsI4AAM+pAADwwwAA/9IRAP/YMQD/3VEA/+RxAP/q
+        kQD/8LEA//bRAP///wAAAAAALxQAAFAiAABwMAAAkD4AALBNAADPWwAA8GkAAP95EQD/ijEA/51RAP+v
+        cQD/wZEA/9KxAP/l0QD///8AAAAAAC8DAABQBAAAcAYAAJAJAACwCgAAzwwAAPAOAAD/IBIA/z4xAP9c
+        UQD/enEA/5eRAP+2sQD/1NEA////AAAAAAAvAA4AUAAXAHAAIQCQACsAsAA2AM8AQADwAEkA/xFaAP8x
+        cAD/UYYA/3GcAP+RsgD/scgA/9HfAP///wAAAAAALwAgAFAANgBwAEwAkABiALAAeADPAI4A8ACkAP8R
+        swD/Mb4A/1HHAP9x0QD/kdwA/7HlAP/R8AD///8AAAAAACwALwBLAFAAaQBwAIcAkAClALAAxADPAOEA
+        8ADwEf8A8jH/APRR/wD2cf8A95H/APmx/wD70f8A////AAAAAAAbAC8ALQBQAD8AcABSAJAAYwCwAHYA
+        zwCIAPAAmRH/AKYx/wC0Uf8AwnH/AM+R/wDcsf8A69H/AP///wAAAAAACAAvAA4AUAAVAHAAGwCQACEA
+        sAAmAM8ALADwAD4R/wBYMf8AcVH/AIxx/wCmkf8Av7H/ANrR/wD///8AAwMDAwMDAwMDAwMDAwMDAwMD
+        AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+        AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+        AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+        AwMDAwMDAwQDAwMDAwMDAwMDAwMDAwMEAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwUDAwUEBAUD
+        BQMFAwMFAwUDBQMFBQMDBQUDAwUDBQMEAwMDAwMDAwMDAwMDAwUFBgcGBwcGBwYHBgYHBgcGBwYHBgYG
+        BgYGBgcGBwYGBQMDAwMDAwMDAwMDAwMDAxgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgG
+        AwMDAwMDAwMDAwMDBhgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgDAwMDAwMDAwMDAwMD
+        AxgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgFAwMDAwMDAwMDAwMDBRgYGBgYGBgYGBgY
+        GBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgDAwMDAwQDAwQDAwMDAxgYGBgYGBgYGBgYGBgYGBgYGBgYGBgY
+        GBgYGBgYGBgYGBgFAwMDAwMDAwMDAwMDBRgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgD
+        AwMDAwMDAwMDAwMDAxgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYCxgYGBgYGBgYGBgFAwMDAwMDAwMDAwMD
+        BRgYGBgYGBgYBgMDBAUYGBgYGBgYGBgLAwsYGBgYGBgYGBgDAwMDAwQDAwQDAwMDAxgYGBgYGBgYAAMD
+        AwMYGBgYGBgYGBQDAwMTGBgYGBgYGBgFAwMDAwMDAwMDAwMDBRgYGBgYGBgYBgMDAwUYGBgYGBgYFQQD
+        AwMFFRgYGBgYGBgDAwMDAwMDAwMDAwMDAxgYGBgYGBgYAAMDAwMYGBgYGBgWBwMDAwMDBxYYGBgYGBgF
+        AwMDAwMDAwMDAwMDBRgYGBgYGBgYBgMDAwUYGBgYGBcIAwMDAwQDAwkYGBgYGBgDAwMDAwQDAwQDAwMD
+        AxgYGBgYGBgYBwQDAwMYGBgYGBIABwQDAwMDBgcRGBgYGBgFAwMDAwMDAwMDAwMDBRgYGBgYGBgYBgMD
+        AwQYGBgYGBgYGAYDAwQFGBgYGBgYGBgDAwMDAwMDAwMDAwMDAxgYGBgYGBgYBwMDAwQYGBgYGBgYGAAE
+        AwMDGBgYGBgYGBgFAwMDAwMDAwMDAwMDBRgYGBgYDgYGBAMDAwMGBhIYGBgYGAYDAwMFGBgYGBgYGBgD
+        AwMDAwQDAwQDAwMDAxgYGBgYGAkEAwMDAwMECBgYGBgYGAADAwMDGBgYGBgYGBgFAwMDAwMDAwMDAwMD
+        BRgYGBgYGBYHAwMDAwUAGBgYGBgYGAYDAwQGGBgYGBgYGBgDAwMDAwMDAwMDAwMDAxgYGBgYGBgWBQMD
+        AwQVGBgYGBgYGAAEAwQEGBgYGBgYGBgFAwMDAwMDAwMDAwMDBRgYGBgYGBgYFAMDBRQYGBgYGBgYGAYE
+        BAMHGBgYGBgYGBgDAwMDAwQDAwQDAwMDAxgYGBgYGBgYGAwECxgYGBgYGBgYGAIABwAAGBgYGBgYGBgF
+        AwMDAwMDAwMDAwMDBRgYGBgYGBgYGBgNGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgDAwMDAwMDAwMDAwMD
+        AxgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgFAwMDAwMDAwMDAwMDBRgYGBgYGBgYGBgY
+        GBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgDAwMDAwMDAwMDAwMDAxgYGBgYGBgYGBgYGBgYGBgYGBgYGBgY
+        GBgYGBgYGBgYGBgEAwMDAwMDAwMDAwMDBBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgD
+        AwMDAwQDAwMDAwMDAxgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgEAwMDAwMDAwMDAwMD
+        AxgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgDAwMDAwMDAwMDAwMDAwMDAwMDBAMEBAQE
+        BAQEBAQEAwMEBAQEBAQEBAQEBAQEAwMDAwMDAwMDAwMDAwMDAwMDAwQDBAQEBAQEBAQEBAMDBAQEBAQE
+        BAQEBAQEBAMDAwMDAwMDAwMDAwMDAwMDAwEMFBQUFBQUFBQUFBQUFBQEAxQUFBQUFBQUFBQUFBQUEAID
+        AwMDAwMDAwMDAwMDAwMDBwoUFBQUFBQUFBQUFBQDBBQUFBQUFBQUFBQUFBIJBAMDAwMDAwMDAwMDAwMD
+        AwMDAwMFCREUFBQUFBQUFBQDAxQUFBQUFBQUFBQUCwYDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwQIDxQU
+        FBQUFBQDAxQUFBQUFBQUFA0AAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+        AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+        AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+        AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+        AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+        AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+        AwMDAwMDAAAAAAAAAwMAAAAAAAADAwAAAAAAAAMDAAAAAAAAAwMAAAAAAAADAwAAAAAAAAMDAAAAAAAA
+        AwMAAAAAAAADAwAAAAAAAAMDAAAAAAAAAwMAAAAAAAADAwAAAAAAAAMDAAAAAAAAAwMAAAAAAAADAwAA
+        AAAAAAMDAAAAAAAAAwMAAAAAAAADAwAAAAAAAAMDAAAAAAAAAwMAAAAAAAADAwAAAAAAAAMDAAAAAAAA
+        AwMAAAAAAAADAwAAAAAAAAMDAAAAAAAAAwMAAAAAAAADAwAAAAAAAAMDAAAAAAAAAwMAAAAAAAADAwAA
+        AAAAAAMDAAAAAAAAAwMAAAAAAAADAwAAAAAAAAMDAAAAAAAAAwMAAAAAAAADAwAAAAAAAAMDAAAAAAAA
+        AwMAAAAAAAADAwAAAAAAAAMDAAAAAAAAAwMAAAAAAAADAwAAAAAAAAMDAAAAAAAAAwMAAAAAAAADAwAA
+        AAAAAAMDAAAAAAAAAwMAAAAAAAADAwAAAAAAAAMDKAAAACAAAABAAAAAAQAIAAAAAACABAAAAAAAAAAA
+        AAAAAQAAAAAAAB8yMAAeNTIAHjc0AB44NQAiIiIAIiQjACEkJAAgKikAICwqABxCPQAaTUcAGk5IABhX
+        TwAYWVAAGFxTABdgVwAWY1kAFmRaABZmXAAVaV4AFW1hABRxZQAPinsAD4t8AA+OfgAQiHkAC6KOAAqm
+        kgCRz/8Asd3/ANHr/wD///8AAAAAAAAsLwAAS1AAAGhwAACGkAAApbAAAMPPAADh8AAR7/8AMfH/AFHz
+        /wBx9f8Akff/ALH5/wDR+/8A////AAAAAAAALyEAAFA3AABwTAAAkGMAALB5AADPjwAA8KYAEf+0ADH/
+        vgBR/8gAcf/TAJH/3ACx/+UA0f/wAP///wAAAAAAAC8OAABQGAAAcCIAAJAsAACwNgAAz0AAAPBKABH/
+        WwAx/3EAUf+HAHH/nQCR/7IAsf/JANH/3wD///8AAAAAAAIvAAAEUAAABnAAAAiQAAAKsAAAC88AAA7w
+        AAAg/xIAPf8xAFv/UQB5/3EAmP+RALX/sQDU/9EA////AAAAAAAULwAAIlAAADBwAAA9kAAATLAAAFnP
+        AABn8AAAeP8RAIr/MQCc/1EArv9xAMD/kQDS/7EA5P/RAP///wAAAAAAJi8AAEBQAABacAAAdJAAAI6w
+        AACpzwAAwvAAANH/EQDY/zEA3v9RAOP/cQDp/5EA7/+xAPb/0QD///8AAAAAAC8mAABQQQAAcFsAAJB0
+        AACwjgAAz6kAAPDDAAD/0hEA/9gxAP/dUQD/5HEA/+qRAP/wsQD/9tEA////AAAAAAAvFAAAUCIAAHAw
+        AACQPgAAsE0AAM9bAADwaQAA/3kRAP+KMQD/nVEA/69xAP/BkQD/0rEA/+XRAP///wAAAAAALwMAAFAE
+        AABwBgAAkAkAALAKAADPDAAA8A4AAP8gEgD/PjEA/1xRAP96cQD/l5EA/7axAP/U0QD///8AAAAAAC8A
+        DgBQABcAcAAhAJAAKwCwADYAzwBAAPAASQD/EVoA/zFwAP9RhgD/cZwA/5GyAP+xyAD/0d8A////AAAA
+        AAAvACAAUAA2AHAATACQAGIAsAB4AM8AjgDwAKQA/xGzAP8xvgD/UccA/3HRAP+R3AD/seUA/9HwAP//
+        /wAAAAAALAAvAEsAUABpAHAAhwCQAKUAsADEAM8A4QDwAPAR/wDyMf8A9FH/APZx/wD3kf8A+bH/APvR
+        /wD///8AAAAAABsALwAtAFAAPwBwAFIAkABjALAAdgDPAIgA8ACZEf8ApjH/ALRR/wDCcf8Az5H/ANyx
+        /wDr0f8A////AAAAAAAIAC8ADgBQABUAcAAbAJAAIQCwACYAzwAsAPAAPhH/AFgx/wBxUf8AjHH/AKaR
+        /wC/sf8A2tH/AP///wAEBAQEBAQEBAQEBQQFBAUEBQUEBQQFBAQEBAQEBAQEBAQEBAQEBAQEBAQFBAQF
+        BAUEBAQFBQQFBQUEBAQEBAQEBAQEBAQEBAQFBAQFBAQEBAQGBAQEBAQEBAQEBAQEBAQEBAQEBAQFBQQE
+        BAUFBAYGBgYGBgYFBAYEBAQFBAQEBAQEBAQFBQYHBgcHBgcHBwcHBwcHBgcHBwcFBQQEBAQEBAQEBAQb
+        GxsbGxsbGxsbGxsbGxsbGxsbGxsbBwQEBAQEBAQEBxsbGxsbGxsbGxsbGxsbGxsbGxsbGxsEBAQEBAQE
+        BAQEGxsbGxsbGxsbGxsbGxsbGxsbGxsbGwYFBAQEBAQEBQYbGxsbGxsbGxsbGxsbGxsbGxsbGxsbBAQE
+        BAQEBQQEBBsbGxsbGw4bGxsbGxsbAAQEGxsbGxsHBAQEBAQEBAUGGxsbGxsTBBIbGxsbGxsHBQYbGxsb
+        GwQEBAQEBAQEBAQbGxsbGAYFBRcbGxsbGwAEBBsbGxsbBgUEBAQEBAQFBhsbGxsDBAQFAxsbGxsbBwQF
+        GxsbGxsEBAQEBAQEBAQEGxsbEAUFBAQFDhsbGxsIBAQbGxsbGwYFBAQEBAQEBAcbGxsbGwcFBhsbGxsN
+        BQQEBQUOGxsbBAQEBAQEBAQEBBsbGxsbAAQEGxsbGxsDBQUEARobGxsHBAQEBAQEBAUGGxsbGxsHBAcb
+        GxsbGxgGBQYYGxsbGwQEBAQEBAQEBAQbGxsbGwAFBRsbGxsbGxQGEBsbGxsbBgUEBAQEBAQFBhsbGxsb
+        AggAGxsbGxsbGw4bGxsbGxsEBAQEBAQFBAQEGxsbGxsbGxsbGxsbGxsbGxsbGxsbGwYFBAQEBAQEBAUb
+        GxsbGxsbGxsbGxsbGxsbGxsbGxsbBAQEBAQEBAQEBBsbGxsbGxsbGxsbCBsbGxsbGxsbGxsGBAQEBAQE
+        BAQFGxsbGxsbGxsbGxsIGxsbGxsbGxsbGwQEBAQEBAQEBAQEBAQEBQUFBQUFBQQFBAYFBQUFBAUEBAQE
+        BAQEBAQEBAINFRUVFRUVFRUVBRUVFRUVFRUVDQEEBAQEBAQEBAQEBAQICxQVFRUVFRUFFRUVFRUUCggE
+        BAQEBAQEBAQEBAQEBAQEBgkRFRUVFQQVFRURCQYEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE
+        BAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE
+        BAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE
+        BAQEBAQEBAQEBAQEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAGAAAADAAAAABAAgAAAAAAKACAAAAAAAAAAAAAAAB
+        AAAAAAAAHzIwAB05NgAdPTkAIiIiACAqKQAXXFQAGFpSABdhVwAWYlkAFmRaABRyZgASfG4AEn1wAA2V
+        hAAKppIA////AAAAAAAAGi8AAC1QAAA/cAAAUZAAAGOwAAB2zwAAiPAAEZj/ADGm/wBRs/8AccH/AJHP
+        /wCx3f8A0ev/AP///wAAAAAAACwvAABLUAAAaHAAAIaQAAClsAAAw88AAOHwABHv/wAx8f8AUfP/AHH1
+        /wCR9/8Asfn/ANH7/wD///8AAAAAAAAvIQAAUDcAAHBMAACQYwAAsHkAAM+PAADwpgAR/7QAMf++AFH/
+        yABx/9MAkf/cALH/5QDR//AA////AAAAAAAALw4AAFAYAABwIgAAkCwAALA2AADPQAAA8EoAEf9bADH/
+        cQBR/4cAcf+dAJH/sgCx/8kA0f/fAP///wAAAAAAAi8AAARQAAAGcAAACJAAAAqwAAALzwAADvAAACD/
+        EgA9/zEAW/9RAHn/cQCY/5EAtf+xANT/0QD///8AAAAAABQvAAAiUAAAMHAAAD2QAABMsAAAWc8AAGfw
+        AAB4/xEAiv8xAJz/UQCu/3EAwP+RANL/sQDk/9EA////AAAAAAAmLwAAQFAAAFpwAAB0kAAAjrAAAKnP
+        AADC8AAA0f8RANj/MQDe/1EA4/9xAOn/kQDv/7EA9v/RAP///wAAAAAALyYAAFBBAABwWwAAkHQAALCO
+        AADPqQAA8MMAAP/SEQD/2DEA/91RAP/kcQD/6pEA//CxAP/20QD///8AAAAAAC8UAABQIgAAcDAAAJA+
+        AACwTQAAz1sAAPBpAAD/eREA/4oxAP+dUQD/r3EA/8GRAP/SsQD/5dEA////AAAAAAAvAwAAUAQAAHAG
+        AACQCQAAsAoAAM8MAADwDgAA/yASAP8+MQD/XFEA/3pxAP+XkQD/trEA/9TRAP///wAAAAAALwAOAFAA
+        FwBwACEAkAArALAANgDPAEAA8ABJAP8RWgD/MXAA/1GGAP9xnAD/kbIA/7HIAP/R3wD///8AAAAAAC8A
+        IABQADYAcABMAJAAYgCwAHgAzwCOAPAApAD/EbMA/zG+AP9RxwD/cdEA/5HcAP+x5QD/0fAA////AAAA
+        AAAsAC8ASwBQAGkAcACHAJAApQCwAMQAzwDhAPAA8BH/APIx/wD0Uf8A9nH/APeR/wD5sf8A+9H/AP//
+        /wAAAAAAGwAvAC0AUAA/AHAAUgCQAGMAsAB2AM8AiADwAJkR/wCmMf8AtFH/AMJx/wDPkf8A3LH/AOvR
+        /wD///8AAAAAAAgALwAOAFAAFQBwABsAkAAhALAAJgDPACwA8AA+Ef8AWDH/AHFR/wCMcf8AppH/AL+x
+        /wDa0f8A////AAMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+        AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDBAMEAwMEAwQDBAMEAwQDAwMDAwMDAwMODg4ODg4ODg4O
+        Dg4ODg4OAwMDAwMDAwMODg4ODg4ODg4ODg4ODg4OBAMDAwMDAwQODg4ODAwODg4ODg4ODg4OAwMDAwMD
+        AwMODg4NAAQNDg4OAAMODg4OBAMDAwMDAwMODg4CAwMCDg4OBAQODg4OAwMDAwMDAwMODgkAAwMECQ4O
+        BAMODg4OAwMDAwMDAwMODg4OBAMODg4OBAMODg4OAwMDAwMDAwMODg4OBAMODgcDAwMDBQ4OBAMDAwMD
+        AwQODg4OBAQODg4CAwMCDg4OAwMDAwMDAwMODg4OAQQODg4NAAQNDg4OAwMDAwMDAwMODg4ODg4ODg4O
+        DAwODg4OAwMDAwMDAwMODg4ODg4ODg4ODg4ODg4OAwMDAwMDAwMODg4ODg4ODgQODg4ODg4OAwMDAwMD
+        AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMBBwoKCgoKCgMKCgoKCgkBAwMDAwMDAwMDAwEHCgoKCgMK
+        CgoIAQMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+        AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAQAAAAIAAAAAEACAAAAAAAQAEAAAAAAAAAAAAAAAEAAAAA
+        AAAfMS4AHzIwACIiIgAgKikAHEE8ABhVTgAXXVQAGFtSABhcUwAUbWIAFHJmABGAcgAQg3QAC5+MAAug
+        jQAKp5MAAAAAAAAaLwAALVAAAD9wAABRkAAAY7AAAHbPAACI8AARmP8AMab/AFGz/wBxwf8Akc//ALHd
+        /wDR6/8A////AAAAAAAALC8AAEtQAABocAAAhpAAAKWwAADDzwAA4fAAEe//ADHx/wBR8/8AcfX/AJH3
+        /wCx+f8A0fv/AP///wAAAAAAAC8hAABQNwAAcEwAAJBjAACweQAAz48AAPCmABH/tAAx/74AUf/IAHH/
+        0wCR/9wAsf/lANH/8AD///8AAAAAAAAvDgAAUBgAAHAiAACQLAAAsDYAAM9AAADwSgAR/1sAMf9xAFH/
+        hwBx/50Akf+yALH/yQDR/98A////AAAAAAACLwAABFAAAAZwAAAIkAAACrAAAAvPAAAO8AAAIP8SAD3/
+        MQBb/1EAef9xAJj/kQC1/7EA1P/RAP///wAAAAAAFC8AACJQAAAwcAAAPZAAAEywAABZzwAAZ/AAAHj/
+        EQCK/zEAnP9RAK7/cQDA/5EA0v+xAOT/0QD///8AAAAAACYvAABAUAAAWnAAAHSQAACOsAAAqc8AAMLw
+        AADR/xEA2P8xAN7/UQDj/3EA6f+RAO//sQD2/9EA////AAAAAAAvJgAAUEEAAHBbAACQdAAAsI4AAM+p
+        AADwwwAA/9IRAP/YMQD/3VEA/+RxAP/qkQD/8LEA//bRAP///wAAAAAALxQAAFAiAABwMAAAkD4AALBN
+        AADPWwAA8GkAAP95EQD/ijEA/51RAP+vcQD/wZEA/9KxAP/l0QD///8AAAAAAC8DAABQBAAAcAYAAJAJ
+        AACwCgAAzwwAAPAOAAD/IBIA/z4xAP9cUQD/enEA/5eRAP+2sQD/1NEA////AAAAAAAvAA4AUAAXAHAA
+        IQCQACsAsAA2AM8AQADwAEkA/xFaAP8xcAD/UYYA/3GcAP+RsgD/scgA/9HfAP///wAAAAAALwAgAFAA
+        NgBwAEwAkABiALAAeADPAI4A8ACkAP8RswD/Mb4A/1HHAP9x0QD/kdwA/7HlAP/R8AD///8AAAAAACwA
+        LwBLAFAAaQBwAIcAkAClALAAxADPAOEA8ADwEf8A8jH/APRR/wD2cf8A95H/APmx/wD70f8A////AAAA
+        AAAbAC8ALQBQAD8AcABSAJAAYwCwAHYAzwCIAPAAmRH/AKYx/wC0Uf8AwnH/AM+R/wDcsf8A69H/AP//
+        /wAAAAAACAAvAA4AUAAVAHAAGwCQACEAsAAmAM8ALADwAD4R/wBYMf8AcVH/AIxx/wCmkf8Av7H/ANrR
+        /wD///8AAgICAgICAgICAgICAgICAgIPDw8PDw8PDw8PDw8PDwICDw8PDw8PDw8PDw8PDw8CAg8PDwsM
+        Dw8PDwMCDw8PAgIPDw0AAQ4PDw8DAg8PDwICDw8IAgIGDw8PAwIPDw8CAg8PDwMCDw8PBQICBQ8PAgIP
+        Dw8DAg8PDw0AAQ4PDwICDw8PAQMPDw8PCwwPDw8CAg8PDw8PDw8PDw8PDw8PAgIPDw8PDw8DAg8PDw8P
+        DwICDw8PDw8PAwIPDw8PDw8CAgICAgICAgICAgICAgICAgIECQoKCgoCAgoKCgoJBAICAgMHCgoKAgIK
+        CgoGAwICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>996, 676</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Inventory Management</value>
+  </data>
+  <data name="&gt;&gt;ultraCalendarInfo1.Name" xml:space="preserve">
+    <value>ultraCalendarInfo1</value>
+  </data>
+  <data name="&gt;&gt;ultraCalendarInfo1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinSchedule.UltraCalendarInfo, Infragistics4.Win.UltraWinSchedule.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraCalendarLook1.Name" xml:space="preserve">
+    <value>ultraCalendarLook1</value>
+  </data>
+  <data name="&gt;&gt;ultraCalendarLook1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinSchedule.UltraCalendarLook, Infragistics4.Win.UltraWinSchedule.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraFormManager1.Name" xml:space="preserve">
+    <value>ultraFormManager1</value>
+  </data>
+  <data name="&gt;&gt;ultraFormManager1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinForm.UltraFormManager, Infragistics4.Win.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>InventoryManagementForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dvDaily.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="dvDaily.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 0</value>
+  </data>
+  <data name="dvDaily.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="dvDaily.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1155, 803</value>
+  </data>
+  <data name="dvDaily.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dvDaily.Text" xml:space="preserve">
+    <value>ultraDayView1</value>
+  </data>
+  <data name="&gt;&gt;dvDaily.Name" xml:space="preserve">
+    <value>dvDaily</value>
+  </data>
+  <data name="&gt;&gt;dvDaily.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinSchedule.UltraDayView, Infragistics4.Win.UltraWinSchedule.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;dvDaily.Parent" xml:space="preserve">
+    <value>ultraTabPageControl19</value>
+  </data>
+  <data name="&gt;&gt;dvDaily.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ultraTabPageControl19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 1</value>
+  </data>
+  <data name="ultraTabPageControl19.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTabPageControl19.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>48, 0, 48, 48</value>
+  </data>
+  <data name="ultraTabPageControl19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1251, 851</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl19.Name" xml:space="preserve">
+    <value>ultraTabPageControl19</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl19.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl19.Parent" xml:space="preserve">
+    <value>tcOrders</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl19.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ultraTabSharedControlsPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 24</value>
+  </data>
+  <data name="ultraTabSharedControlsPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 73</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage3.Name" xml:space="preserve">
+    <value>ultraTabSharedControlsPage3</value>
+  </data>
+  <data name="&gt;&gt;ultraTabSharedControlsPage3.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="ultraTabPageControl10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 1</value>
+  </data>
+  <data name="ultraTabPageControl10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 496</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl10.Name" xml:space="preserve">
+    <value>ultraTabPageControl10</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl10.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl10.Parent" xml:space="preserve">
+    <value>ultraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ultraTabPageControl11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 496</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl11.Name" xml:space="preserve">
+    <value>ultraTabPageControl11</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl11.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl11.Parent" xml:space="preserve">
+    <value>ultraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ultraTabPageControl12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-10000, -10000</value>
+  </data>
+  <data name="ultraTabPageControl12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 496</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl12.Name" xml:space="preserve">
+    <value>ultraTabPageControl12</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl12.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabPageControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl12.Parent" xml:space="preserve">
+    <value>ultraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabPageControl12.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ultraTabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ultraTabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="ultraTabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ultraTabControl1.Name" xml:space="preserve">
+    <value>ultraTabControl1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabControl1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabControl.UltraTabControl, Infragistics4.Win.UltraWinTabControl.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+</root>

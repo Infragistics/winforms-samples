@@ -1,0 +1,156 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>Showcase.InventoryManagement</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ja-JP\**" />
+    <EmbeddedResource Remove="ja-JP\**" />
+    <None Remove="ja-JP\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\AppIcon.ico" />
+    <None Remove="Images\Customers - Gray - 36x36.png" />
+    <None Remove="Images\Customers - White - 36x36.png" />
+    <None Remove="Images\Customers 116x116.png" />
+    <None Remove="Images\Customers Export - Color - 16x16.png" />
+    <None Remove="Images\Customers Export - White - 16x16.png" />
+    <None Remove="Images\Customers FullList - Color - 16x16.png" />
+    <None Remove="Images\Customers FullList - White - 16x16.png" />
+    <None Remove="Images\Customers NewCustomer - Color - 16x16.png" />
+    <None Remove="Images\Customers NewCustomer - White - 16x16.png" />
+    <None Remove="Images\Customers NewSupplier - Color - 16x16.png" />
+    <None Remove="Images\Customers NewSupplier - White - 16x16.png" />
+    <None Remove="Images\Home - Gray - 36x36.png" />
+    <None Remove="Images\Home - White - 36x36.png" />
+    <None Remove="Images\Home NewProduct.png" />
+    <None Remove="Images\Inventory - Gray - 36x36.png" />
+    <None Remove="Images\Inventory - White - 36x36.png" />
+    <None Remove="Images\Inventory 116x116.png" />
+    <None Remove="Images\Inventory AddNewProduct - Color - 16x16.png" />
+    <None Remove="Images\Inventory AddNewProduct - White - 16x16.png" />
+    <None Remove="Images\Inventory ExportProduct - Color - 16x16.png" />
+    <None Remove="Images\Inventory ExportProduct - White - 16x16.png" />
+    <None Remove="Images\Inventory ImportProduct - Color - 16x16.png" />
+    <None Remove="Images\Inventory ImportProduct - White - 16x16.png" />
+    <None Remove="Images\Inventory Product - Color - 16x16.png" />
+    <None Remove="Images\Inventory Product - White - 16x16.png" />
+    <None Remove="Images\MoreActivityIndicator_Down.png" />
+    <None Remove="Images\MoreActivityIndicator_Up.png" />
+    <None Remove="Images\NavigationArrow - Next - 16x16.png" />
+    <None Remove="Images\NavigationArrow - Previous - 16x16.png" />
+    <None Remove="Images\Orders - Gray - 36x36.png" />
+    <None Remove="Images\Orders - White - 36x36.png" />
+    <None Remove="Images\Orders 116x116.png" />
+    <None Remove="Images\Orders Daily - Color - 16x16.png" />
+    <None Remove="Images\Orders Daily - White - 16x16.png" />
+    <None Remove="Images\Orders Monthly - Color - 16x16.png" />
+    <None Remove="Images\Orders Monthly - White - 16x16.png" />
+    <None Remove="Images\Orders Weekly - Color - 16x16.png" />
+    <None Remove="Images\Orders Weekly - White - 16x16.png" />
+    <None Remove="Images\Reports - Gray - 36x36.png" />
+    <None Remove="Images\Reports - White - 36x36.png" />
+    <None Remove="Images\Reports 116x116.png" />
+    <None Remove="Images\WinChart.png" />
+    <None Remove="Images\WinDayView.png" />
+    <None Remove="Images\WinFormManager.png" />
+    <None Remove="Images\WinGrid.png" />
+    <None Remove="Images\WinTab.png" />
+    <None Remove="InventoryManagementPackage.ico" />
+    <None Remove="InventoryManagementPrevImage.png" />
+    <None Remove="Resources\SamplesBrowser\InventoryMgmt_Large_248x124.png" />
+    <None Remove="Resources\SamplesBrowser\InventoryMgmt_Large_310x155.png" />
+    <None Remove="Resources\SamplesBrowser\InventoryMgmt_Large_434x217.png" />
+    <None Remove="Resources\SamplesBrowser\InventoryMgmt_Large_558x279.png" />
+    <None Remove="Resources\SamplesBrowser\InventoryMgmt_Med_118x88.png" />
+    <None Remove="Resources\SamplesBrowser\InventoryMgmt_Med_148x113.png" />
+    <None Remove="Resources\SamplesBrowser\InventoryMgmt_Med_208x158.png" />
+    <None Remove="Resources\SamplesBrowser\InventoryMgmt_Med_268x202.png" />
+    <None Remove="Resources\Theme.isl" />
+    <None Remove="__TemplateIcon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\AppIcon.ico" />
+    <Content Include="Images\Customers - Gray - 36x36.png" />
+    <Content Include="Images\Customers - White - 36x36.png" />
+    <Content Include="Images\Customers 116x116.png" />
+    <Content Include="Images\Customers Export - Color - 16x16.png" />
+    <Content Include="Images\Customers Export - White - 16x16.png" />
+    <Content Include="Images\Customers FullList - Color - 16x16.png" />
+    <Content Include="Images\Customers FullList - White - 16x16.png" />
+    <Content Include="Images\Customers NewCustomer - Color - 16x16.png" />
+    <Content Include="Images\Customers NewCustomer - White - 16x16.png" />
+    <Content Include="Images\Customers NewSupplier - Color - 16x16.png" />
+    <Content Include="Images\Customers NewSupplier - White - 16x16.png" />
+    <Content Include="Images\Home - Gray - 36x36.png" />
+    <Content Include="Images\Home - White - 36x36.png" />
+    <Content Include="Images\Home NewProduct.png" />
+    <Content Include="Images\Inventory - Gray - 36x36.png" />
+    <Content Include="Images\Inventory - White - 36x36.png" />
+    <Content Include="Images\Inventory 116x116.png" />
+    <Content Include="Images\Inventory AddNewProduct - Color - 16x16.png" />
+    <Content Include="Images\Inventory AddNewProduct - White - 16x16.png" />
+    <Content Include="Images\Inventory ExportProduct - Color - 16x16.png" />
+    <Content Include="Images\Inventory ExportProduct - White - 16x16.png" />
+    <Content Include="Images\Inventory ImportProduct - Color - 16x16.png" />
+    <Content Include="Images\Inventory ImportProduct - White - 16x16.png" />
+    <Content Include="Images\Inventory Product - Color - 16x16.png" />
+    <Content Include="Images\Inventory Product - White - 16x16.png" />
+    <Content Include="Images\MoreActivityIndicator_Down.png" />
+    <Content Include="Images\MoreActivityIndicator_Up.png" />
+    <Content Include="Images\NavigationArrow - Next - 16x16.png" />
+    <Content Include="Images\NavigationArrow - Previous - 16x16.png" />
+    <Content Include="Images\Orders - Gray - 36x36.png" />
+    <Content Include="Images\Orders - White - 36x36.png" />
+    <Content Include="Images\Orders 116x116.png" />
+    <Content Include="Images\Orders Daily - Color - 16x16.png" />
+    <Content Include="Images\Orders Daily - White - 16x16.png" />
+    <Content Include="Images\Orders Monthly - Color - 16x16.png" />
+    <Content Include="Images\Orders Monthly - White - 16x16.png" />
+    <Content Include="Images\Orders Weekly - Color - 16x16.png" />
+    <Content Include="Images\Orders Weekly - White - 16x16.png" />
+    <Content Include="Images\Reports - Gray - 36x36.png" />
+    <Content Include="Images\Reports - White - 36x36.png" />
+    <Content Include="Images\Reports 116x116.png" />
+    <Content Include="Images\WinChart.png" />
+    <Content Include="Images\WinDayView.png" />
+    <Content Include="Images\WinFormManager.png" />
+    <Content Include="Images\WinGrid.png" />
+    <Content Include="Images\WinTab.png" />
+    <Content Include="Resources\SamplesBrowser\InventoryMgmt_Large_248x124.png" />
+    <Content Include="Resources\SamplesBrowser\InventoryMgmt_Large_310x155.png" />
+    <Content Include="Resources\SamplesBrowser\InventoryMgmt_Large_434x217.png" />
+    <Content Include="Resources\SamplesBrowser\InventoryMgmt_Large_558x279.png" />
+    <Content Include="Resources\SamplesBrowser\InventoryMgmt_Med_118x88.png" />
+    <Content Include="Resources\SamplesBrowser\InventoryMgmt_Med_148x113.png" />
+    <Content Include="Resources\SamplesBrowser\InventoryMgmt_Med_208x158.png" />
+    <Content Include="Resources\SamplesBrowser\InventoryMgmt_Med_268x202.png" />
+    <EmbeddedResource Include="Resources\Theme.isl" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Infragistics.WinForms" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Charts" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.DataVisualization" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Editors" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.ListView" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Misc" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Portable.Core" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Schedule" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Shared" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.TabControl" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.Toolbars" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms.WinGrid" Version="20.1.12" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,954 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ultraTrackBar1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ultraTrackBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1220, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ultraTrackBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTrackBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 36</value>
+  </data>
+  <data name="ultraTrackBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;ultraTrackBar1.Name" xml:space="preserve">
+    <value>ultraTrackBar1</value>
+  </data>
+  <data name="&gt;&gt;ultraTrackBar1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinEditors.UltraTrackBar, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTrackBar1.Parent" xml:space="preserve">
+    <value>ultraStatusBar1</value>
+  </data>
+  <data name="&gt;&gt;ultraTrackBar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ultraLabel2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ultraLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="ultraLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1034, 33</value>
+  </data>
+  <data name="ultraLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ultraLabel2.Name" xml:space="preserve">
+    <value>ultraLabel2</value>
+  </data>
+  <data name="&gt;&gt;ultraLabel2.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraLabel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="ultraExplorerBar1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="ultraExplorerBarGroup7.Text" xml:space="preserve">
+    <value>Workplace</value>
+  </data>
+  <data name="ultraExplorerBarItem11.Text" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="ultraExplorerBarItem12.Text" xml:space="preserve">
+    <value>Orders</value>
+  </data>
+  <data name="ultraExplorerBarItem13.Text" xml:space="preserve">
+    <value>Order Details</value>
+  </data>
+  <data name="ultraExplorerBarItem14.Text" xml:space="preserve">
+    <value>Quarterly Orders</value>
+  </data>
+  <data name="ultraExplorerBarItem15.Text" xml:space="preserve">
+    <value>Product Sales</value>
+  </data>
+  <data name="ultraExplorerBarItem16.Text" xml:space="preserve">
+    <value>Sales By Category</value>
+  </data>
+  <data name="ultraExplorerBarItem17.Text" xml:space="preserve">
+    <value>Sales By Quarter</value>
+  </data>
+  <data name="ultraExplorerBarItem18.Text" xml:space="preserve">
+    <value>Sales By Year</value>
+  </data>
+  <data name="ultraExplorerBarItem19.Text" xml:space="preserve">
+    <value>Shippers</value>
+  </data>
+  <data name="ultraExplorerBarItem20.Text" xml:space="preserve">
+    <value>Suppliers</value>
+  </data>
+  <data name="ultraExplorerBarGroup8.Text" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="ultraExplorerBarGroup9.Text" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="ultraExplorerBarGroup10.Text" xml:space="preserve">
+    <value>Service</value>
+  </data>
+  <data name="ultraExplorerBarGroup11.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="ultraExplorerBarGroup12.Text" xml:space="preserve">
+    <value>Resource Center</value>
+  </data>
+  <data name="ultraExplorerBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 167</value>
+  </data>
+  <data name="ultraExplorerBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraExplorerBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 536</value>
+  </data>
+  <data name="ultraStatusBar1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ultraStatusBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 703</value>
+  </data>
+  <data name="ultraStatusBar1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="appearance46.TextHAlignAsString" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="ultraStatusPanel2.Text" xml:space="preserve">
+    <value>Updating: 0%</value>
+  </data>
+  <data name="ultraStatusPanel4.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="appearance50.TextHAlignAsString" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="ultraStatusBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1360, 37</value>
+  </data>
+  <data name="ultraStatusBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ultraStatusBar1.Text" xml:space="preserve">
+    <value>test</value>
+  </data>
+  <data name="&gt;&gt;ultraStatusBar1.Name" xml:space="preserve">
+    <value>ultraStatusBar1</value>
+  </data>
+  <data name="&gt;&gt;ultraStatusBar1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinStatusBar.UltraStatusBar, Infragistics4.Win.UltraWinStatusBar.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraStatusBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ultraStatusBar1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ultraExplorerBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ultraExplorerBar1.Name" xml:space="preserve">
+    <value>ultraExplorerBar1</value>
+  </data>
+  <data name="&gt;&gt;ultraExplorerBar1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinExplorerBar.UltraExplorerBar, Infragistics4.Win.UltraWinExplorerBar.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraExplorerBar1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ultraExplorerBar1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="_frmOutlookCRM_Toolbars_Dock_Area_Left.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 167</value>
+  </data>
+  <data name="_frmOutlookCRM_Toolbars_Dock_Area_Left.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="_frmOutlookCRM_Toolbars_Dock_Area_Left.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 536</value>
+  </data>
+  <metadata name="ultraToolbarsManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>53</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1360, 740</value>
+  </data>
+  <data name="ultraTextEditor1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="resource.SizeInPoints" type="System.Single, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="ultraTextEditor1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 7</value>
+  </data>
+  <data name="ultraTextEditor1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraTextEditor1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 37</value>
+  </data>
+  <data name="ultraTextEditor1.NullText" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="ultraTextEditor1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1104, 37</value>
+  </data>
+  <data name="ultraTextEditor1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;ultraTextEditor1.Name" xml:space="preserve">
+    <value>ultraTextEditor1</value>
+  </data>
+  <data name="&gt;&gt;ultraTextEditor1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinEditors.UltraTextEditor, Infragistics4.Win.UltraWinEditors.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTextEditor1.Parent" xml:space="preserve">
+    <value>ultraPanel2.ClientArea</value>
+  </data>
+  <data name="&gt;&gt;ultraTextEditor1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel2.ClientArea.Name" xml:space="preserve">
+    <value>ultraPanel2.ClientArea</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel2.ClientArea.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraPanelClientAreaUnsafe, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel2.ClientArea.Parent" xml:space="preserve">
+    <value>ultraPanel2</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel2.ClientArea.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ultraPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="ultraPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 167</value>
+  </data>
+  <data name="ultraPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ultraPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1125, 58</value>
+  </data>
+  <data name="ultraPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel2.Name" xml:space="preserve">
+    <value>ultraPanel2</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel2.Type" xml:space="preserve">
+    <value>Infragistics.Win.Misc.UltraPanel, Infragistics4.Win.Misc.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ultraPanel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_frmOutlookCRM_Toolbars_Dock_Area_Right.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1359, 167</value>
+  </data>
+  <data name="_frmOutlookCRM_Toolbars_Dock_Area_Right.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="_frmOutlookCRM_Toolbars_Dock_Area_Right.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 536</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Right.Name" xml:space="preserve">
+    <value>_frmOutlookCRM_Toolbars_Dock_Area_Right</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Right.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea, Infragistics4.Win.UltraWinToolbars.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Right.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Right.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="_frmOutlookCRM_Toolbars_Dock_Area_Bottom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 703</value>
+  </data>
+  <data name="_frmOutlookCRM_Toolbars_Dock_Area_Bottom.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="_frmOutlookCRM_Toolbars_Dock_Area_Bottom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1360, 0</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Bottom.Name" xml:space="preserve">
+    <value>_frmOutlookCRM_Toolbars_Dock_Area_Bottom</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Bottom.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea, Infragistics4.Win.UltraWinToolbars.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Bottom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Bottom.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="_frmOutlookCRM_Toolbars_Dock_Area_Top.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="_frmOutlookCRM_Toolbars_Dock_Area_Top.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="_frmOutlookCRM_Toolbars_Dock_Area_Top.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1360, 167</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Top.Name" xml:space="preserve">
+    <value>_frmOutlookCRM_Toolbars_Dock_Area_Top</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Top.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea, Infragistics4.Win.UltraWinToolbars.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Top.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Top.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAUAQEAAAAEACAAoFgAAVgAAADAwAAABAAgAqA4AAH4WAAAgIAAAAQAIAKgIAAAmJQAAGBgAAAEA
+        CADIBgAAzi0AABAQAAABAAgAaAUAAJY0AAAoAAAAQAAAAIAAAAABAAgAAAAAAAASAAAAAAAAAAAAAAAB
+        AAAAAAAAbmVVAHduXwCYqEMAnq1OAJKLfwCxvXEApJ6UAL7IiQDIxb8A2N64ANvY1ADl6dAA5OLfAOzv
+        3ADt7OoA8vTnAP///wAAGi8AAC1QAAA/cAAAUZAAAGOwAAB2zwAAiPAAEZj/ADGm/wBRs/8AccH/AJHP
+        /wCx3f8A0ev/AP///wAAAAAAACwvAABLUAAAaHAAAIaQAAClsAAAw88AAOHwABHv/wAx8f8AUfP/AHH1
+        /wCR9/8Asfn/ANH7/wD///8AAAAAAAAvIQAAUDcAAHBMAACQYwAAsHkAAM+PAADwpgAR/7QAMf++AFH/
+        yABx/9MAkf/cALH/5QDR//AA////AAAAAAAALw4AAFAYAABwIgAAkCwAALA2AADPQAAA8EoAEf9bADH/
+        cQBR/4cAcf+dAJH/sgCx/8kA0f/fAP///wAAAAAAAi8AAARQAAAGcAAACJAAAAqwAAALzwAADvAAACD/
+        EgA9/zEAW/9RAHn/cQCY/5EAtf+xANT/0QD///8AAAAAABQvAAAiUAAAMHAAAD2QAABMsAAAWc8AAGfw
+        AAB4/xEAiv8xAJz/UQCu/3EAwP+RANL/sQDk/9EA////AAAAAAAmLwAAQFAAAFpwAAB0kAAAjrAAAKnP
+        AADC8AAA0f8RANj/MQDe/1EA4/9xAOn/kQDv/7EA9v/RAP///wAAAAAALyYAAFBBAABwWwAAkHQAALCO
+        AADPqQAA8MMAAP/SEQD/2DEA/91RAP/kcQD/6pEA//CxAP/20QD///8AAAAAAC8UAABQIgAAcDAAAJA+
+        AACwTQAAz1sAAPBpAAD/eREA/4oxAP+dUQD/r3EA/8GRAP/SsQD/5dEA////AAAAAAAvAwAAUAQAAHAG
+        AACQCQAAsAoAAM8MAADwDgAA/yASAP8+MQD/XFEA/3pxAP+XkQD/trEA/9TRAP///wAAAAAALwAOAFAA
+        FwBwACEAkAArALAANgDPAEAA8ABJAP8RWgD/MXAA/1GGAP9xnAD/kbIA/7HIAP/R3wD///8AAAAAAC8A
+        IABQADYAcABMAJAAYgCwAHgAzwCOAPAApAD/EbMA/zG+AP9RxwD/cdEA/5HcAP+x5QD/0fAA////AAAA
+        AAAsAC8ASwBQAGkAcACHAJAApQCwAMQAzwDhAPAA8BH/APIx/wD0Uf8A9nH/APeR/wD5sf8A+9H/AP//
+        /wAAAAAAGwAvAC0AUAA/AHAAUgCQAGMAsAB2AM8AiADwAJkR/wCmMf8AtFH/AMJx/wDPkf8A3LH/AOvR
+        /wD///8AAAAAAAgALwAOAFAAFQBwABsAkAAhALAAJgDPACwA8AA+Ef8AWDH/AHFR/wCMcf8AppH/AL+x
+        /wDa0f8A////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEAICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEBACAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEAIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQ
+        EBACAgICAgICAgICAgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQ
+        EBAQEBAQAgICAgICAgICAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAQEBAQEBAQEAICAgICAgICAgICAgICAgICAgICAgICAgICAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAEBAQEBAQEBACAgICAgICAgICAgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAECAoKCBAQDwcDAgIDAgICAgICAgICAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAIEBAQEBAQDQMCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAIEBAQEBAQDwMCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAEEBAQEBAQEAcCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgAA
+        AAAAAAAAAAAAAAAAAAAAAAAACBAQEBAQEBADAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAoQEBAQEBAQAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAKEBAQEBAQEAICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAACBAQEBAQEBADAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAQQEBAQEBAQBwICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAACBAQEBAQEA8DAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEBAQEBAQDQMCAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQICgoIEBAPBwMC
+        AgMCAgICAgICAgICAgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAECAoKCAQAAAAAAAAAAAAAABAQ
+        EBAQEBAQAgICAgICAgICAgIFCQsLCQUCAgICAgICAgICAgAAAAAAAAAAAAAIEBAQEBAQCAAAAAAAAAAA
+        AAAQEBAQEBAQEAICAgICAgICAgIJEBAQEBAQCQICAgICAgICAgIAAAAAAAAAAAAIEBAQEBAQEBAIAAAA
+        AAAAAAAAEBAQEBAQEBACAgICAgICAgIJEBAQEBAQEBAJAgICAgICAgICAAAAAAAAAAAEEBAQEBAQEBAQ
+        EAQAAAAAAAAAABAQEBAQEBAQAgICAgICAgIFEBAQEBAQEBAQEAUCAgICAgICAgAAAAAAAAAACBAQEBAQ
+        EBAQEBAIAAAAAAAAAAAQEBAQEBAQEAICAgICAgICCRAQEBAQEBAQEBAJAgICAgICAgIAAAAAAAAAAAoQ
+        EBAQEBAQEBAQCgAAAAAAAAAAEBAQEBAQEBACAgICAgICAgsQEBAQEBAQEBAQCwICAgICAgICAAAAAAAA
+        AAAKEBAQEBAQEBAQEAoAAAAAAAAAABAQEBAQEBAQAgICAgICAgILEBAQEBAQEBAQEAsCAgICAgICAgAA
+        AAAAAAAACBAQEBAQEBAQEBAIAAAAAAAAAAAQEBAQEBAQEAICAgICAgICCRAQEBAQEBAQEBAJAgICAgIC
+        AgIQEBAQEBAQEBAQDwcDAgIDBw8QEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQDgYBAAABBg4QEBAQ
+        EBAQEBAQEBAQEBAQEBAQDQMCAgICAgIDDRAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQDAEAAAAAAAAB
+        DBAQEBAQEBAQEBAQEBAQEBAQDwMCAgICAgICAgMPEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQDgEAAAAA
+        AAAAAAEOEBAQEBAQEBAQEBAQEBAQEAcCAgICAgICAgICBxAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAYA
+        AAAAAAAAAAAABhAQEBAQEBAQEBAQEBAQEBADAgICAgICAgICAgMQEBAQEBAQEBAQEBAQEBAQEBAQEBAQ
+        EBABAAAAAAAAAAAAAAEQEBAQEBAQEBAQEBAQEBAQAgICAgICAgICAgICEBAQEBAQEBAQEBAQEBAQEBAQ
+        EBAQEBAQAAAAAAAAAAAAAAAAEBAQEBAQEBAQEBAQEBAQEAICAgICAgICAgICAhAQEBAQEBAQEBAQEBAQ
+        EBAQEBAQEBAQEAAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAQEBADAgICAgICAgICAgMQEBAQEBAQEBAQ
+        EBAQEBAQEBAQEBAQEBABAAAAAAAAAAAAAAEQEBAQEBAQEAICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgIQEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAhAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgIQEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAhAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgIQEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAACAgICAgICAgICAgICAgICAgICAgICAgICAgICEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMCAgMHDxAQCAoKCAQAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMNEBAQEBAQCAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAw8QEBAQEBAIAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHEBAQEBAQ
+        EAQAAAAAAAAAAAAAAAAAAAAAAAAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxAQ
+        EBAQEBAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgIQEBAQEBAQCgAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICEBAQEBAQEAoAAAAAAAAAAAAAAAAAAAAAAAAAAAICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAxAQEBAQEBAIAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgcQEBAQEBAQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgMPEBAQEBAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgMNEBAQEBAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAwICAwcPEBAICgoIBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAhAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgIQEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAACAgICAgICAgICAgICAgICAgICAgICAgICAgICEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAhAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgIQEBAQEBAQEAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAACAgICAgICAgICAgICAgICAgICAgICAgICAgICEBAQEBAQEBAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICAhAQEBAQEBAQAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAgICAgICAgICAgICAgICAgICAgICAgICAgIQEBAQEBAQEAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgA
+        AAAwAAAAYAAAAAEACAAAAAAAgAoAAAAAAAAAAAAAAAEAAAAAAABuZVUAd25fAJioQwCerU4AuMN9AJuV
+        igDIxb8A2N64ANLPygDb2NQA3+TEAOXp0ADt7OoA8vTnAP///wD///8AAAAAAAAaLwAALVAAAD9wAABR
+        kAAAY7AAAHbPAACI8AARmP8AMab/AFGz/wBxwf8Akc//ALHd/wDR6/8A////AAAAAAAALC8AAEtQAABo
+        cAAAhpAAAKWwAADDzwAA4fAAEe//ADHx/wBR8/8AcfX/AJH3/wCx+f8A0fv/AP///wAAAAAAAC8hAABQ
+        NwAAcEwAAJBjAACweQAAz48AAPCmABH/tAAx/74AUf/IAHH/0wCR/9wAsf/lANH/8AD///8AAAAAAAAv
+        DgAAUBgAAHAiAACQLAAAsDYAAM9AAADwSgAR/1sAMf9xAFH/hwBx/50Akf+yALH/yQDR/98A////AAAA
+        AAACLwAABFAAAAZwAAAIkAAACrAAAAvPAAAO8AAAIP8SAD3/MQBb/1EAef9xAJj/kQC1/7EA1P/RAP//
+        /wAAAAAAFC8AACJQAAAwcAAAPZAAAEywAABZzwAAZ/AAAHj/EQCK/zEAnP9RAK7/cQDA/5EA0v+xAOT/
+        0QD///8AAAAAACYvAABAUAAAWnAAAHSQAACOsAAAqc8AAMLwAADR/xEA2P8xAN7/UQDj/3EA6f+RAO//
+        sQD2/9EA////AAAAAAAvJgAAUEEAAHBbAACQdAAAsI4AAM+pAADwwwAA/9IRAP/YMQD/3VEA/+RxAP/q
+        kQD/8LEA//bRAP///wAAAAAALxQAAFAiAABwMAAAkD4AALBNAADPWwAA8GkAAP95EQD/ijEA/51RAP+v
+        cQD/wZEA/9KxAP/l0QD///8AAAAAAC8DAABQBAAAcAYAAJAJAACwCgAAzwwAAPAOAAD/IBIA/z4xAP9c
+        UQD/enEA/5eRAP+2sQD/1NEA////AAAAAAAvAA4AUAAXAHAAIQCQACsAsAA2AM8AQADwAEkA/xFaAP8x
+        cAD/UYYA/3GcAP+RsgD/scgA/9HfAP///wAAAAAALwAgAFAANgBwAEwAkABiALAAeADPAI4A8ACkAP8R
+        swD/Mb4A/1HHAP9x0QD/kdwA/7HlAP/R8AD///8AAAAAACwALwBLAFAAaQBwAIcAkAClALAAxADPAOEA
+        8ADwEf8A8jH/APRR/wD2cf8A95H/APmx/wD70f8A////AAAAAAAbAC8ALQBQAD8AcABSAJAAYwCwAHYA
+        zwCIAPAAmRH/AKYx/wC0Uf8AwnH/AM+R/wDcsf8A69H/AP///wAAAAAACAAvAA4AUAAVAHAAGwCQACEA
+        sAAmAM8ALADwAD4R/wBYMf8AcVH/AIxx/wCmkf8Av7H/ANrR/wD///8AAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAADg4ODg4OAgICAgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAADg4ODg4OAgIC
+        AgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAADg4ODg4OAgICAgICAgICAgICAgIC
+        AgICAgICAAAAAAAAAAAAAAAAAAAAAAAAAAAADg4ODg4OAgICAgICAgICAgICAgICAgICAgICAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAADg4ODg4OAgICAgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAADg4ODg4OAgICAgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAAFCAkIDg0EAgICAgIC
+        AgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAAAAYODg4ODQMCAgICAgICAgICAgICAgICAgIC
+        AgICAgICAAAAAAAAAAAAAAAAAAAABQ4ODg4OBAICAgICAgICAgICAgICAgICAgICAgICAgICAAAAAAAA
+        AAAAAAAAAAAACA4ODg4OAgICAgICAgICAgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAACQ4O
+        Dg4OAgICAgICAgICAgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAACA4ODg4OAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAAAAAAAAAAAAAAAAAAAABQ4ODg4OBAICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAAAAAAAAAAAAAAAAAAAAAAYODg4ODQMCAgICAgICAgICAgICAgICAgICAgICAgICAAAAAAAA
+        AAAAAAAAAAAAAAAFCAkIDg0EAgICAgICAgICAgICAgICAgICAgICAgICAAAAAAAAAAAFCAkIBQAAAAAA
+        AAAADg4ODg4OAgICAgICAgIECgsKBAICAgICAgICAAAAAAAAAAYODg4ODgYAAAAAAAAADg4ODg4OAgIC
+        AgICAgcODg4ODgcCAgICAgICAAAAAAAABQ4ODg4ODg4FAAAAAAAADg4ODg4OAgICAgICBA4ODg4ODg4E
+        AgICAgICAAAAAAAACA4ODg4ODg4IAAAAAAAADg4ODg4OAgICAgICCg4ODg4ODg4KAgICAgICAAAAAAAA
+        CQ4ODg4ODg4JAAAAAAAADg4ODg4OAgICAgICCw4ODg4ODg4LAgICAgICAAAAAAAACA4ODg4ODg4IAAAA
+        AAAADg4ODg4OAgICAgICCg4ODg4ODg4KAgICAgICDg4ODg4ODg0EAgICBA0ODg4ODg4ODg4ODg4ODg4O
+        Dg4ODgwFAAAABQwODg4ODg4ODg4ODg4ODQMCAgICAgMNDg4ODg4ODg4ODg4ODg4ODg4ODAEAAAAAAAEM
+        Dg4ODg4ODg4ODg4OBAICAgICAgIEDg4ODg4ODg4ODg4ODg4ODg4OBQAAAAAAAAAFDg4ODg4ODg4ODg4O
+        AgICAgICAgICDg4ODg4ODg4ODg4ODg4ODg4OAAAAAAAAAAAADg4ODg4ODg4ODg4OAgICAgICAgICDg4O
+        Dg4ODg4ODg4ODg4ODg4OAAAAAAAAAAAADg4ODg4ODg4ODg4OAgICAgICAgIDDg4ODg4ODg4ODg4ODg4O
+        Dg4OAAAAAAAAAAABDg4ODg4OAgICAgICAgICAgICAgICAgICAgICDg4ODg4OAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAgICAgICAgICAgICAgICAgICAgICDg4ODg4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgIC
+        AgICAgICAgICAgICAgICDg4ODg4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgIC
+        AgICDg4ODg4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgICDg4ODg4OAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgICDg4ODg4OAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgICBA0OCAkIBQAAAAAAAAAAAAAAAAAAAAAAAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgMNDg4ODgYAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgIEDg4ODg4FAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICDg4O
+        Dg4IAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICDg4ODg4JAAAAAAAAAAAA
+        AAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgICAgICDg4ODg4IAAAAAAAAAAAAAAAAAAAAAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgIEDg4ODg4FAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgMNDg4ODgYAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgICAgICBA0OCAkI
+        BQAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgICDg4ODg4OAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAgICAgICAgICAgICAgICAgICAgICDg4ODg4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgIC
+        AgICAgICAgICAgICAgICDg4ODg4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgIC
+        AgICDg4ODg4OAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgICDg4ODg4OAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAgICAgICAgICAgICAgICAgICAgICDg4ODg4OAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        BAEBAQEBAAAAAAUKCgoKBQAAAAAKCgoKAQEBAQQKCgoKBAEBAQEAAAAABgoKCgoGAAAAAAoKCgoBAQEB
+        BwoKCgoHAQEBAQAAAAAGCgoKCgYAAAAACgoKCgEBAQEHCgoKCgcBAQEBCgoKCgkDAQEDCQoKCgoKCgoK
+        CgoKCggCAAACCAoKCgoKCgoKAwEBAQEDCgoKCgoKCgoKCgoKAgAAAAACCgoKCgoKCgoBAQEBAQEKCgoK
+        CgoKCgoKCgoAAAAAAAAKCgoKCgoKCgEBAQEBAQoKCgoKCgoKCgoKCgAAAAAAAAoKCgoBAQEBAQEBAQEB
+        AQEBAQoKCgoAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAQEBAQEBCgoKCgAAAAAAAAAAAAAAAAAAAQEBAQEB
+        AQEBAQEBAQEKCgoKAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAQoKCgoAAAAAAAAAAAAAAAAAAAEB
+        AQEBAQEBAQEBAQEBAQEDCQYGBQAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAQEDCgoKBQAAAAAAAAAA
+        AAABAQEBAQEBAQEBAQEBAQEBAQEKCgoGAAAAAAAAAAAAAAEBAQEBAQEBAQEBAQEBAQEBAQoKCgYAAAAA
+        AAAAAAAAAQEBAQEBAQEBAQEBAQEBAQEDCgoKBQAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAQEBAwkGBgUA
+        AAAAAAAAAAAAAAEBAQEBAQEBAQEBAQEBCgoKCgAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEKCgoK
+        AAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAQoKCgoAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAQEBAQEB
+        CgoKCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAGAAAADAAAAABAAgAAAAAAKACAAAAAAAAAAAAAAAB
+        AAAAAAAAbmVVAHduXwCYqEMAiYF0AKu4ZgC2sqoAy9OhANLPygDf5MQA////AFFx/wBxi/8AkaX/ALG/
+        /wDR2v8A////AAAAAAAAGi8AAC1QAAA/cAAAUZAAAGOwAAB2zwAAiPAAEZj/ADGm/wBRs/8AccH/AJHP
+        /wCx3f8A0ev/AP///wAAAAAAACwvAABLUAAAaHAAAIaQAAClsAAAw88AAOHwABHv/wAx8f8AUfP/AHH1
+        /wCR9/8Asfn/ANH7/wD///8AAAAAAAAvIQAAUDcAAHBMAACQYwAAsHkAAM+PAADwpgAR/7QAMf++AFH/
+        yABx/9MAkf/cALH/5QDR//AA////AAAAAAAALw4AAFAYAABwIgAAkCwAALA2AADPQAAA8EoAEf9bADH/
+        cQBR/4cAcf+dAJH/sgCx/8kA0f/fAP///wAAAAAAAi8AAARQAAAGcAAACJAAAAqwAAALzwAADvAAACD/
+        EgA9/zEAW/9RAHn/cQCY/5EAtf+xANT/0QD///8AAAAAABQvAAAiUAAAMHAAAD2QAABMsAAAWc8AAGfw
+        AAB4/xEAiv8xAJz/UQCu/3EAwP+RANL/sQDk/9EA////AAAAAAAmLwAAQFAAAFpwAAB0kAAAjrAAAKnP
+        AADC8AAA0f8RANj/MQDe/1EA4/9xAOn/kQDv/7EA9v/RAP///wAAAAAALyYAAFBBAABwWwAAkHQAALCO
+        AADPqQAA8MMAAP/SEQD/2DEA/91RAP/kcQD/6pEA//CxAP/20QD///8AAAAAAC8UAABQIgAAcDAAAJA+
+        AACwTQAAz1sAAPBpAAD/eREA/4oxAP+dUQD/r3EA/8GRAP/SsQD/5dEA////AAAAAAAvAwAAUAQAAHAG
+        AACQCQAAsAoAAM8MAADwDgAA/yASAP8+MQD/XFEA/3pxAP+XkQD/trEA/9TRAP///wAAAAAALwAOAFAA
+        FwBwACEAkAArALAANgDPAEAA8ABJAP8RWgD/MXAA/1GGAP9xnAD/kbIA/7HIAP/R3wD///8AAAAAAC8A
+        IABQADYAcABMAJAAYgCwAHgAzwCOAPAApAD/EbMA/zG+AP9RxwD/cdEA/5HcAP+x5QD/0fAA////AAAA
+        AAAsAC8ASwBQAGkAcACHAJAApQCwAMQAzwDhAPAA8BH/APIx/wD0Uf8A9nH/APeR/wD5sf8A+9H/AP//
+        /wAAAAAAGwAvAC0AUAA/AHAAUgCQAGMAsAB2AM8AiADwAJkR/wCmMf8AtFH/AMJx/wDPkf8A3LH/AOvR
+        /wD///8AAAAAAAgALwAOAFAAFQBwABsAkAAhALAAJgDPACwA8AA+Ef8AWDH/AHFR/wCMcf8AppH/AL+x
+        /wDa0f8A////AAAAAAAAAAAAAAAACQkJAgICAgICAgICAgAAAAAAAAAAAAAACQkJAgICAgICAgICAgAA
+        AAAAAAAAAAAACQkJAgICAgICAgICAgAAAAAAAAAAAwcHBgICAgICAgICAgICAgAAAAAAAAAABwkJAgIC
+        AgICAgICAgICAgAAAAAAAAAABwkJAgICAgICAgICAgICAgAAAAAAAAAAAwcHBgICAgICAgICAgICAgAA
+        AAMHBwMAAAAACQkJAgICBAgIBAICAgAAAAcJCQcAAAAACQkJAgICCAkJCAICAgAAAAcJCQcAAAAACQkJ
+        AgICCAkJCAICAgkJCQYCAgYJCQkJCQkJCQkJBQAABQkJCQkJCQICAgIJCQkJCQkJCQkJAAAAAAkJCQkJ
+        CQICAgIJCQkJCQkJCQkJAAAAAQkJCQICAgICAgICAgICCQkJAAAAAAAAAAAAAAICAgICAgICAgICCQkJ
+        AAAAAAAAAAAAAAICAgICAgICAgICCQkJAAAAAAAAAAAAAAICAgICAgICAgICCQkJAAAAAAAAAAAAAAIC
+        AgICAgICAgICAgIGBwcDAAAAAAAAAAICAgICAgICAgICAgICCQkHAAAAAAAAAAICAgICAgICAgICAgIC
+        CQkHAAAAAAAAAAICAgICAgICAgICAgIGBwcDAAAAAAAAAAICAgICAgICAgICCQkJAAAAAAAAAAAAAAIC
+        AgICAgICAgICCQkJAAAAAAAAAAAAAAICAgICAgICAgICCQkJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAQAAAAIAAAAAEACAAAAAAAQAEAAAAAAAAAAAAAAAEAAAAA
+        AABuZVUAmKhDAImBdACruGYApJ6UAL7IiQDb2NQA5enQAP///wAxV/8AUXH/AHGL/wCRpf8Asb//ANHa
+        /wD///8AAAAAAAAaLwAALVAAAD9wAABRkAAAY7AAAHbPAACI8AARmP8AMab/AFGz/wBxwf8Akc//ALHd
+        /wDR6/8A////AAAAAAAALC8AAEtQAABocAAAhpAAAKWwAADDzwAA4fAAEe//ADHx/wBR8/8AcfX/AJH3
+        /wCx+f8A0fv/AP///wAAAAAAAC8hAABQNwAAcEwAAJBjAACweQAAz48AAPCmABH/tAAx/74AUf/IAHH/
+        0wCR/9wAsf/lANH/8AD///8AAAAAAAAvDgAAUBgAAHAiAACQLAAAsDYAAM9AAADwSgAR/1sAMf9xAFH/
+        hwBx/50Akf+yALH/yQDR/98A////AAAAAAACLwAABFAAAAZwAAAIkAAACrAAAAvPAAAO8AAAIP8SAD3/
+        MQBb/1EAef9xAJj/kQC1/7EA1P/RAP///wAAAAAAFC8AACJQAAAwcAAAPZAAAEywAABZzwAAZ/AAAHj/
+        EQCK/zEAnP9RAK7/cQDA/5EA0v+xAOT/0QD///8AAAAAACYvAABAUAAAWnAAAHSQAACOsAAAqc8AAMLw
+        AADR/xEA2P8xAN7/UQDj/3EA6f+RAO//sQD2/9EA////AAAAAAAvJgAAUEEAAHBbAACQdAAAsI4AAM+p
+        AADwwwAA/9IRAP/YMQD/3VEA/+RxAP/qkQD/8LEA//bRAP///wAAAAAALxQAAFAiAABwMAAAkD4AALBN
+        AADPWwAA8GkAAP95EQD/ijEA/51RAP+vcQD/wZEA/9KxAP/l0QD///8AAAAAAC8DAABQBAAAcAYAAJAJ
+        AACwCgAAzwwAAPAOAAD/IBIA/z4xAP9cUQD/enEA/5eRAP+2sQD/1NEA////AAAAAAAvAA4AUAAXAHAA
+        IQCQACsAsAA2AM8AQADwAEkA/xFaAP8xcAD/UYYA/3GcAP+RsgD/scgA/9HfAP///wAAAAAALwAgAFAA
+        NgBwAEwAkABiALAAeADPAI4A8ACkAP8RswD/Mb4A/1HHAP9x0QD/kdwA/7HlAP/R8AD///8AAAAAACwA
+        LwBLAFAAaQBwAIcAkAClALAAxADPAOEA8ADwEf8A8jH/APRR/wD2cf8A95H/APmx/wD70f8A////AAAA
+        AAAbAC8ALQBQAD8AcABSAJAAYwCwAHYAzwCIAPAAmRH/AKYx/wC0Uf8AwnH/AM+R/wDcsf8A69H/AP//
+        /wAAAAAACAAvAA4AUAAVAHAAGwCQACEAsAAmAM8ALADwAD4R/wBYMf8AcVH/AIxx/wCmkf8Av7H/ANrR
+        /wD///8AAAAAAAAAAAgIAQEBAQEBAQAAAAAAAAAICAEBAQEBAQEAAAAAAAQGAwEBAQEBAQEBAAAAAAAG
+        CAEBAQEBAQEBAQAAAAAABAYDAQEBAQEBAQEAAAQGBAAACAgBAQUHBQEBAAAGCAYAAAgIAQEHCAcBAQgI
+        AwEDCAgICAgIAgACCAgICAEBAQgICAgICAAAAAgIAQEBAQEBAQgIAAAAAAAAAAEBAQEBAQEICAAAAAAA
+        AAABAQEBAQEBAQMGBAAAAAAAAQEBAQEBAQEBCAYAAAAAAAEBAQEBAQEBAwYEAAAAAAABAQEBAQEBCAgA
+        AAAAAAAAAQEBAQEBAQgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <metadata name="inboxControlStyler1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>774, 20</value>
+  </metadata>
+  <data name="$this.Text" xml:space="preserve">
+    <value>OUTLOOK INSPIRED TEMPLATE</value>
+  </data>
+  <data name="&gt;&gt;ultraToolbarsManager1.Name" xml:space="preserve">
+    <value>ultraToolbarsManager1</value>
+  </data>
+  <data name="&gt;&gt;ultraToolbarsManager1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinToolbars.UltraToolbarsManager, Infragistics4.Win.UltraWinToolbars.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraTabbedMdiManager1.Name" xml:space="preserve">
+    <value>ultraTabbedMdiManager1</value>
+  </data>
+  <data name="&gt;&gt;ultraTabbedMdiManager1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinTabbedMdi.UltraTabbedMdiManager, Infragistics4.Win.UltraWinTabbedMdi.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraGridDocumentExporter1.Name" xml:space="preserve">
+    <value>ultraGridDocumentExporter1</value>
+  </data>
+  <data name="&gt;&gt;ultraGridDocumentExporter1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.DocumentExport.UltraGridDocumentExporter, Infragistics4.Win.UltraWinGrid.DocumentExport.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;ultraGridExcelExporter1.Name" xml:space="preserve">
+    <value>ultraGridExcelExporter1</value>
+  </data>
+  <data name="&gt;&gt;ultraGridExcelExporter1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinGrid.ExcelExport.UltraGridExcelExporter, Infragistics4.Win.UltraWinGrid.ExcelExport.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;inboxControlStyler1.Name" xml:space="preserve">
+    <value>inboxControlStyler1</value>
+  </data>
+  <data name="&gt;&gt;inboxControlStyler1.Type" xml:space="preserve">
+    <value>Infragistics.Win.AppStyling.Runtime.InboxControlStyler, Infragistics4.Win.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmOutlookCRM</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="resource.SizeInPoints1" type="System.Single, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="resource.SizeInPoints2" type="System.Single, mscorlib">
+    <value>7.5</value>
+  </data>
+  <data name="ribbonTab1.Caption" xml:space="preserve">
+    <value>Customers</value>
+  </data>
+  <data name="ribbonGroup1.Caption" xml:space="preserve">
+    <value>ACTIONS</value>
+  </data>
+  <data name="ribbonGroup2.Caption" xml:space="preserve">
+    <value>COMMUNICATE</value>
+  </data>
+  <data name="ribbonGroup3.Caption" xml:space="preserve">
+    <value>PROCESS</value>
+  </data>
+  <data name="ribbonGroup4.Caption" xml:space="preserve">
+    <value>DATA</value>
+  </data>
+  <data name="ribbonTab2.Caption" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ribbonGroup5.Caption" xml:space="preserve">
+    <value>LAYOUT</value>
+  </data>
+  <data name="ribbonTab3.Caption" xml:space="preserve">
+    <value>Create Related</value>
+  </data>
+  <data name="ribbonTab4.Caption" xml:space="preserve">
+    <value>Customize</value>
+  </data>
+  <data name="buttonTool7.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>New Customer</value>
+  </data>
+  <data name="buttonTool8.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="buttonTool9.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="appearance73.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAACMSURBVDhP
+        pZFRDoAgDEO5iBfxlP56WqQJXboBC5GPl0hpC45Saz1CF3fjaVyiKdCxD5/p/ID4dmYlDNNjJTToZiyJ
+        Ye67gpWJvxV1uyELViURFwZaALKSIQzcoqMDVdz0SRSObpCFyVCShbHefoXMtCp3BTo4d0InlthA1cTr
+        xjBhiXsNNfxiKu5Tywcu+DkTRzZ7NQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="appearance74.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAACOSURBVDhP
+        pZFRDoAwCEN3JI/k/b+8AdpkJYVtZHFNmgijz4nNzI6sxf35+XxJT40+zjHnfT6gSc0gDFMO4YAeQgrJ
+        YQh1AKyG+Fkq1H5DAlaQrBCGFQBXkCEMh6JbF6oK26dz4+gGVZgaIFUY9fZfqIZW8ADQxYU3dGeIL1SH
+        eN0cpgkJf0MHfnna3Le1F1KQYPEm0nD4AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="buttonTool10.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="buttonTool11.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Merge</value>
+  </data>
+  <data name="buttonTool12.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Detect Duplicates</value>
+  </data>
+  <data name="buttonTool16.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Send E-mail</value>
+  </data>
+  <data name="buttonTool17.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>New Meeting</value>
+  </data>
+  <data name="buttonTool21.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Run Workflow</value>
+  </data>
+  <data name="buttonTool22.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Start Dialog</value>
+  </data>
+  <data name="buttonTool27.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Import Data</value>
+  </data>
+  <data name="buttonTool28.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Advanced Find</value>
+  </data>
+  <data name="popupMenuTool6.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Run Report</value>
+  </data>
+  <data name="buttonTool18.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Call</value>
+  </data>
+  <data name="buttonTool29.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Export To Excel</value>
+  </data>
+  <data name="buttonTool30.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Export To PDF</value>
+  </data>
+  <data name="buttonTool32.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Export To XPS</value>
+  </data>
+  <data name="buttonTool34.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="buttonTool36.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="popupMenuTool2.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="popupControlContainerTool2.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="popupMenuTool7.SharedPropsInternal.Caption" xml:space="preserve">
+    <value>Content Pane</value>
+  </data>
+  <data name="listToolItem1.Text" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="listToolItem2.Text" xml:space="preserve">
+    <value>Bottom</value>
+  </data>
+  <data name="listToolItem3.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Left.Name" xml:space="preserve">
+    <value>_frmOutlookCRM_Toolbars_Dock_Area_Left</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Left.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinToolbars.UltraToolbarsDockArea, Infragistics4.Win.UltraWinToolbars.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Left.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;_frmOutlookCRM_Toolbars_Dock_Area_Left.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="ultraTabbedMdiManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>192, 20</value>
+  </metadata>
+  <metadata name="ultraGridDocumentExporter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>386, 20</value>
+  </metadata>
+  <metadata name="ultraGridExcelExporter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>595, 20</value>
+  </metadata>
+  <data name="ultraChart3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="ultraChart3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="ultraChart3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 42</value>
+  </data>
+  <data name="ultraChart3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 149</value>
+  </data>
+  <data name="ultraChart3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ultraChart3.Name" xml:space="preserve">
+    <value>ultraChart3</value>
+  </data>
+  <data name="&gt;&gt;ultraChart3.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinChart.UltraChart, Infragistics4.Win.UltraWinChart.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="ultraChart2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="ultraChart2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="ultraChart2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 42</value>
+  </data>
+  <data name="ultraChart2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 149</value>
+  </data>
+  <data name="ultraChart2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ultraChart2.Name" xml:space="preserve">
+    <value>ultraChart2</value>
+  </data>
+  <data name="&gt;&gt;ultraChart2.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinChart.UltraChart, Infragistics4.Win.UltraWinChart.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+  <data name="ultraChart1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="ultraChart1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="ultraChart1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 42</value>
+  </data>
+  <data name="ultraChart1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 149</value>
+  </data>
+  <data name="ultraChart1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ultraChart1.Name" xml:space="preserve">
+    <value>ultraChart1</value>
+  </data>
+  <data name="&gt;&gt;ultraChart1.Type" xml:space="preserve">
+    <value>Infragistics.Win.UltraWinChart.UltraChart, Infragistics4.Win.UltraWinChart.v19.2, Version=19.2.20192.265, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb</value>
+  </data>
+</root>
