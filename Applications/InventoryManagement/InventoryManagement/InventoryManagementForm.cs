@@ -165,13 +165,14 @@ namespace Showcase.InventoryManagement
                 rangeBarData.Columns.Add("Month", typeof(string));
                 rangeBarData.Columns.Add("Low", typeof(double));
                 rangeBarData.Columns.Add("High", typeof(double));
+                const int WeeksPerMonth = 4;
 
                 foreach (DataRow row in chartData2.Rows)
                 {
                     double minValue = double.MaxValue;
                     double maxValue = double.MinValue;
 
-                    for (int i = 1; i <= 4; i++)
+                    for (int i = 1; i <= WeeksPerMonth; i++)
                     {
                         double value = Convert.ToDouble(row[i]);
                         minValue = Math.Min(minValue, value);
