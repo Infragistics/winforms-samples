@@ -162,17 +162,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Infragistics.WinForms" Version="19.2.134" />
-    <PackageReference Include="Infragistics.WinForms.Charts" Version="19.2.134" />
-    <PackageReference Include="Infragistics.WinForms.DataVisualization" Version="19.2.134" />
-    <PackageReference Include="Infragistics.WinForms.Editors" Version="19.2.134" />
-    <PackageReference Include="Infragistics.WinForms.ExplorerBar" Version="19.2.134" />
-    <PackageReference Include="Infragistics.WinForms.Misc" Version="19.2.134" />
-    <PackageReference Include="Infragistics.WinForms.Shared" Version="19.2.134" />
-    <PackageReference Include="Infragistics.WinForms.StatusBar" Version="19.2.134" />
-    <PackageReference Include="Infragistics.WinForms.TabControl" Version="19.2.134" />
-    <PackageReference Include="Infragistics.WinForms.Toolbars" Version="19.2.134" />
-    <PackageReference Include="Infragistics.WinForms.WinGrid" Version="19.2.134" />
+    <PackageReference Include="Infragistics.WinForms" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Charts" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.DataVisualization" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Editors" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.ExplorerBar" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Misc" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Shared" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.StatusBar" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.TabControl" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Toolbars" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.WinGrid" Version="26.1.20261.22" />
   </ItemGroup>
 
   <ItemGroup>
