@@ -260,23 +260,23 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Infragistics.WinForms" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Charts" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.DataSource" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.DataVisualization" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Dock" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Editors" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Excel" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.ExplorerBar" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Reports" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Schedule" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Shared" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.TabbedMdi" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.TabControl" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Toolbars" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.WinGrid" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.WinGrid.DocumentExport" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.WinGrid.ExcelExport" Version="20.1.12" />
+    <PackageReference Include="Infragistics.WinForms" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Charts" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.DataSource" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.DataVisualization" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Dock" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Editors" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Excel" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.ExplorerBar" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Reports" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Schedule" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Shared" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.TabbedMdi" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.TabControl" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Toolbars" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.WinGrid" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.WinGrid.DocumentExport" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.WinGrid.ExcelExport" Version="26.1.20261.22" />
   </ItemGroup>
 
 </Project>

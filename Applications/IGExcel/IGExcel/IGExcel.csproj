@@ -494,23 +494,23 @@
   </ItemGroup>
   
   <ItemGroup>
-    <PackageReference Include="Infragistics.WinForms" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Carousel" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Charts" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.DataVisualization" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Documents.Core" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Editors" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Excel" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Misc" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.PivotGrid" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Portable.Core" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Shared" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Spreadsheet" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.StatusBar" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.TabControl" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Toolbars" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Tree" Version="20.1.12" />
-    <PackageReference Include="Infragistics.WinForms.Undo" Version="20.1.12" />         
+    <PackageReference Include="Infragistics.WinForms" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Carousel" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Charts" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.DataVisualization" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Documents.Core" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Editors" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Excel" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Misc" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.PivotGrid" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Portable.Core" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Shared" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Spreadsheet" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.StatusBar" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.TabControl" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Toolbars" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Tree" Version="26.1.20261.22" />
+    <PackageReference Include="Infragistics.WinForms.Undo" Version="26.1.20261.22" />
   </ItemGroup>
 
   <ItemGroup>
