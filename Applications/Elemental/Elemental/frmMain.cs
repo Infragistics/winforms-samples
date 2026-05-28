@@ -999,7 +999,7 @@ namespace Elemental
                 //  If this is the currently selected style, make the series
                 //  stand out a bit.                
                 series.Thickness = isSelected ? 4D : 2D;
-                series.MarkerType = isSelected ? MarkerType.Circle : MarkerType.None;
+                series.MarkerType = isSelected ? MarkerType.Checkmark : MarkerType.None;
                 series.MarkerSize = isSelected ? 18D : double.NaN;
                 
                 //  Set the marker colors and outline
