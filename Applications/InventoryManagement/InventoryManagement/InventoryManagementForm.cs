@@ -161,27 +161,48 @@ namespace Showcase.InventoryManagement
 
                 DataTable chartData2 = InventoryDataSource.GetTable(Table.ChartData2);
 
-                var yAxis3 = new NumericYAxis();
-                var xAxis3 = new CategoryXAxis()
+                DataTable rangeBarData = new DataTable();
+                rangeBarData.Columns.Add("Month", typeof(string));
+                rangeBarData.Columns.Add("Low", typeof(double));
+                rangeBarData.Columns.Add("High", typeof(double));
+                const int WeeksPerMonth = 4;
+
+                foreach (DataRow row in chartData2.Rows)
                 {
-                    DataSource = chartData2,
+                    double minValue = double.MaxValue;
+                    double maxValue = double.MinValue;
+
+                    for (int i = 1; i <= WeeksPerMonth; i++)
+                    {
+                        double value = Convert.ToDouble(row[i]);
+                        minValue = Math.Min(minValue, value);
+                        maxValue = Math.Max(maxValue, value);
+                    }
+
+                    rangeBarData.Rows.Add(row["Month"], minValue, maxValue);
+                }
+
+                var xAxis3 = new NumericXAxis();
+                var yAxis3 = new CategoryYAxis()
+                {
+                    DataSource = rangeBarData,
                     Label = "Month"
                 };
 
-                for (int i = 1; i <= 4; i++)
+                var series3 = new RangeBarSeries()
                 {
-                    var series3 = new ColumnSeries()
-                    {
-                        DataSource = chartData2,
-                        ValueMemberPath = chartData2.Columns[i].ToString(),
-                        XAxis = xAxis3,
-                        YAxis = yAxis3,
-                        Thickness = 3
-                    };
-                    datachartReportsSales.Axes.Add(xAxis3);
-                    datachartReportsSales.Axes.Add(yAxis3);
-                    datachartReportsSales.Series.Add(series3);
-                }
+                    DataSource = rangeBarData,
+                    HighMemberPath = "High",
+                    LowMemberPath = "Low",
+                    XAxis = xAxis3,
+                    YAxis = yAxis3,
+                    RadiusX = 4,
+                    RadiusY = 4
+                };
+
+                datachartReportsSales.Axes.Add(xAxis3);
+                datachartReportsSales.Axes.Add(yAxis3);
+                datachartReportsSales.Series.Add(series3);
                 //end
 
             }
