@@ -21,8 +21,8 @@ namespace INGear
             // load the style library from the embedded resource
             System.Reflection.Assembly assm = System.Reflection.Assembly.GetExecutingAssembly();
             System.IO.Stream stream = assm.GetManifestResourceStream("Showcase.INGear.StyleLibraries.INGear.isl");
-            if (stream != null)
-                Infragistics.Win.AppStyling.StyleManager.Load(stream);
+            Infragistics.Win.AppStyling.StyleManager.Load(@"..\..\..\StyleLibraries\INGear.isl");
+
 
             Application.Run(new MainForm());
         }
